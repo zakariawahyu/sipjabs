@@ -8569,7 +8569,7 @@ class PegawaiSeeder extends Seeder
         'nama_lengkap' => 'ZAKARIA WAHYU NUR UTOMO',
         'nip' => '67061255',
         'status_pegawai' => 'TPA PEGAWAI TETAP',
-        'id_jabatanstruktural' => '145',
+        'id_jabatanstruktural' => '140',
         'jenis_kelamin' => 'L',
         'ttl' => 'Klaten, 25/06/1999',
         'gol_darah' => 'O',

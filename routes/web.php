@@ -35,6 +35,12 @@ Route::get('/logout', 'LoginController@logout')->name('logout')->middleware('cek
 
 Route::prefix('admin')->middleware('cek.admin', 'cek')->group(function(){
     Route::get('/', 'Admin\AdminController@index');
+    Route::resource('users' , 'Admin\UsersController',['as' => 'admin']);
+    Route::resource('pegawai' , 'Admin\PegawaiController',['as' => 'admin']);
+    Route::resource('unitkerja' , 'Admin\UnitKerjaController',['as' => 'admin']);
+    Route::resource('jabatan' , 'Admin\JabatanController',['as' => 'admin']);
+    Route::resource('unitbagian' , 'Admin\UnitBagianController',['as' => 'admin']);
+    Route::resource('profile' , 'Admin\ProfileController',['as' => 'admin']);
 
 
 });
