@@ -40,5 +40,21 @@ $ php artisan migrate
 
 - Seed with demo data
 ```
-$ php artisan migrate db:seed
+$ php artisan db:seed
 ```
+
+## Data Account Demo
+
+- Admin
+```
+username : zakariawahyu
+password : admin
+```
+
+- User
+```
+username : elsajelista
+password : user
+```
+
+
