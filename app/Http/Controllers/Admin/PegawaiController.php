@@ -22,6 +22,7 @@ class PegawaiController extends Controller
                 ->join('jabatan', 'jabatan_struktural.id_jabatan', '=', 'jabatan.id')
                 ->join('unit_bagian', 'jabatan_struktural.id_unitbagian', '=', 'unit_bagian.id')
                 ->select('jabatan_struktural.*', 'jabatan.*', 'unit_kerja.*', 'unit_bagian.*', 'pegawai.*')
+                ->orderBy('pegawai.id', 'asc')
                 ->get();
 
         return view('admin.pegawai.index')->withPegawai($pegawai);
@@ -61,13 +62,13 @@ class PegawaiController extends Controller
                 ->join('jabatan', 'jabatan_struktural.id_jabatan', '=', 'jabatan.id')
                 ->join('unit_kerja', 'jabatan_struktural.id_unitkerja', '=', 'unit_kerja.id')
                 ->join('unit_bagian', 'jabatan_struktural.id_unitbagian', '=', 'unit_bagian.id')
-                ->where('pegawai.nip', '=', $id)
+                ->where('pegawai.id', '=', $id)
                 ->first();
         
         $riwayatpendidikan = DB::table('riwayat_pendidikan')
                 ->join('pendidikan', 'riwayat_pendidikan.id_pendidikan', '=', 'pendidikan.id')
                 ->join('pegawai', 'riwayat_pendidikan.id_pegawai', '=', 'pegawai.id')
-                ->where('pegawai.nip', '=', $pegawai->nip)
+                ->where('pegawai.id', '=', $id)
                 ->get();
         
 

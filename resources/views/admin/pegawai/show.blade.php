@@ -61,7 +61,11 @@
                           <div class="row">
                             <div class="col-md-12 col-sm-12 col-xs-12">
                               <div class="text-center">
-                                <img src="{{ asset('asset/images/user.png') }}" class="img-circle">
+                                @if ($pegawai->jenis_kelamin == "L")
+                                    <img src="{{ asset('asset/images/male.png') }}" class="img-circle">
+                                @else
+                                    <img src="{{ asset('asset/images/female.png') }}" class="img-circle">
+                                @endif
                                 <h3 class="profile-username text-center">DATA PRIBADI</h3>
                                 <br><br>
                               </div>
@@ -149,7 +153,11 @@
                           <div class="row">
                             <div class="col-md-12 col-sm-12 col-xs-12">
                               <div class="text-center">
-                                <img src="{{ asset('asset/images/user.png') }}" class="img-circle">
+                                 @if ($pegawai->jenis_kelamin == "L")
+                                    <img src="{{ asset('asset/images/male.png') }}" class="img-circle">
+                                @else
+                                    <img src="{{ asset('asset/images/female.png') }}" class="img-circle">
+                                @endif
                                 <h3 class="profile-username text-center">DATA PENDIDIKAN</h3>
                                 <br><br>
                               </div>
@@ -174,8 +182,15 @@
                           </div>
                         </div>
                         <div role="tabpanel" class="tab-pane fade" id="tab_content3" aria-labelledby="profile-tab">
-                          <p>xxFood truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo
-                            booth letterpress, commodo enim craft beer mlkshk </p>
+                          <div class="text-center">
+                                 @if ($pegawai->jenis_kelamin == "L")
+                                    <img src="{{ asset('asset/images/male.png') }}" class="img-circle">
+                                @else
+                                    <img src="{{ asset('asset/images/female.png') }}" class="img-circle">
+                                @endif
+                                <h3 class="profile-username text-center">SKILL PEGAWAI</h3>
+                                <br><br>
+                          </div>
                         </div>
                       </div>
                     </div>
