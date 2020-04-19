@@ -182,7 +182,9 @@
                           </div>
                         </div>
                         <div role="tabpanel" class="tab-pane fade" id="tab_content3" aria-labelledby="profile-tab">
-                          <div class="text-center">
+                          <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                              <div class="text-center">
                                  @if ($pegawai->jenis_kelamin == "L")
                                     <img src="{{ asset('asset/images/male.png') }}" class="img-circle">
                                 @else
@@ -190,6 +192,25 @@
                                 @endif
                                 <h3 class="profile-username text-center">SKILL PEGAWAI</h3>
                                 <br><br>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                              <table class="table table-hover text-center">
+                                @foreach ($skill as $sk)
+                                <tr>
+                                   <td>{{ $sk->nama_skill }}</td>
+                                </tr>
+                                @endforeach
+                              </table>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+
+                            </div>
                           </div>
                         </div>
                       </div>

@@ -71,8 +71,14 @@ class PegawaiController extends Controller
                 ->where('pegawai.id', '=', $id)
                 ->get();
         
+        $skill = DB::table('skill_pegawai')
+                ->join('skill', 'skill_pegawai.id_skill', '=', 'skill.id')
+                ->join('pegawai', 'skill_pegawai.id_pegawai', '=', 'pegawai.id')
+                ->where('pegawai.id', '=', $id)
+                ->get();
+        
 
-        return view('admin.pegawai.show', compact('pegawai', 'riwayatpendidikan'));
+        return view('admin.pegawai.show', compact('pegawai', 'riwayatpendidikan', 'skill'));
     }
 
     /**
