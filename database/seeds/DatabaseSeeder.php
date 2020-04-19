@@ -19,5 +19,7 @@ class DatabaseSeeder extends Seeder
         $this->call(UsersSeeder::class);
         $this->call(PendidikanSeeder::class);
         $this->call(RiwayatPendidikanSeeder::class);
+        $this->call(SkillSeeder::class);
+        $this->call(SkillPegawaiSeeder::class);
     }
 }

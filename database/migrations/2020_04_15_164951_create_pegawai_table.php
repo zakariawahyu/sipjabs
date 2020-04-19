@@ -26,6 +26,7 @@ class CreatePegawaiTable extends Migration
             $table->string('agama');
             $table->string('tinggi_badan');
             $table->string('berat_badan');
+            $table->string('masa_kerja');
             $table->string('alamat');
             $table->timestamps();
 

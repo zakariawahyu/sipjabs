@@ -27,6 +27,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '55',
+        'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -42,6 +43,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '51',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -57,6 +59,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '55',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -72,6 +75,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '55',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -87,6 +91,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '51',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -102,6 +107,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '58',
+        'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -117,6 +123,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '58',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -132,6 +139,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -147,6 +155,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '58',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -162,6 +171,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '55',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -177,6 +187,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -192,6 +203,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '58',
+        'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -207,6 +219,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -222,6 +235,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '166',
         'berat_badan' => '55',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -237,6 +251,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -252,6 +267,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '60',
+        'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -267,6 +283,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '51',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -282,6 +299,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -297,6 +315,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '58',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -312,6 +331,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -327,6 +347,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '166',
         'berat_badan' => '58',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -342,6 +363,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KATOLIK',
         'tinggi_badan' => '160',
         'berat_badan' => '58',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -357,6 +379,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '55',
+        'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -372,6 +395,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -387,6 +411,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '166',
         'berat_badan' => '60',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -402,6 +427,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '58',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -417,6 +443,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '166',
         'berat_badan' => '51',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -432,6 +459,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '58',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -447,6 +475,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -462,6 +491,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '55',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -477,6 +507,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '51',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -492,6 +523,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -507,6 +539,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '160',
         'berat_badan' => '55',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -522,6 +555,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -537,6 +571,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '58',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -552,6 +587,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '55',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -567,6 +603,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '166',
         'berat_badan' => '51',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -582,6 +619,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '165',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -597,6 +635,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -612,6 +651,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '55',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -627,6 +667,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '58',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -642,6 +683,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '55',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -657,6 +699,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -672,6 +715,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '166',
         'berat_badan' => '58',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -687,6 +731,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '58',
+        'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -702,6 +747,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '160',
         'berat_badan' => '51',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -717,6 +763,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -732,6 +779,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '166',
         'berat_badan' => '58',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -747,6 +795,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '60',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -762,6 +811,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '58',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -777,6 +827,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -792,6 +843,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '60',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -807,6 +859,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '60',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -822,6 +875,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -837,6 +891,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '166',
         'berat_badan' => '51',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -852,6 +907,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '58',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -867,6 +923,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '58',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -882,6 +939,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -897,6 +955,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '60',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -912,6 +971,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '60',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -927,6 +987,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '166',
         'berat_badan' => '51',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -942,6 +1003,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '58',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -957,6 +1019,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '166',
         'berat_badan' => '55',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -972,6 +1035,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -987,6 +1051,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '166',
         'berat_badan' => '60',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1002,6 +1067,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '58',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1017,6 +1083,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '166',
         'berat_badan' => '58',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1032,6 +1099,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1047,6 +1115,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1062,6 +1131,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KATOLIK',
         'tinggi_badan' => '162',
         'berat_badan' => '51',
+        'masa_kerja' => '1',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1077,6 +1147,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '166',
         'berat_badan' => '55',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1092,6 +1163,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '166',
         'berat_badan' => '58',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1107,6 +1179,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '60',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1122,6 +1195,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '58',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1137,6 +1211,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '165',
         'berat_badan' => '65',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1152,6 +1227,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '65',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1167,6 +1243,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '65',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1182,6 +1259,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1197,6 +1275,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '55',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1212,6 +1291,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KATOLIK',
         'tinggi_badan' => '160',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1227,6 +1307,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '58',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1242,6 +1323,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1257,6 +1339,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '166',
         'berat_badan' => '58',
+        'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1272,6 +1355,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '60',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1287,6 +1371,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '60',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1302,6 +1387,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1317,6 +1403,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '55',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1332,6 +1419,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1347,6 +1435,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '51',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1362,6 +1451,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '60',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1377,6 +1467,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '55',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1392,6 +1483,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '58',
+        'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1407,6 +1499,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '65',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1422,6 +1515,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '166',
         'berat_badan' => '65',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1437,6 +1531,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1452,6 +1547,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '55',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1467,6 +1563,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '51',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1482,6 +1579,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '166',
         'berat_badan' => '65',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1497,6 +1595,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '160',
         'berat_badan' => '55',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1512,6 +1611,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1527,6 +1627,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '166',
         'berat_badan' => '58',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1542,6 +1643,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '51',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1557,6 +1659,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '51',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1572,6 +1675,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1587,6 +1691,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '51',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1602,6 +1707,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '55',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1617,6 +1723,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '60',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1632,6 +1739,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '65',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1647,6 +1755,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '51',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1662,6 +1771,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '166',
         'berat_badan' => '55',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1677,6 +1787,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1692,6 +1803,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '65',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1707,6 +1819,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '60',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1722,6 +1835,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '166',
         'berat_badan' => '65',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1737,6 +1851,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '58',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1752,6 +1867,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1767,6 +1883,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '58',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1782,6 +1899,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '166',
         'berat_badan' => '65',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1797,6 +1915,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1812,6 +1931,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '55',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1827,6 +1947,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1842,6 +1963,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '58',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1857,6 +1979,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1872,6 +1995,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '55',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1887,6 +2011,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '60',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1902,6 +2027,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '51',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1917,6 +2043,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '51',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1932,6 +2059,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '65',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1947,6 +2075,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '60',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1962,6 +2091,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '55',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1977,6 +2107,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -1992,6 +2123,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '60',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2007,6 +2139,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '65',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2022,6 +2155,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2037,6 +2171,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '60',
+        'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2052,6 +2187,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '55',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2067,6 +2203,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2082,6 +2219,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '51',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2097,6 +2235,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2112,6 +2251,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KATOLIK',
         'tinggi_badan' => '165',
         'berat_badan' => '58',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2127,6 +2267,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '55',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2142,6 +2283,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2157,6 +2299,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '60',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2172,6 +2315,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '65',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2187,6 +2331,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '55',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2202,6 +2347,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '58',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2217,6 +2363,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '58',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2232,6 +2379,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KATOLIK',
         'tinggi_badan' => '160',
         'berat_badan' => '51',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2247,6 +2395,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '55',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2262,6 +2411,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2277,6 +2427,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '58',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2292,6 +2443,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2307,6 +2459,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '55',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2322,6 +2475,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2337,6 +2491,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '168',
         'berat_badan' => '65',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2352,6 +2507,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2367,6 +2523,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '58',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2382,6 +2539,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '55',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2397,6 +2555,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '51',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2412,6 +2571,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '65',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2427,6 +2587,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2442,6 +2603,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '55',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2457,6 +2619,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '51',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2472,6 +2635,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2487,6 +2651,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '58',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2502,6 +2667,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '55',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2517,6 +2683,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2532,6 +2699,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2547,6 +2715,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '65',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2562,6 +2731,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '51',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2577,6 +2747,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '60',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2592,6 +2763,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '55',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2607,6 +2779,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '58',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2622,6 +2795,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2637,6 +2811,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2652,6 +2827,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '58',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2667,6 +2843,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '60',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2682,6 +2859,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '55',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2697,6 +2875,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2712,6 +2891,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '65',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2727,6 +2907,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2742,6 +2923,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '55',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2757,6 +2939,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '51',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2772,6 +2955,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2787,6 +2971,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2802,6 +2987,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '55',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2817,6 +3003,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '51',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2832,6 +3019,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '60',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2847,6 +3035,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2862,6 +3051,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '58',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2877,6 +3067,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2892,6 +3083,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '168',
         'berat_badan' => '51',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2907,6 +3099,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '55',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2922,6 +3115,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2937,6 +3131,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2952,6 +3147,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '51',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2967,6 +3163,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '58',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2982,6 +3179,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '55',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -2997,6 +3195,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '51',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3012,6 +3211,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '58',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3027,6 +3227,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '65',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3042,6 +3243,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3057,6 +3259,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '65',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3072,6 +3275,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '60',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3087,6 +3291,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3102,6 +3307,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '51',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3117,6 +3323,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3132,6 +3339,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '60',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3147,6 +3355,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3162,6 +3371,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3177,6 +3387,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '55',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3192,6 +3403,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '60',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3207,6 +3419,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3222,6 +3435,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '60',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3237,6 +3451,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3252,6 +3467,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '55',
+        'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3267,6 +3483,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3282,6 +3499,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '51',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3297,6 +3515,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '165',
         'berat_badan' => '65',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3312,6 +3531,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '58',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3327,6 +3547,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '51',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3342,6 +3563,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3357,6 +3579,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '160',
         'berat_badan' => '65',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3372,6 +3595,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '51',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3387,6 +3611,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3402,6 +3627,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '58',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3417,6 +3643,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '51',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3432,6 +3659,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '55',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3447,6 +3675,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KATOLIK',
         'tinggi_badan' => '160',
         'berat_badan' => '58',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3462,6 +3691,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '60',
+        'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3477,6 +3707,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '51',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3492,6 +3723,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '55',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3507,6 +3739,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3522,6 +3755,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '51',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3537,6 +3771,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '65',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3552,6 +3787,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3567,6 +3803,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '60',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3582,6 +3819,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '168',
         'berat_badan' => '65',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3597,6 +3835,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '55',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3612,6 +3851,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3627,6 +3867,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '60',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3642,6 +3883,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '51',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3657,6 +3899,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '55',
+        'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3672,6 +3915,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '168',
         'berat_badan' => '60',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3687,6 +3931,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3702,6 +3947,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KATOLIK',
         'tinggi_badan' => '162',
         'berat_badan' => '58',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3717,6 +3963,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '55',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3732,6 +3979,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '58',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3747,6 +3995,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '55',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3762,6 +4011,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '55',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3777,6 +4027,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '58',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3792,6 +4043,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '65',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3807,6 +4059,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '51',
+        'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3822,6 +4075,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '55',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3837,6 +4091,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '58',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3852,6 +4107,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '58',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3867,6 +4123,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '55',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3882,6 +4139,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '51',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3897,6 +4155,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '58',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3912,6 +4171,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '55',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3927,6 +4187,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '55',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3942,6 +4203,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3957,6 +4219,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '58',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3972,6 +4235,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -3987,6 +4251,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '55',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4002,6 +4267,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4017,6 +4283,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '51',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4032,6 +4299,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '60',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4047,6 +4315,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '51',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4062,6 +4331,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '55',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4077,6 +4347,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '60',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4092,6 +4363,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '65',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4107,6 +4379,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4122,6 +4395,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '55',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4137,6 +4411,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '60',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4152,6 +4427,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KATOLIK',
         'tinggi_badan' => '162',
         'berat_badan' => '60',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4167,6 +4443,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '55',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4182,6 +4459,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4197,6 +4475,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '51',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4212,6 +4491,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '65',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4227,6 +4507,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '51',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4242,6 +4523,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4257,6 +4539,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '55',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4272,6 +4555,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '60',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4287,6 +4571,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4302,6 +4587,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '60',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4317,6 +4603,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '55',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4332,6 +4619,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '51',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4347,6 +4635,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '65',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4362,6 +4651,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '58',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4377,6 +4667,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '60',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4392,6 +4683,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4407,6 +4699,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '60',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4422,6 +4715,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '60',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4437,6 +4731,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4452,6 +4747,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '55',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4467,6 +4763,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '51',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4482,6 +4779,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '55',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4497,6 +4795,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '60',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4512,6 +4811,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '55',
+        'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4527,6 +4827,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4542,6 +4843,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '55',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4557,6 +4859,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '55',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4572,6 +4875,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '55',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4587,6 +4891,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4602,6 +4907,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '65',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4617,6 +4923,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '55',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4632,6 +4939,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '55',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4647,6 +4955,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '58',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4662,6 +4971,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '55',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4677,6 +4987,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '60',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4692,6 +5003,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4707,6 +5019,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '58',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4722,6 +5035,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '58',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4737,6 +5051,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '55',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4752,6 +5067,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4767,6 +5083,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '58',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4782,6 +5099,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '65',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4797,6 +5115,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '65',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4812,6 +5131,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '66',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4827,6 +5147,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '55',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4842,6 +5163,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4857,6 +5179,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '55',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4872,6 +5195,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '55',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4887,6 +5211,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '172',
         'berat_badan' => '70',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4902,6 +5227,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '66',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4917,6 +5243,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '166',
         'berat_badan' => '60',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4932,6 +5259,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '158',
         'berat_badan' => '60',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4947,6 +5275,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '60',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4962,6 +5291,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '166',
         'berat_badan' => '60',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4977,6 +5307,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -4992,6 +5323,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '65',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5007,6 +5339,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '65',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5022,6 +5355,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '164',
         'berat_badan' => '60',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5037,6 +5371,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '55',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5052,6 +5387,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KATOLIK',
         'tinggi_badan' => '165',
         'berat_badan' => '58',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5067,6 +5403,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5082,6 +5419,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5097,6 +5435,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '58',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5112,6 +5451,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '60',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5127,6 +5467,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '55',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5142,6 +5483,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5157,6 +5499,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KATOLIK',
         'tinggi_badan' => '165',
         'berat_badan' => '65',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5172,6 +5515,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5187,6 +5531,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '65',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5202,6 +5547,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '51',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5217,6 +5563,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '55',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5232,6 +5579,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '65',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5247,6 +5595,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5262,6 +5611,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5277,6 +5627,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '55',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5292,6 +5643,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '51',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5307,6 +5659,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '60',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5322,6 +5675,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5337,6 +5691,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '58',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5352,6 +5707,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5367,6 +5723,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '65',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5382,6 +5739,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '55',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5397,6 +5755,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5412,6 +5771,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5427,6 +5787,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5442,6 +5803,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '60',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5457,6 +5819,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '58',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5472,6 +5835,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '55',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5487,6 +5851,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '65',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5502,6 +5867,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '65',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5517,6 +5883,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '168',
         'berat_badan' => '65',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5532,6 +5899,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '162',
         'berat_badan' => '65',
+        'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5547,6 +5915,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5562,6 +5931,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '51',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5577,6 +5947,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '168',
         'berat_badan' => '60',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5592,6 +5963,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '55',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5607,6 +5979,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5622,6 +5995,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '51',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5637,6 +6011,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5652,6 +6027,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KATOLIK',
         'tinggi_badan' => '164',
         'berat_badan' => '58',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5667,6 +6043,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '60',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5682,6 +6059,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KATOLIK',
         'tinggi_badan' => '170',
         'berat_badan' => '55',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5697,6 +6075,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '51',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5712,6 +6091,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5727,6 +6107,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5742,6 +6123,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '65',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5757,6 +6139,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '51',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5772,6 +6155,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '55',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5787,6 +6171,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '51',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5802,6 +6187,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5817,6 +6203,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '58',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5832,6 +6219,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '55',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5847,6 +6235,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5862,6 +6251,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '60',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5877,6 +6267,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5892,6 +6283,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '58',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5907,6 +6299,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5922,6 +6315,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '51',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5937,6 +6331,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '55',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5952,6 +6347,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KATOLIK',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5967,6 +6363,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '65',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5982,6 +6379,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -5997,6 +6395,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '65',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6012,6 +6411,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KATOLIK',
         'tinggi_badan' => '165',
         'berat_badan' => '65',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6027,6 +6427,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6042,6 +6443,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '65',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6057,6 +6459,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '51',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6072,6 +6475,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '60',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6087,6 +6491,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '55',
+        'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6102,6 +6507,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '58',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6117,6 +6523,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '51',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6132,6 +6539,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KATOLIK',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6147,6 +6555,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '164',
         'berat_badan' => '58',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6162,6 +6571,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '60',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6177,6 +6587,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '170',
         'berat_badan' => '55',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6192,6 +6603,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6207,6 +6619,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '65',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6222,6 +6635,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6237,6 +6651,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '65',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6252,6 +6667,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '51',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6267,6 +6683,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '55',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6282,6 +6699,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6297,6 +6715,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6312,6 +6731,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6327,6 +6747,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '55',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6342,6 +6763,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '51',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6357,6 +6779,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '60',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6372,6 +6795,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6387,6 +6811,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '58',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6402,6 +6827,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6417,6 +6843,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '168',
         'berat_badan' => '51',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6432,6 +6859,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '55',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6447,6 +6875,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '51',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6462,6 +6891,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6477,6 +6907,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '66',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6492,6 +6923,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '60',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6507,6 +6939,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6522,6 +6955,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '55',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6537,6 +6971,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '65',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6552,6 +6987,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '65',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6567,6 +7003,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '165',
         'berat_badan' => '65',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6582,6 +7019,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '65',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6597,6 +7035,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '51',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6612,6 +7051,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6627,6 +7067,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '55',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6642,6 +7083,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '162',
         'berat_badan' => '58',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6657,6 +7099,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6672,6 +7115,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '65',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6687,6 +7131,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '58',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6702,6 +7147,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6717,6 +7163,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '55',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6732,6 +7179,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KATOLIK',
         'tinggi_badan' => '165',
         'berat_badan' => '51',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6747,6 +7195,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6762,6 +7211,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '58',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6777,6 +7227,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '65',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6792,6 +7243,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6807,6 +7259,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '55',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6822,6 +7275,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6837,6 +7291,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6852,6 +7307,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '58',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6867,6 +7323,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '55',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6882,6 +7339,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '65',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6897,6 +7355,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6912,6 +7371,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '162',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6927,6 +7387,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6942,6 +7403,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '60',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6957,6 +7419,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '65',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6972,6 +7435,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '55',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -6987,6 +7451,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7002,6 +7467,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '65',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7017,6 +7483,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '51',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7032,6 +7499,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7047,6 +7515,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '65',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7062,6 +7531,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '65',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7077,6 +7547,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '51',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7092,6 +7563,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7107,6 +7579,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '55',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7122,6 +7595,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '58',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7137,6 +7611,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7152,6 +7627,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '164',
         'berat_badan' => '65',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7167,6 +7643,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '58',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7182,6 +7659,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7197,6 +7675,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '55',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7212,6 +7691,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7227,6 +7707,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7242,6 +7723,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '58',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7257,6 +7739,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '65',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7272,6 +7755,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7287,6 +7771,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '55',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7302,6 +7787,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7317,6 +7803,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7332,6 +7819,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '58',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7347,6 +7835,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '162',
         'berat_badan' => '55',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7362,6 +7851,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '51',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7377,6 +7867,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7392,6 +7883,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '51',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7407,6 +7899,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7422,6 +7915,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '60',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7437,6 +7931,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '51',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7452,6 +7947,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '168',
         'berat_badan' => '55',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7467,6 +7963,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7482,6 +7979,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '65',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7497,6 +7995,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '150',
         'berat_badan' => '51',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7512,6 +8011,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '65',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7527,6 +8027,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '65',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7542,6 +8043,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '51',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7557,6 +8059,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7572,6 +8075,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '55',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7587,6 +8091,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '58',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7602,6 +8107,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7617,6 +8123,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '65',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7632,6 +8139,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '58',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7647,6 +8155,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7662,6 +8171,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '55',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7677,6 +8187,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7692,6 +8203,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7707,6 +8219,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '58',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7722,6 +8235,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '65',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7737,6 +8251,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7752,6 +8267,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '55',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7767,6 +8283,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7782,6 +8299,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7797,6 +8315,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '58',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7812,6 +8331,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '55',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7827,6 +8347,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7842,6 +8363,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7857,6 +8379,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '51',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7872,6 +8395,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7887,6 +8411,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '60',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7902,6 +8427,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '51',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7917,6 +8443,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '55',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7932,6 +8459,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7947,6 +8475,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '65',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7962,6 +8491,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7977,6 +8507,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '65',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -7992,6 +8523,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KATOLIK',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8007,6 +8539,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KATOLIK',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8022,6 +8555,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '65',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8037,6 +8571,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '51',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8052,6 +8587,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '60',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8067,6 +8603,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '55',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8082,6 +8619,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '58',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8097,6 +8635,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '51',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8112,6 +8651,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8127,6 +8667,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '164',
         'berat_badan' => '58',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8142,6 +8683,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '60',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8157,6 +8699,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '55',
+        'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8172,6 +8715,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8187,6 +8731,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '165',
         'berat_badan' => '65',
+        'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8202,6 +8747,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8217,6 +8763,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '65',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8232,6 +8779,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '51',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8247,6 +8795,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '55',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8262,6 +8811,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '51',
+        'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8277,6 +8827,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8292,6 +8843,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '58',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8307,6 +8859,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '55',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8322,6 +8875,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '51',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8337,6 +8891,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'KRISTEN',
         'tinggi_badan' => '165',
         'berat_badan' => '60',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8352,6 +8907,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '51',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8367,6 +8923,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '58',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8382,6 +8939,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '60',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8397,6 +8955,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '51',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8412,6 +8971,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '55',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8427,6 +8987,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '51',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8442,6 +9003,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '65',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8457,6 +9019,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '51',
+        'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8472,6 +9035,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '51',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8487,6 +9051,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '58',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8502,6 +9067,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '164',
         'berat_badan' => '60',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8517,6 +9083,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '160',
         'berat_badan' => '51',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8532,6 +9099,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '168',
         'berat_badan' => '55',
+        'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8547,6 +9115,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '170',
         'berat_badan' => '55',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8562,8 +9131,9 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '162',
         'berat_badan' => '55',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
-        ]);
+        ]);    
 
         Pegawai::create([
         'nama_lengkap' => 'ZAKARIA WAHYU NUR UTOMO',
@@ -8577,6 +9147,7 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '174',
         'berat_badan' => '72',
+        'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
 
@@ -8592,9 +9163,9 @@ class PegawaiSeeder extends Seeder
         'agama' => 'ISLAM',
         'tinggi_badan' => '167',
         'berat_badan' => '60',
+        'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
         ]);
-
 
     }
 }
