@@ -35,6 +35,7 @@ Route::get('/logout', 'LoginController@logout')->name('logout')->middleware('cek
 
 Route::prefix('admin')->middleware('cek.admin', 'cek')->group(function(){
     Route::get('/', 'Admin\AdminController@index');
+     Route::get('/help', 'Admin\ProfileController@help')->name('helpadmin');
     Route::resource('users' , 'Admin\UsersController',['as' => 'admin']);
     Route::resource('pegawai' , 'Admin\PegawaiController',['as' => 'admin']);
     Route::resource('unitkerja' , 'Admin\UnitKerjaController',['as' => 'admin']);
@@ -47,6 +48,8 @@ Route::prefix('admin')->middleware('cek.admin', 'cek')->group(function(){
 
 Route::prefix('user')->middleware('cek.user')->group(function(){
     Route::get('/', 'User\UserController@index');
-
+    Route::get('/help', 'User\ProfileController@help')->name('helpuser');
+    Route::resource('profile' , 'User\ProfileController',['as' => 'user']);
+    
 
 });

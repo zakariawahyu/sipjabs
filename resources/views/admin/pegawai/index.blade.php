@@ -71,7 +71,7 @@
                         <td>{{ $pg->nama_lengkap }}</td>
                         <td>{{ $pg->nip }}</td>
                         <td>{{ $pg->status_pegawai }}</td>
-                        <td>{{ $pg->nama_jabatan }} {{$pg->nama_unitbagian}} {{ $pg->nama_unitkerja }}</td>
+                        <td>{{ $pg->nama_jabatan }} {{$pg->nama_unitbagian}}</td>
                         <td class="text-center">
                           <a href="{{ route('admin.pegawai.show', $pg->id) }}" class="btn btn-info"><i class="fa fa-eye"></i> View</a>
                           <a href="#" class="btn btn-primary"><i class="fa fa-edit"></i> Edit</a>

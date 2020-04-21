@@ -15,7 +15,7 @@
                 </a>
                 <ul class="dropdown-menu dropdown-usermenu pull-right">
                   <li><a href="{{ route('admin.profile.index') }}"><i class="fa fa-user pull-right"></i> Profile</a></li>
-                  <li><a href="admin/help.html"><i class="fa fa-info-circle pull-right"></i> Help</a></li>
+                  <li><a href="{{ route('helpadmin') }}"><i class="fa fa-info-circle pull-right"></i> Help</a></li>
                   <li><a href="{{ route('logout') }}"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
                 </ul>
               </li>

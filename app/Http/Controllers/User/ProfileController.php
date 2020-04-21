@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Admin;
+namespace App\Http\Controllers\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
 
@@ -24,7 +24,7 @@ class ProfileController extends Controller
                 ->where('users.id', '=', session('id'))
                 ->first();
 
-        return view('admin.profile.index', compact('user'));
+        return view('user.profile.index', compact('user'));
     }
 
     /**
@@ -93,8 +93,9 @@ class ProfileController extends Controller
         //
     }
 
-    public function help()
-    {
-        return view('admin.profile.help');
+    public function help(){
+        
+        return view('user.profile.help');
+
     }
 }

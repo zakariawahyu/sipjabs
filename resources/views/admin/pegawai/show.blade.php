@@ -90,7 +90,7 @@
                                 <tr>
                                   <td>Jabatan</td>
                                   <td>:</td>
-                                  <td>{{ $pegawai->nama_jabatan }} {{ $pegawai->nama_unitbagian }} {{ $pegawai->nama_unitkerja }}</td>
+                                  <td>{{ $pegawai->nama_jabatan }} {{ $pegawai->nama_unitbagian }}</td>
                                 </tr>
                                 <tr>
                                   <td>Status Pegawai</td>

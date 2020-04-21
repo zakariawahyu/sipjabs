@@ -53,9 +53,9 @@
                     <thead>
                       <tr>
                         <th>No</th>
+                        <th>Username</th>
                         <th>Nama Lengkap</th>
                         <th>Jabatan</th>
-                        <th>Username</th>
                         <th>Hak Akses</th>
                         <th style="width: 15%;">Action</th>
                       </tr>
@@ -67,9 +67,9 @@
                       @foreach ($users as $user)
                       <tr>
                         <td>{{ $no++ }}</td>
-                        <td>{{ $user->nama_lengkap }}</td>
-                        <td>{{ $user->nama_jabatan }} {{$user->nama_unitbagian}} {{ $user->nama_unitkerja }}</td>
                         <td>{{ $user->username }}</td>
+                        <td>{{ $user->nama_lengkap }}</td>
+                        <td>{{ $user->nama_jabatan }} {{$user->nama_unitbagian}}</td>
                         <td>{{ $user->role }}</td>
                         <td class="text-center">
                           <a href="#" class="btn btn-primary"><i class="fa fa-edit"></i> Edit</a>
