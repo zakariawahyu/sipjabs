@@ -49,7 +49,9 @@ Route::prefix('admin')->middleware('cek.admin', 'cek')->group(function(){
 Route::prefix('user')->middleware('cek.user')->group(function(){
     Route::get('/', 'User\UserController@index');
     Route::get('/help', 'User\ProfileController@help')->name('helpuser');
+    Route::get('/search', 'User\FilterController@filtertallent')->name('filtertallent');
     Route::resource('profile' , 'User\ProfileController',['as' => 'user']);
+    Route::resource('filter' , 'User\FilterController',['as' => 'user']);
     
 
 });

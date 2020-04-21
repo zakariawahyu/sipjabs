@@ -38,3 +38,20 @@
 
   <!-- Custom Theme Scripts -->
   <script src="{{ asset('asset/build/js/custom.min.js') }}"></script>
+
+<script>
+	$('#order_by').on('change', function() {
+	  $('#product_filter_form').submit();	  	  
+  });
+  
+  $('#show').on('change', function() {
+	  $('#product_filter_form').submit();	  	  
+  });
+  
+  $('#selectedstatus').on('click', function() {
+	$('#product_filter_form').submit();	  	  
+	});
+
+</script>
+
+</script>

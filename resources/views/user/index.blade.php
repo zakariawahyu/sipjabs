@@ -1,6 +1,6 @@
 @extends('user.layouts.master')
 
-@section('tiitle', 'SIPJABS | Dashboard')
+@section('title', 'SIPJABS | Dashboard')
 
 @section('content')
     <div class="right_col" role="main">
