@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
+use App\Pegawai;
 
 use Illuminate\Http\Request;
 
@@ -15,15 +16,11 @@ class PegawaiController extends Controller
      */
     public function index()
     {
-        
-        $pegawai = DB::table('pegawai')
-                ->join('jabatan_struktural', 'pegawai.id_jabatanstruktural', '=', 'jabatan_struktural.id')
-                ->join('unit_kerja', 'jabatan_struktural.id_unitkerja', '=', 'unit_kerja.id')
-                ->join('jabatan', 'jabatan_struktural.id_jabatan', '=', 'jabatan.id')
-                ->join('unit_bagian', 'jabatan_struktural.id_unitbagian', '=', 'unit_bagian.id')
-                ->select('jabatan_struktural.*', 'jabatan.*', 'unit_kerja.*', 'unit_bagian.*', 'pegawai.*')
-                ->orderBy('pegawai.id', 'asc')
-                ->get();
+        $pegawai = Pegawai::with(['riwayatpendidikan', 'riwayatpendidikan.pendidikan', 'jabatanstruktural', 
+                                'jabatanstruktural.jabatan', 'jabatanstruktural.unitbagian', 'jabatanstruktural.unitkerja',
+                                'skillpegawai', 'skillpegawai.skill'])
+                                ->orderBy('pegawai.id', 'asc')
+                                ->get();
 
         return view('admin.pegawai.index')->withPegawai($pegawai);
     }
@@ -57,28 +54,13 @@ class PegawaiController extends Controller
      */
     public function show($id)
     {
-        $pegawai = DB::table('pegawai')
-                ->join('jabatan_struktural', 'pegawai.id_jabatanstruktural', '=', 'jabatan_struktural.id')
-                ->join('jabatan', 'jabatan_struktural.id_jabatan', '=', 'jabatan.id')
-                ->join('unit_kerja', 'jabatan_struktural.id_unitkerja', '=', 'unit_kerja.id')
-                ->join('unit_bagian', 'jabatan_struktural.id_unitbagian', '=', 'unit_bagian.id')
-                ->where('pegawai.id', '=', $id)
-                ->first();
-        
-        $riwayatpendidikan = DB::table('riwayat_pendidikan')
-                ->join('pendidikan', 'riwayat_pendidikan.id_pendidikan', '=', 'pendidikan.id')
-                ->join('pegawai', 'riwayat_pendidikan.id_pegawai', '=', 'pegawai.id')
-                ->where('pegawai.id', '=', $id)
-                ->get();
-        
-        $skill = DB::table('skill_pegawai')
-                ->join('skill', 'skill_pegawai.id_skill', '=', 'skill.id')
-                ->join('pegawai', 'skill_pegawai.id_pegawai', '=', 'pegawai.id')
-                ->where('pegawai.id', '=', $id)
-                ->get();
-        
+        $pegawai = Pegawai::with(['riwayatpendidikan', 'riwayatpendidikan.pendidikan', 'jabatanstruktural', 
+                                'jabatanstruktural.jabatan', 'jabatanstruktural.unitbagian', 'jabatanstruktural.unitkerja',
+                                'skillpegawai', 'skillpegawai.skill'])
+                                ->where('pegawai.id', $id)
+                                ->first();        
 
-        return view('admin.pegawai.show', compact('pegawai', 'riwayatpendidikan', 'skill'));
+        return view('admin.pegawai.show', compact('pegawai'));
     }
 
     /**

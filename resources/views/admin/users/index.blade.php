@@ -68,8 +68,8 @@
                       <tr>
                         <td>{{ $no++ }}</td>
                         <td>{{ $user->username }}</td>
-                        <td>{{ $user->nama_lengkap }}</td>
-                        <td>{{ $user->nama_jabatan }} {{$user->nama_unitbagian}}</td>
+                        <td>{{ $user->pegawai->nama_lengkap }}</td>
+                        <td>{{ $user->pegawai->jabatanstruktural->jabatan->nama_jabatan }} {{$user->pegawai->jabatanstruktural->unitbagian->nama_unitbagian}}</td>
                         <td>{{ $user->role }}</td>
                         <td class="text-center">
                           <a href="#" class="btn btn-primary"><i class="fa fa-edit"></i> Edit</a>

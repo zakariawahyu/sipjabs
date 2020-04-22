@@ -19,7 +19,7 @@ class User extends Authenticatable
     // one to many menghubungkan table user dengan pegawau
     public function pegawai()
     {
-        return $this->belongsTo(Pegawau::class, 'id_pegawai');
+        return $this->belongsTo(Pegawai::class, 'id_pegawai');
     }
     
     // nama field yang boleh di isi

@@ -90,7 +90,7 @@
                                 <tr>
                                   <td>Jabatan</td>
                                   <td>:</td>
-                                  <td>{{ $pegawai->nama_jabatan }} {{ $pegawai->nama_unitbagian }}</td>
+                                  <td>{{ $pegawai->jabatanstruktural->jabatan->nama_jabatan }} {{ $pegawai->jabatanstruktural->unitbagian->nama_unitbagian }}</td>
                                 </tr>
                                 <tr>
                                   <td>Status Pegawai</td>
@@ -169,9 +169,9 @@
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-12">
                               <table class="table table-hover text-center">
-                                @foreach ($riwayatpendidikan as $rk)
+                                @foreach ($pegawai->riwayatpendidikan as $rp)
                                 <tr>
-                                   <td>{{ $rk->jenjang_pendidikan }} {{ $rk->jurusan }}</td>
+                                   <td>{{ $rp->pendidikan->jenjang_pendidikan }} {{ $rp->pendidikan->jurusan }}</td>
                                 </tr>
                                 @endforeach
                               </table>
@@ -201,9 +201,9 @@
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-12">
                               <table class="table table-hover text-center">
-                                @foreach ($skill as $sk)
+                                @foreach ($pegawai->skillpegawai as $sk)
                                 <tr>
-                                   <td>{{ $sk->nama_skill }}</td>
+                                   <td>{{ $sk->skill->nama_skill }}</td>
                                 </tr>
                                 @endforeach
                               </table>

@@ -9,22 +9,6 @@ use Illuminate\Support\Facades\Auth;
 
 class LoginController extends Controller
 {
-        public function getDataByUser()
-    {
-        $test = 1;
-      // $users = User::orderBy('created_at', 'ASC')->get();
-      $pegawai = Pegawai::with(['riwayatpendidikan', 'riwayatpendidikan.pendidikan', 'jabatanstruktural', 'jabatanstruktural.jabatan', 'jabatanstruktural.unitbagian', 'jabatanstruktural.unitkerja', 'skillpegawai', 'skillpegawai.skill'])
-                ->whereHas('skillpegawai.skill', function($q) use($test){
-                    $q->where('id', '=', $test);
-                })
-                ->orderBy('created_at', 'ASC')
-                ->get();
-
-                // dd($pegawai);
-
-                return view('welcome', compact('pegawai'));
-    //   return response()->json(['data' => $pegawai]);
-    }
 
     public function login() {
         return view('login', []);
