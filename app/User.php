@@ -16,6 +16,13 @@ class User extends Authenticatable
      *
      * @var array
      */
+    // one to many menghubungkan table user dengan pegawau
+    public function pegawai()
+    {
+        return $this->belongsTo(Pegawau::class, 'id_pegawai');
+    }
+    
+    // nama field yang boleh di isi
     protected $fillable = [
         'username', 'email', 'password', 'url_foto', 'role', 'id_pegawai'
     ];

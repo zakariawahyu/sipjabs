@@ -50,7 +50,7 @@
                   <div class="col-lg-3 col-md-6 col-sm-8">
                     <div class="">
                       <ul class="to_do">
-       <form action="{{ route('filtertallent') }}" id="product_filter_form">                
+       <form action="{{ route('filtertallent') }}" id="product_filter_form" method="GET" >         
 			<li class="filter-item">
 				<section class="filter-item-inner">
 					<h2 class="filter-item-inner-heading minus">
@@ -62,7 +62,7 @@
               @if ($statuspegawai)
                 @foreach ($statuspegawai as $sp)
                     <li class="filter-attribute-item">
-                  <input value="{{ $sp->status_pegawai }}" type="checkbox" name="status_pegawai[]" class="form-check-input"
+                  <input onchange="javascript:this.form.submit();" value="{{ $sp->status_pegawai }}" type="checkbox" name="status_pegawai[]" class="form-check-input"
                    @if(isset($selected_status)) 	@if (in_array($sp->status_pegawai, $selected_status)) 	checked="checked" 	@endif @endif>
 									<label for="colour-attribute-1" class="filter-attribute-label ib-m">
 										{{ $sp->status_pegawai }}

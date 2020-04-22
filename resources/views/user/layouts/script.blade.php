@@ -48,10 +48,13 @@
 	  $('#product_filter_form').submit();	  	  
   });
   
-  $('#selectedstatus').on('click', function() {
-	$('#product_filter_form').submit();	  	  
-	});
+  // $('#selectedstatus').onclick (function() {
+  //   if(this.checked){
+  //     $('#product_filter_form').submit();	
+  //   }  
+	// });
 
 </script>
+
 
 </script>

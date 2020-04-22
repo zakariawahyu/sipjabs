@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
+use App\User;
 
 use Illuminate\Http\Request;
 
@@ -15,6 +16,8 @@ class ProfileController extends Controller
      */
     public function index()
     {
+
+        
         $user = DB::table('users')
                 ->join('pegawai', 'users.id_pegawai','=','pegawai.id')
                 ->join('jabatan_struktural', 'pegawai.id_jabatanstruktural', '=', 'jabatan_struktural.id')
