@@ -20,16 +20,17 @@
   <link href="{{ asset('asset/vendors/nprogress/nprogress.css') }}" rel="stylesheet">
   <!-- iCheck -->
   <link href="{{ asset('asset/vendors/iCheck/skins/flat/green.css') }}" rel="stylesheet">
-
   <!-- bootstrap-progressbar -->
   <link href="{{ asset('asset/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css') }}" rel="stylesheet">
   <!-- JQVMap -->
   <link href="{{ asset('asset/vendors/jqvmap/dist/jqvmap.min.css') }}" rel="stylesheet" />
   <!-- bootstrap-daterangepicker -->
   <link href="{{ asset('asset/vendors/bootstrap-daterangepicker/daterangepicker.css') }}" rel="stylesheet">
-
   <!-- Custom Theme Style -->
   <link href="{{ asset('asset/build/css/custom.min.css') }}" rel="stylesheet">
+   <!-- Select2 -->
+  <link rel="stylesheet" href="{{ asset('asset/vendors/select2/css/select2.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('asset/vendors/select2-bootstrap4-theme/select2-bootstrap4.min.css') }}">
 </head>
 
 <body class="nav-md">

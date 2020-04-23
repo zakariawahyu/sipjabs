@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
+use App\User;
 
 use Illuminate\Http\Request;
 
@@ -15,14 +16,10 @@ class ProfileController extends Controller
      */
     public function index()
     {
-        $user = DB::table('users')
-                ->join('pegawai', 'users.id_pegawai','=','pegawai.id')
-                ->join('jabatan_struktural', 'pegawai.id_jabatanstruktural', '=', 'jabatan_struktural.id')
-                ->join('jabatan', 'jabatan_struktural.id_jabatan', '=', 'jabatan.id')
-                ->join('unit_kerja', 'jabatan_struktural.id_unitkerja', '=', 'unit_kerja.id')
-                ->join('unit_bagian', 'jabatan_struktural.id_unitbagian', '=', 'unit_bagian.id')
-                ->where('users.id', '=', session('id'))
-                ->first();
+       $user = User::with(['pegawai', 'pegawai.jabatanstruktural', 'pegawai.jabatanstruktural.jabatan',
+                            'pegawai.jabatanstruktural.unitkerja', 'pegawai.jabatanstruktural.unitbagian'])
+                            ->where('users.id', '=', session('id'))
+                            ->first();
 
         return view('user.profile.index', compact('user'));
     }

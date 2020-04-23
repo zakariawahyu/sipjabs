@@ -15,8 +15,10 @@ class CheckAdmin
      */
     public function handle($request, Closure $next)
     {
-        $session = $request->session()->get('role');
-      if ($session == 'admin') {
+      $session = $request->session()->get('role');
+
+      if ($session == 'admin')
+      {
         return $next($request);
       }
         return redirect('login');

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
+use App\Jabatan;
 
 use App\PegawaiDb;
 use Illuminate\Http\Request;
@@ -16,7 +17,7 @@ class FilterController extends Controller
      */
     public function index()
     {
-        $jabatan = DB::table('jabatan')->get();
+        $jabatan = Jabatan::all();
 
         return view('user.filter.index', compact('jabatan'));
     }
@@ -89,21 +90,34 @@ class FilterController extends Controller
 
     public function filtertallent(Request $request)
     {
-        
-
+        // mengambil data dari model
         $pegawai_model = new PegawaiDB();
         $pegawai = $pegawai_model->getFilteredPegawai($request);
 
+        // ambil status url
         $orderby = $request->order_by;
         $show = $request->show;
         $level = $request->level;
         $masakerja = $request->masakerja;
         $selected_status = $request->status_pegawai;
+        $selected_jenjang = $request->jenjang;
+        $selected_jurusan = $request->jurusan;
+        $selected_skill = $request->skill;
 
+        // ambil data status pegawai dari model
         $statuspegawai = $pegawai_model->getStatusPegawai();
 
+        // ambil data jenjang pendidikan
+        $jenjangpendidikan = $pegawai_model->getDataJenjang();
 
+        // ambil data jurusan
+        $jurusan = $pegawai_model->getDataJurusan();
 
-        return view('user.filter.filter', compact('pegawai', 'orderby', 'show', 'level', 'masakerja', 'statuspegawai', 'selected_status'));
+        // ambil data skill
+        $skill = $pegawai_model->getDataSkill();
+
+        return view('user.filter.filter', compact('pegawai', 'orderby', 'show', 'level', 
+                    'masakerja', 'statuspegawai', 'jenjangpendidikan','jurusan', 'selected_jenjang', 
+                    'selected_jurusan', 'selected_status', 'skill', 'selected_skill'));
     }
 }

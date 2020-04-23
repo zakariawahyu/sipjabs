@@ -15,10 +15,12 @@ class CheckUser
      */
     public function handle($request, Closure $next)
     {
-    $session = $request->session()->get('role');
-      if ($session == 'user') {
+      $session = $request->session()->get('role');
+
+      if ($session == 'user')
+      {
         return $next($request);
       }
-      return redirect('login');
+        return redirect('login');
     }
 }

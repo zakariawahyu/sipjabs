@@ -49,10 +49,10 @@
                 </div>
 
                 <div class="x_content">
+                  {{-- Form Filter Utama --}}
                   <form  class="form-horizontal form-label-left" action="{{ route('filtertallent') }}" method="GET">
                     <div class="form-group">
-                     
-                      <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Jabatan Minimal</label>
+                      <label class="control-label col-md-3 col-sm-3 col-xs-12">Jabatan Minimal</label>
                       <div class="col-md-6 col-sm-6 col-xs-12">
                         <select name="level" class="form-control">
                             <option disabled selected value>Pilih Jabatan</option>
@@ -76,7 +76,6 @@
                        <button class="btn btn-primary">Cari</button>
                       </div>
                     </div>
-
                   </form>
                 </div>
 

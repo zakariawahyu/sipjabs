@@ -1,5 +1,7 @@
-<!-- jQuery -->
+  <!-- jQuery -->
   <script src="{{ asset('asset/vendors/jquery/dist/jquery.min.js') }}"></script>
+    <!-- Select2 -->
+  <script src="{{ asset('asset/vendors/select2/js/select2.full.min.js') }}"></script>
   <!-- Bootstrap -->
   <script src="{{ asset('asset/vendors/bootstrap/dist/js/bootstrap.min.js') }}"></script>
   <!-- FastClick -->
@@ -39,6 +41,8 @@
   <!-- Custom Theme Scripts -->
   <script src="{{ asset('asset/build/js/custom.min.js') }}"></script>
 
+
+
 <script>
 	$('#order_by').on('change', function() {
 	  $('#product_filter_form').submit();	  	  
@@ -47,13 +51,19 @@
   $('#show').on('change', function() {
 	  $('#product_filter_form').submit();	  	  
   });
-  
-  // $('#selectedstatus').onclick (function() {
-  //   if(this.checked){
-  //     $('#product_filter_form').submit();	
-  //   }  
-	// });
 
+</script>
+
+<script>
+  $(function () {
+    //Initialize Select2 Elements
+    $('.select2').select2()
+
+    //Initialize Select2 Elements
+    $('.select2bs4').select2({
+      theme: 'bootstrap4'
+    })
+  })
 </script>
 
 

@@ -56,7 +56,7 @@
                   </div>
                   <h3 class="profile-username text-center">{{ Auth::user()->role }}</h3>
                   <strong>Nama Lengkap</strong>
-                  <p class="text-muted">{{ $user->nama_lengkap }}</p>
+                  <p class="text-muted">{{ $user->pegawai->nama_lengkap }}</p>
                   <hr>
                   <strong>Username</strong>
                   <p class="text-muted">{{ $user->username }}</p>
@@ -65,16 +65,16 @@
                   <p class="text-muted">{{ $user->email }}</p>
                   <hr>
                   <strong>Status Pegawai</strong>
-                  <p class="text-muted">{{ $user->status_pegawai }}</p>
+                  <p class="text-muted">{{ $user->pegawai->status_pegawai }}</p>
                   <hr>
                   <strong>Unit Kerja</strong>
-                  <p class="text-muted">{{ $user->nama_unitkerja }}</p>
+                  <p class="text-muted">{{ $user->pegawai->jabatanstruktural->unitkerja->nama_unitkerja }}</p>
                   <hr>
                   <strong>Jabatan</strong>
-                  <p class="text-muted">{{ $user->nama_jabatan }} {{ $user->nama_unitbagian }}</p>
+                  <p class="text-muted">{{ $user->pegawai->jabatanstruktural->jabatan->nama_jabatan }} {{ $user->pegawai->jabatanstruktural->unitbagian->nama_unitbagian }}</p>
                   <hr>
                   <strong>NIP</strong>
-                  <p class="text-muted">{{ $user->nip }}</p>
+                  <p class="text-muted">{{ $user->pegawai->nip }}</p>
                   <hr>
                 </div>
 

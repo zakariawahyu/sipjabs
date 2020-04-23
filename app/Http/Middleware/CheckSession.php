@@ -16,9 +16,11 @@ class CheckSession
     public function handle($request, Closure $next)
     {
         $session = $request->session()->get('role');
-        if (!isset($session)) {
-        return redirect('login');
-            }
-        return $next($request);
+        
+        if (!isset($session))
+        {
+            return redirect('login');
+        }
+            return $next($request);
     }
 }
