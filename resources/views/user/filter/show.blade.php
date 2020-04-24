@@ -80,6 +80,11 @@
                                   <td>{{ $pegawai->status_pegawai }}</td>
                                 </tr>
                                 <tr>
+                                  <td>Masa kerja</td>
+                                  <td>:</td>
+                                  <td>{{ $pegawai->masa_kerja }} Tahun</td>
+                                </tr>
+                                <tr>
                                   <td>Tempat Lahir</td>
                                   <td>:</td>
                                   <td>{{ $pegawai->ttl }}</td>

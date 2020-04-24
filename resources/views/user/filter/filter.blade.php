@@ -91,7 +91,13 @@
                                 </div>
                               </div>
                             </div>
-                           
+                           @if (session('succes'))
+                <div class="alert alert-danger alert-dismissible fade in" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span>
+                    </button>
+                    {{ session('succes') }} 
+            </div>
+            @endif
                            
                             <div class="latest_product_inner row">
                               @if ($pegawai !== "")
@@ -103,10 +109,10 @@
                                       <h4 class="brief"><i>{{ $pg->jabatanstruktural->jabatan->nama_jabatan }} {{ $pg->jabatanstruktural->unitbagian->nama_unitbagian }}</i></h4>
                                       <div class="left col-xs-7">
                                         <h2>{{ $pg->nama_lengkap }}</h2>
-                                        <p><strong>About: </strong> Web Designer / UI. </p>
+                                        <p>{{ $pg->status_pegawai }}</p>
                                         <ul class="list-unstyled">
-                                          <li><i class="fa fa-building"></i> Address: </li>
-                                          <li><i class="fa fa-phone"></i> Phone #: </li>
+                                          <li><i class="fa fa-credit-card"></i> NIP : {{ $pg->nip}}</li>
+                                          <li><i class="fa fa-building"></i> {{ $pg->jabatanstruktural->unitkerja->nama_unitkerja }} </li>
                                         </ul>
                                       </div>
                                       <div class="right col-xs-5 text-center">
@@ -130,8 +136,7 @@
                                       </div>
                                       <div class="col-xs-12 col-sm-6 emphasis">
                                       <a href="{{ route('user.filter.show', $pg->id) }}" class="btn btn-success btn-xs btn-show" title="Detail Pegawai {{ $pg->nama_lengkap }}"><i class="fa fa-user"></i> View Profile</a>
-                                        <button type="button" class="btn btn-primary btn-xs">
-                                          </i> <i class="fa fa-check"></i> Pilih</button>
+                                      <a href="{{ route('user.cart.add', $pg->id) }}" class="btn btn-primary btn-xs"><i class="fa fa-check"></i> Pilih</a>
                                       </div>
                                     </div>
                                   </div>

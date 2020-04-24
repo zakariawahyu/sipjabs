@@ -5,6 +5,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
 use App\Jabatan;
 use App\Pegawai;
+use App\Cart;
 
 use App\PegawaiDb;
 use Illuminate\Http\Request;
@@ -122,6 +123,7 @@ class FilterController extends Controller
 
         // ambil data skill
         $skill = $pegawai_model->getDataSkill();
+
 
         return view('user.filter.filter', compact('pegawai', 'orderby', 'show', 'level', 
                     'masakerja', 'statuspegawai', 'jenjangpendidikan','jurusan', 'selected_jenjang', 

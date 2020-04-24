@@ -23,14 +23,15 @@
               <li role="presentation" class="dropdown">
                 <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
                   <i class="fa fa-shopping-cart"></i>
-                  <span class="badge bg-green">2</span>
+                  <span class="badge bg-green">1</span>
                 </a>
                 <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+                  {{-- @foreach ($carts as $ct) --}}
                   <li>
                     <a>
                       <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
                       <span>
-                        <span>Nur</span>
+                        <span>Zaka</span>
                         <span class="time">TPA Pegawai Tetap</span>
                       </span>
                       <span class="message">
@@ -38,22 +39,11 @@
                       </span>
                     </a>
                   </li>
-                  <li>
-                    <a>
-                      <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
-                      <span>
-                        <span>Utomo</span>
-                        <span class="time">Dosen Pegawai Tetap</span>
-                      </span>
-                      <span class="message">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error, reiciendis.
-                      </span>
-                    </a>
-                  </li>
+                  {{-- @endforeach --}}
                   <li>
                     <div class="text-center">
                       <a class="btn btn-success">
-                        <strong>Rekomendasikan</strong>
+                        <strong>View Cart</strong>
                       </a>
                     </div>
                   </li>
