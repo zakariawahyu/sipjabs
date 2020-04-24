@@ -34,6 +34,11 @@
 
   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
   <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+
+    <!-- PNotify -->
+  <link href="{{ asset('asset/vendors/pnotify/dist/pnotify.css') }}" rel="stylesheet">
+  <link href="{{ asset('asset/vendors/pnotify/dist/pnotify.buttons.css') }}" rel="stylesheet">
+  <link href="{{ asset('asset/vendors/pnotify/dist/pnotify.nonblock.css') }}" rel="stylesheet">
 </head>
 
 <body class="nav-md">

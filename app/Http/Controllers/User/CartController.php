@@ -94,13 +94,17 @@ class CartController extends Controller
 
     public function addCart($id)
     {
-        $select = Cart::select('id_pegawai')
-                    ->where('id_user', session('id'))
-                    ->first();
+        $carts = Cart::where('id_user', session('id'))
+                        ->where('id_pegawai', $id)->get();
+        
+            
+        if ($carts->count()>0)
+        {
 
-        if ($select->id_pegawai == $id) {
-            return back()->with('succes', 'Pegawai sudah di cart');
-        }else{
+            return back()->with('error', 'Pegawai sudah di cart');
+
+        } else
+        {
 
         $cart = new Cart;
 
@@ -110,6 +114,7 @@ class CartController extends Controller
         $cart->save();
 
         return back()->with('succes', 'Berhasil ditambahkan ke cart');
+
         }
 
         

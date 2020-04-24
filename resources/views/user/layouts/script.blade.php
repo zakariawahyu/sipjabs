@@ -41,6 +41,11 @@
   <!-- Custom Theme Scripts -->
   <script src="{{ asset('asset/build/js/custom.min.js') }}"></script>
 
+    <!-- PNotify -->
+  <script src="{{ asset('asset/vendors/pnotify/dist/pnotify.js') }}"></script>
+  <script src="{{ asset('asset/vendors/pnotify/dist/pnotify.buttons.js') }}"></script>
+  <script src="{{ asset('asset/vendors/pnotify/dist/pnotify.nonblock.js') }}"></script>
+
 
 
 <script>
@@ -90,3 +95,26 @@
     $('#modal').modal('show');
   });
 </script>
+
+@if (session('error'))
+<script>
+  new PNotify({
+      title: '{{ session('error') }}',
+      text: 'Jangan pilih pegawai ini, karena sudah berada di dalam cart',
+      type: 'error',
+      styling: 'bootstrap3'
+  });
+</script>
+@endif
+
+@if (session('succes'))
+<script>
+  new PNotify({
+      title: 'Sukses',
+      text: '{{ session('succes') }}',
+      type: 'success',
+      styling: 'bootstrap3'
+  });
+</script>
+@endif
+

@@ -91,13 +91,6 @@
                                 </div>
                               </div>
                             </div>
-                           @if (session('succes'))
-                <div class="alert alert-danger alert-dismissible fade in" role="alert">
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span>
-                    </button>
-                    {{ session('succes') }} 
-            </div>
-            @endif
                            
                             <div class="latest_product_inner row">
                               @if ($pegawai !== "")

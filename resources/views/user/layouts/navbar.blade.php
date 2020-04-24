@@ -1,3 +1,8 @@
+<?php 
+use App\Http\Controllers\Controller;
+use App\Cart;
+$carts = Cart::where('id_user', session('id'))->get();
+?>  
   <!-- top navigation -->
       <div class="top_nav">
         <div class="nav_menu">
@@ -23,23 +28,26 @@
               <li role="presentation" class="dropdown">
                 <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
                   <i class="fa fa-shopping-cart"></i>
-                  <span class="badge bg-green">1</span>
+                  <span class="badge bg-green">{{ $carts->count() }}</span>
                 </a>
                 <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
-                  {{-- @foreach ($carts as $ct) --}}
+                  @foreach ($carts as $ct)
                   <li>
                     <a>
-                      <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                      @if ($ct->pegawai->jenis_kelamin == 'L')
+                        <span class="image"><img src="{{ asset('asset/images/male.png') }}" alt="Profile Image" /></span>
+                      @else
+                        <span class="image"><img src="{{ asset('asset/images/female.png') }}" alt="Profile Image" /></span>
+                      @endif
                       <span>
-                        <span>Zaka</span>
-                        <span class="time">TPA Pegawai Tetap</span>
+                        <span>{{ $ct->pegawai->nama_lengkap }}</span>
                       </span>
                       <span class="message">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, suscipit.
+                        {{ $ct->pegawai->jabatanstruktural->jabatan->nama_jabatan }} {{ $ct->pegawai->jabatanstruktural->unitbagian->nama_unitbagian }}
                       </span>
                     </a>
                   </li>
-                  {{-- @endforeach --}}
+                  @endforeach
                   <li>
                     <div class="text-center">
                       <a class="btn btn-success">
