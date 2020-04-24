@@ -129,11 +129,9 @@
                                         </p>
                                       </div>
                                       <div class="col-xs-12 col-sm-6 emphasis">
-                                        <button type="button" class="btn btn-success btn-xs"> <i class="fa fa-user">
-                                          </i> <i class="fa fa-comments-o"></i> </button>
+                                      <a href="{{ route('user.filter.show', $pg->id) }}" class="btn btn-success btn-xs btn-show" title="Detail Pegawai {{ $pg->nama_lengkap }}"><i class="fa fa-user"></i> View Profile</a>
                                         <button type="button" class="btn btn-primary btn-xs">
-                                          <i class="fa fa-user"> </i> View Profile
-                                        </button>
+                                          </i> <i class="fa fa-check"></i> Pilih</button>
                                       </div>
                                     </div>
                                   </div>

@@ -4,6 +4,7 @@ namespace App\Http\Controllers\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
 use App\Jabatan;
+use App\Pegawai;
 
 use App\PegawaiDb;
 use Illuminate\Http\Request;
@@ -51,7 +52,13 @@ class FilterController extends Controller
      */
     public function show($id)
     {
-        //
+        $pegawai = Pegawai::with(['riwayatpendidikan', 'riwayatpendidikan.pendidikan', 'jabatanstruktural', 
+                                'jabatanstruktural.jabatan', 'jabatanstruktural.unitbagian', 'jabatanstruktural.unitkerja',
+                                'skillpegawai', 'skillpegawai.skill'])
+                            ->where('pegawai.id', $id)
+                            ->first();
+        
+        return view('user.filter.show', compact('pegawai'));
     }
 
     /**

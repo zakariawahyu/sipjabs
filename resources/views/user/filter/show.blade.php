@@ -1,24 +1,6 @@
-@extends('admin.layouts.master')
 
-@section('title', 'SIPJABS | Detail Pegawai')
-
-@section('content')
-    <div class="right_col" role="main">
         <div class="">
-          <div class="page-title">
-            <div class="title_left">
-              <h3>Detail Pegawai</h3>
-            </div>
-
-            <div class="title_right">
-              <div class="col-md-3 col-sm-3 col-xs-8 pull-right">
-                <ol class="breadcrumb float-sm-right">
-                  <li class="breadcrumb-item"><a href="#">Home</a></li>
-                  <li class="breadcrumb-item active">Detail Pegawai</li>
-                </ol>
-              </div>
-            </div>
-          </div>
+          
 
           <div class="clearfix"></div>
 
@@ -72,10 +54,10 @@
                             </div>
                           </div>
                           <div class="row">
-                            <div class="col-md-3 col-sm-3">
+                            <div class="col-md-2 col-sm-2">
 
                             </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="col-md-8 col-sm-8 col-xs-12">
                                      <table class="table table-hover">
                                 <tr>
                                   <td>Nama Lengkap</td>
@@ -120,7 +102,7 @@
                                 <tr>
                                   <td>Jenis Kelamin</td>
                                   <td>:</td>
-                                   @if ( $pegawai->jenis_kelamin =="L")
+                                  @if ( $pegawai->jenis_kelamin =="L")
                                   <td>Laki Laki</td>
                                   @elseif($pegawai->jenis_kelamin =="P")
                                   <td>Perempuan</td>
@@ -148,7 +130,7 @@
                                 </tr>
                               </table>
                             </div>
-                            <div class="col-md-3 col-sm-3 col-xs-3">
+                            <div class="col-md-2 col-sm-2 col-xs-2">
 
                             </div>
                           </div>
@@ -225,5 +207,4 @@
               </div>
           </div>
         </div>
-      </div>
-@endsection
+   

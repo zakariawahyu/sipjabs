@@ -48,6 +48,9 @@
 
       {{-- Content --}}
       @yield('content')
+
+      {{-- Modal --}}
+      @include('user.layouts.modal')
       
       {{-- Footer --}}
       @include('user.layouts.footer')

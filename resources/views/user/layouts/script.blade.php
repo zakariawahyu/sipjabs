@@ -44,10 +44,12 @@
 
 
 <script>
+// untuk dropdown sorting biar form om submit
 	$('#order_by').on('change', function() {
 	  $('#product_filter_form').submit();	  	  
   });
-  
+
+// untuk dropdown show biar form om submit
   $('#show').on('change', function() {
 	  $('#product_filter_form').submit();	  	  
   });
@@ -66,5 +68,25 @@
   })
 </script>
 
+<script>
+  $('body').on('click', '.btn-show', function(event){
+    event.preventDefault();
 
+    var me = $(this),
+        url = me.attr('href'),
+        title = me.attr('title');
+
+    $('#myModalTitle').text(title);
+    $('#model-btn-save').addClass('hide');
+
+    $.ajax({
+      url : url,
+      dataType : 'html',
+      success : function(response) {
+        $('#modal-body-show').html(response)
+      }
+    });
+
+    $('#modal').modal('show');
+  });
 </script>

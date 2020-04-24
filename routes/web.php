@@ -43,7 +43,6 @@ Route::prefix('admin')->middleware('cek.admin', 'cek')->group(function(){
     Route::resource('unitbagian' , 'Admin\UnitBagianController',['as' => 'admin']);
     Route::resource('profile' , 'Admin\ProfileController',['as' => 'admin']);
 
-
 });
 
 Route::prefix('user')->middleware('cek.user')->group(function(){
@@ -53,5 +52,4 @@ Route::prefix('user')->middleware('cek.user')->group(function(){
     Route::resource('profile' , 'User\ProfileController',['as' => 'user']);
     Route::resource('filter' , 'User\FilterController',['as' => 'user']);
     
-
 });
