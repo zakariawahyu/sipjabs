@@ -73,6 +73,7 @@
   })
 </script>
 
+{{-- script show pegawai form filter --}}
 <script>
   $('body').on('click', '.btn-show', function(event){
     event.preventDefault();
@@ -95,12 +96,40 @@
     $('#modal').modal('show');
   });
 </script>
+{{-- end script show pegawai form filter --}}
 
+{{-- script show pegawai form cart --}}
+<script>
+  $('body').on('click', '.btn-show-cart', function(event){
+    event.preventDefault();
+
+    var me = $(this),
+        url = me.attr('href'),
+        title = me.attr('title');
+
+    $('#myModalTitle').text(title);
+    $('#model-btn-save').addClass('hide');
+
+    $.ajax({
+      url : url,
+      dataType : 'html',
+      success : function(response) {
+        $('#modal-body-show').html(response)
+      }
+    });
+
+    $('#modal').modal('show');
+  });
+</script>
+{{-- end script show pegawai form cart --}}
+
+
+{{-- script notification --}}
 @if (session('error'))
 <script>
   new PNotify({
-      title: '{{ session('error') }}',
-      text: 'Jangan pilih pegawai ini, karena sudah berada di dalam cart',
+      title: 'Error',
+      text: '{{ session('error') }}',
       type: 'error',
       styling: 'bootstrap3'
   });
@@ -117,4 +146,5 @@
   });
 </script>
 @endif
+{{-- end script notification --}}
 

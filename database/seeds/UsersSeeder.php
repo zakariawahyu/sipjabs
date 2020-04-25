@@ -30,5 +30,13 @@ class UsersSeeder extends Seeder
             'email' => 'elsajelista6@gmail.com',
             'role' => 'user',
         ]);
+
+        User::create([
+            'id_pegawai' => '570',
+            'username' => 'gitahapsari',
+            'password' => bcrypt('user'),
+            'email' => 'gitahapsari6@gmail.com',
+            'role' => 'user',
+        ]);
     }
 }

@@ -35,7 +35,7 @@ Route::get('/logout', 'LoginController@logout')->name('logout')->middleware('cek
 
 Route::prefix('admin')->middleware('cek.admin', 'cek')->group(function(){
     Route::get('/', 'Admin\AdminController@index');
-     Route::get('/help', 'Admin\ProfileController@help')->name('helpadmin');
+    Route::get('/help', 'Admin\ProfileController@help')->name('helpadmin');
     Route::resource('users' , 'Admin\UsersController',['as' => 'admin']);
     Route::resource('pegawai' , 'Admin\PegawaiController',['as' => 'admin']);
     Route::resource('unitkerja' , 'Admin\UnitKerjaController',['as' => 'admin']);
@@ -49,9 +49,10 @@ Route::prefix('user')->middleware('cek.user')->group(function(){
     Route::get('/', 'User\UserController@index');
     Route::get('/help', 'User\ProfileController@help')->name('helpuser');
     Route::get('/search', 'User\FilterController@filtertallent')->name('filtertallent');
+    Route::get('/cartpegawai/{id}', 'User\CartController@addCart')->name('user.cart.add');
+    Route::get('/deletecart/{id}', 'User\CartController@destroy')->name('user.cart.delete');
     Route::resource('profile' , 'User\ProfileController',['as' => 'user']);
     Route::resource('filter' , 'User\FilterController',['as' => 'user']);
     Route::resource('cart' , 'User\CartController',['as' => 'user']);
     
-    Route::get('/cartpegawai/{id}', 'User\CartController@addCart')->name('user.cart.add');
 });

@@ -1,7 +1,9 @@
 <?php 
 use App\Http\Controllers\Controller;
 use App\Cart;
-$carts = Cart::where('id_user', session('id'))->get();
+// mengambil data dari model
+        $cart_model = new Cart();
+        $carts = $cart_model->getCart();
 ?>  
   <!-- top navigation -->
       <div class="top_nav">
@@ -28,9 +30,15 @@ $carts = Cart::where('id_user', session('id'))->get();
               <li role="presentation" class="dropdown">
                 <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
                   <i class="fa fa-shopping-cart"></i>
+                  @if ($carts !== "")
                   <span class="badge bg-green">{{ $carts->count() }}</span>
+                  @else
+                  <span class="badge bg-green">0</span>
+                  @endif
                 </a>
                 <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+                  @if ($carts !== "")
+                      
                   @foreach ($carts as $ct)
                   <li>
                     <a>
@@ -48,9 +56,12 @@ $carts = Cart::where('id_user', session('id'))->get();
                     </a>
                   </li>
                   @endforeach
+                  @else
+                  <li><h3 class="text-center">Empty Cart</h3></li>
+                  @endif
                   <li>
                     <div class="text-center">
-                      <a class="btn btn-success">
+                      <a href="{{ route('user.cart.index') }}" class="btn btn-success">
                         <strong>View Cart</strong>
                       </a>
                     </div>

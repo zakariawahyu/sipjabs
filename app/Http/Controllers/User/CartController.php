@@ -4,6 +4,7 @@ namespace App\Http\Controllers\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
 use App\Cart;
+use App\Pegawai;
 
 use Illuminate\Http\Request;
 
@@ -16,7 +17,11 @@ class CartController extends Controller
      */
     public function index()
     {
-        //
+        // mengambil data dari model
+        $cart_model = new Cart();
+        $carts = $cart_model->getCart();
+
+        return view('user.cart.index', compact('carts'));
     }
 
     /**
@@ -55,7 +60,13 @@ class CartController extends Controller
      */
     public function show($id)
     {
-        //
+        $pegawai = Pegawai::with(['riwayatpendidikan', 'riwayatpendidikan.pendidikan', 'jabatanstruktural', 
+                                'jabatanstruktural.jabatan', 'jabatanstruktural.unitbagian', 'jabatanstruktural.unitkerja',
+                                'skillpegawai', 'skillpegawai.skill'])
+                            ->where('pegawai.id', $id)
+                            ->first();
+        
+        return view('user.cart.show', compact('pegawai'));
     }
 
     /**
@@ -89,7 +100,19 @@ class CartController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $carts = Cart::where('id_user', session('id'))
+                        ->where('id_pegawai', $id)->first();
+        
+        if ($carts->count()>0)
+        {
+            $carts->delete();
+
+            return back()->with('succes', 'Berhasil dihapus dalam cart');
+
+        } else
+        {
+            return back()->with('error', 'Pegawai tidak ditemukan');
+        }
     }
 
     public function addCart($id)
