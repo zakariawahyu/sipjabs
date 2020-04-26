@@ -54,5 +54,6 @@ Route::prefix('user')->middleware('cek.user')->group(function(){
     Route::resource('profile' , 'User\ProfileController',['as' => 'user']);
     Route::resource('filter' , 'User\FilterController',['as' => 'user']);
     Route::resource('cart' , 'User\CartController',['as' => 'user']);
+    Route::resource('tallent' , 'User\TallentController',['as' => 'user']);
     
 });

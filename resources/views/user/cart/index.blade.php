@@ -106,7 +106,7 @@
                                                 </td>
                                                 <td>
                                                     <div class="checkout_btn_inner text-right">
-                                                        <a class="main_btn" href="#">Proceed Tallent</a>
+                                                        <a class="main_btn" href="{{ route('user.tallent.create') }}">Proceed Tallent</a>
                                                     </div>
                                                 </td>
                                             </tr>

@@ -73,7 +73,7 @@
                         <td>{{ $pg->status_pegawai }}</td>
                         <td>{{ $pg->jabatanstruktural->jabatan->nama_jabatan }} {{$pg->jabatanstruktural->unitbagian->nama_unitbagian}}</td>
                         <td class="text-center">
-                          <a href="{{ route('admin.pegawai.show', $pg->id) }}" class="btn btn-info"><i class="fa fa-eye"></i> View</a>
+                          <a href="{{ route('admin.pegawai.show', $pg->id) }}" class="btn btn-info btn-show-admin-pegawai"><i class="fa fa-eye"></i> View</a>
                           <a href="#" class="btn btn-primary"><i class="fa fa-edit"></i> Edit</a>
                           <a href="#" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
                         </td>

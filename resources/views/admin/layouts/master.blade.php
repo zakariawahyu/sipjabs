@@ -50,6 +50,9 @@
     {{-- Navbar --}}
     @include('admin.layouts.navbar')
 
+    {{-- Modal --}}
+      @include('user.layouts.modal')
+
     {{-- Content --}}
     @yield('content')
 

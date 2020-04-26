@@ -52,3 +52,28 @@
 
   <!-- Custom Theme Scripts -->
   <script src="{{ asset('asset/build/js/custom.min.js') }}"></script>
+
+  {{-- script show pegawai form tallent --}}
+<script>
+  $('body').on('click', '.btn-show-admin-pegawai', function(event){
+    event.preventDefault();
+
+    var me = $(this),
+        url = me.attr('href'),
+        title = me.attr('title');
+
+    $('#myModalTitle').text(title);
+    $('#model-btn-save').addClass('hide');
+
+    $.ajax({
+      url : url,
+      dataType : 'html',
+      success : function(response) {
+        $('#modal-body-show').html(response)
+      }
+    });
+
+    $('#modal').modal('show');
+  });
+</script>
+{{-- end script show pegawai form tallent --}}
