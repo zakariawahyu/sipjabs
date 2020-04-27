@@ -64,7 +64,7 @@
                         <td>{{ $tl->nomor_surat }}</td>
                         <td class="text-center">
                           <a href="{{ route('user.tallent.show', $tl->nomor_urut) }}" class="btn btn-info btn-show-tallent" title="{{ $tl->nomor_surat }}"><i class="fa fa-eye"></i> View</a>
-                          <a href="#" class="btn btn-primary"><i class="fa fa-print"></i> Print PDF</a>
+                          <a href="{{ route('user.tallent.cetak', $tl->nomor_urut) }}" class="btn btn-primary"><i class="fa fa-print"></i> Print PDF</a>
                         </td>
                       </tr>  
                       @endforeach

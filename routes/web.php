@@ -51,6 +51,7 @@ Route::prefix('user')->middleware('cek.user')->group(function(){
     Route::get('/search', 'User\FilterController@filtertallent')->name('filtertallent');
     Route::get('/cartpegawai/{id}', 'User\CartController@addCart')->name('user.cart.add');
     Route::get('/deletecart/{id}', 'User\CartController@destroy')->name('user.cart.delete');
+    Route::get('/cetak/{id}', 'User\TallentController@cetak_pdf')->name('user.tallent.cetak');
     Route::resource('profile' , 'User\ProfileController',['as' => 'user']);
     Route::resource('filter' , 'User\FilterController',['as' => 'user']);
     Route::resource('cart' , 'User\CartController',['as' => 'user']);

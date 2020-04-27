@@ -7,6 +7,7 @@ use Illuminate\Support\Str;
 use App\Tallent;
 use App\Pegawai;
 use App\Cart;
+use PDF;
 
 use Illuminate\Http\Request;
 
@@ -126,5 +127,22 @@ class TallentController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function cetak_pdf($id)
+    {
+        $tallents = Tallent::where('id_user', session('id'))
+                            ->where('nomor_urut', $id)
+                            ->get();
+
+        $nosurat = Tallent::select('nomor_surat')
+                            ->where('id_user', session('id'))
+                            ->where('nomor_urut', $id)
+                            ->distinct()
+                            ->get();
+
+        $pdf = PDF::Loadview('user.tallent.cetak', compact('tallents', 'nosurat'));
+        return $pdf->download('laporan-tallent-pdf');
+
     }
 }
