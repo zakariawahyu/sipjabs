@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers\User;
 use App\Http\Controllers\Controller;
+use App\User;
+use App\Pegawai;
+use App\Tallent;
 
 use Illuminate\Http\Request;
 
@@ -14,7 +17,11 @@ class UserController extends Controller
      */
     public function index()
     {
-        return view('user.index');
+        $users = User::all();
+        $pegawai = Pegawai::all();
+        $tallent = Tallent::where('id_user', session('id'));
+
+        return view('user.index', compact('users', 'pegawai', 'tallent'));
     }
 
     /**

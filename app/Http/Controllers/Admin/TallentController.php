@@ -2,13 +2,12 @@
 
 namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
-use App\User;
-use App\Pegawai;
 use App\Tallent;
+use PDF;
 
 use Illuminate\Http\Request;
 
-class AdminController extends Controller
+class TallentController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -17,11 +16,9 @@ class AdminController extends Controller
      */
     public function index()
     {
-        $users = User::all();
-        $pegawai = Pegawai::all();
-        $tallent = Tallent::all();
+        $tallents = Tallent::select('nomor_urut', 'nomor_surat')->distinct()->get();
 
-        return view('admin.index', compact('users', 'pegawai', 'tallent'));
+        return view('admin.tallent.index', compact('tallents'));
     }
 
     /**
@@ -53,7 +50,9 @@ class AdminController extends Controller
      */
     public function show($id)
     {
-        //
+        $tallents = Tallent::where('nomor_urut', $id)->get();
+
+        return view('admin.tallent.show', compact('tallents'));
     }
 
     /**
@@ -88,5 +87,20 @@ class AdminController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+     public function cetak_pdf($id)
+    {
+        $tallents = Tallent::where('nomor_urut', $id)
+                            ->get();
+
+        $nosurat = Tallent::select('nomor_surat')
+                            ->where('nomor_urut', $id)
+                            ->distinct()
+                            ->get();
+
+        $pdf = PDF::Loadview('admin.tallent.cetak', compact('tallents', 'nosurat'));
+        return $pdf->download('laporan-tallent-pdf');
+
     }
 }

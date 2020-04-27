@@ -34,7 +34,7 @@
               <ul class="nav side-menu">
                 <li><a href="{{ route('admin.users.index') }}"><i class="fa fa-users"></i> Data Users</a></li>
                 <li><a href="{{ route('admin.pegawai.index') }}"><i class="fa fa-database"></i> Data Pegawai</a></li>
-                <li><a href="#"><i class="fa fa-list"></i> Data Tallent</a></li>
+                <li><a href="{{ route('admin.tallent.index') }}"><i class="fa fa-list"></i> Data Tallent</a></li>
                 <li><a href="#"><i class="fa fa-newspaper-o"></i> Jabatan Struktural <span
                       class="fa fa-chevron-down"></span></a>
                   <ul class="nav child_menu">

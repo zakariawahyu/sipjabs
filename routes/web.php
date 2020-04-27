@@ -36,12 +36,14 @@ Route::get('/logout', 'LoginController@logout')->name('logout')->middleware('cek
 Route::prefix('admin')->middleware('cek.admin', 'cek')->group(function(){
     Route::get('/', 'Admin\AdminController@index');
     Route::get('/help', 'Admin\ProfileController@help')->name('helpadmin');
+    Route::get('/cetak/{id}', 'Admin\TallentController@cetak_pdf')->name('admin.tallent.cetak');
     Route::resource('users' , 'Admin\UsersController',['as' => 'admin']);
     Route::resource('pegawai' , 'Admin\PegawaiController',['as' => 'admin']);
     Route::resource('unitkerja' , 'Admin\UnitKerjaController',['as' => 'admin']);
     Route::resource('jabatan' , 'Admin\JabatanController',['as' => 'admin']);
     Route::resource('unitbagian' , 'Admin\UnitBagianController',['as' => 'admin']);
     Route::resource('profile' , 'Admin\ProfileController',['as' => 'admin']);
+    Route::resource('tallent' , 'Admin\TallentController',['as' => 'admin']);
 
 });
 

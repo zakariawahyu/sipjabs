@@ -9,7 +9,7 @@
           <div class="animated flipInY col-md-4 col-sm-6 col-xs-12">
             <div class="tile-stats">
               <div class="icon"><i class="fa fa-users"></i></div>
-              <div class="count">64</div>
+              <div class="count">{{ $users->count() }}</div>
               <h3>Users</h3>
               <p>Lorem ipsum psdea itgum rixt.</p>
             </div>
@@ -17,7 +17,7 @@
           <div class="animated flipInY col-md-4 col-sm-6 col-xs-12">
             <div class="tile-stats">
               <div class="icon"><i class="fa fa-database"></i></div>
-              <div class="count">600</div>
+              <div class="count">{{ $pegawai->count() }}</div>
               <h3>Pegawai</h3>
               <p>Lorem ipsum psdea itgum rixt.</p>
             </div>
@@ -25,7 +25,7 @@
           <div class="animated flipInY col-md-4 col-sm-6 col-xs-12">
             <div class="tile-stats">
               <div class="icon"><i class="fa fa-list"></i></div>
-              <div class="count">179</div>
+              <div class="count">{{ $tallent->count() }}</div>
               <h3>Tallent</h3>
               <p>Lorem ipsum psdea itgum rixt.</p>
             </div>
