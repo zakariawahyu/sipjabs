@@ -10,7 +10,12 @@
           <!-- menu profile quick info -->
           <div class="profile clearfix">
             <div class="profile_pic">
+            @if (Auth::user()->url_foto == '')
               <img src="{{ asset('asset/images/user.png') }}" alt="..." class="img-circle profile_img">
+            @else
+              <img src="{{ asset('asset/images/'.Auth::user()->url_foto) }}" alt="..." class="img-circle profile_img">
+            @endif
+              
             </div>
             <div class="profile_info">
               <span>Selamat datang,</span>

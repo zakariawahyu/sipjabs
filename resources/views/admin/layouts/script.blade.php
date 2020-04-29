@@ -50,6 +50,11 @@
   <script src="{{ asset('asset/vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js') }}"></script>
   <script src="{{ asset('asset/vendors/datatables.net-scroller/js/dataTables.scroller.min.js') }}"></script>
 
+  <!-- PNotify -->
+  <script src="{{ asset('asset/vendors/pnotify/dist/pnotify.js') }}"></script>
+  <script src="{{ asset('asset/vendors/pnotify/dist/pnotify.buttons.js') }}"></script>
+  <script src="{{ asset('asset/vendors/pnotify/dist/pnotify.nonblock.js') }}"></script>
+
   <!-- Custom Theme Scripts -->
   <script src="{{ asset('asset/build/js/custom.min.js') }}"></script>
 
@@ -102,3 +107,27 @@
   });
 </script>
 {{-- end script show pegawai form tallent --}}
+
+{{-- script notification --}}
+@if (session('error'))
+<script>
+  new PNotify({
+      title: 'Error',
+      text: '{{ session('error') }}',
+      type: 'error',
+      styling: 'bootstrap3'
+  });
+</script>
+@endif
+
+@if (session('succes'))
+<script>
+  new PNotify({
+      title: 'Sukses',
+      text: '{{ session('succes') }}',
+      type: 'success',
+      styling: 'bootstrap3'
+  });
+</script>
+@endif
+{{-- end script notification --}}

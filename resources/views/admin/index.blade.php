@@ -15,7 +15,11 @@
                       </a>
                     </li>
                     <li>
+                    @if (Auth::user()->url_foto =='')
                       <img src="{{ asset('asset/images/user.png') }}" alt="..." class="img-circle profile_img">
+                    @else
+                      <img src="{{ asset('asset/images/'.Auth::user()->url_foto) }}" alt="..." class="img-circle profile_img">
+                    @endif
                     </li>
                     <li>
                       <a>

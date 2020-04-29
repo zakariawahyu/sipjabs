@@ -21,14 +21,12 @@
           </div>
 
           <div class="clearfix"></div>
-
           <div class="row">
             <div class="col-md-2 col-sm-2 col-xs-2"></div>
             <div class="col-md-8 col-sm-12 col-xs-12">
               <a href="#" class="btn btn-danger pull-right"><i class="fa fa-key"></i> Reset Password</a>
-              <a href="#" class="btn btn-info pull-right"><i class="fa fa-edit"></i> Edit Profile</a>
+              <a href="{{ route('admin.profile.edit', Auth::user()->id) }}" class="btn btn-info pull-right"><i class="fa fa-edit"></i> Edit Profile</a>
               <div class="x_panel">
-
                 <div class="x_title">
                   <h2>Profilku</h2>
                   <ul class="nav navbar-right panel_toolbox">
@@ -37,12 +35,6 @@
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i
                           class="fa fa-wrench"></i></a>
-                      <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">Settings 1</a>
-                        </li>
-                        <li><a href="#">Settings 2</a>
-                        </li>
-                      </ul>
                     </li>
                     <li><a class="close-link"><i class="fa fa-close"></i></a>
                     </li>
@@ -52,7 +44,12 @@
 
                 <div class="x_content">
                   <div class="text-center">
-                    <img src="{{ asset('asset/images/user.png') }}" class="img-circle">
+                    @if (Auth::user()->url_foto =='')
+                      <img src="{{ asset('asset/images/user.png') }}" class="img-circle">
+                    @else
+                      <img src="{{ asset('asset/images/'.Auth::user()->url_foto) }}" class="img-circle">
+                    @endif
+                    
                   </div>
                   <h3 class="profile-username text-center">{{ Auth::user()->role }}</h3>
                   <strong>Nama Lengkap</strong>
@@ -77,7 +74,6 @@
                   <p class="text-muted">{{ $user->pegawai->nip }}</p>
                   <hr>
                 </div>
-
               </div>
             </div>
             <div class="col-md-2 col-sm-2 col-xs-2"></div>

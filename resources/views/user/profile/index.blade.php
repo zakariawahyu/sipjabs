@@ -26,7 +26,7 @@
             <div class="col-md-2 col-sm-2 col-xs-2"></div>
             <div class="col-md-8 col-sm-12 col-xs-12">
               <a href="#" class="btn btn-danger pull-right"><i class="fa fa-key"></i> Reset Password</a>
-              <a href="#" class="btn btn-info pull-right"><i class="fa fa-edit"></i> Edit Profile</a>
+              <a href="{{ route('user.profile.edit', Auth::user()->id) }}" class="btn btn-info pull-right"><i class="fa fa-edit"></i> Edit Profile</a>
               <div class="x_panel">
 
                 <div class="x_title">
@@ -52,7 +52,11 @@
 
                 <div class="x_content">
                   <div class="text-center">
-                    <img src="{{ asset('asset/images/user.png') }}" class="img-circle">
+                    @if (Auth::user()->url_foto =='')
+                      <img src="{{ asset('asset/images/user.png') }}" class="img-circle">
+                    @else
+                      <img src="{{ asset('asset/images/'.Auth::user()->url_foto) }}" class="img-circle">
+                    @endif
                   </div>
                   <h3 class="profile-username text-center">{{ Auth::user()->role }}</h3>
                   <strong>Nama Lengkap</strong>

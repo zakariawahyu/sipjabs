@@ -25,15 +25,14 @@
 
 <body class="login">
   <div>
-
     <a class="hiddenanchor" id="signin"></a>
-
     <div class="login_wrapper">
       <div class="animate form login_form">
         <section class="login_content">
           <form method="POST" action="{{ route('login') }}">
             @csrf
             <h1>Login Form</h1>
+            {{-- Notifikasi jika gagal login --}}
             @if (session('error'))
                 <div class="alert alert-danger alert-dismissible fade in" role="alert">
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span>
@@ -41,24 +40,19 @@
                     {{ session('error') }} 
             </div>
             @endif
-            
             <div>
-              <input type="text" class="form-control" placeholder="Username" required="" name="username" />
+              <input type="text" class="form-control" placeholder="Username" required="" name="username" value="{{ old('username') }}"/>
             </div>
             <div>
-              <input type="password" class="form-control" placeholder="Password" required="" name="password"/>
+              <input type="password" class="form-control" placeholder="Password" required="" name="password" value="{{ old('password') }}"/>
             </div>
             <div>
               <button class="btn btn-default submit" >Log in</button>
             </div>
-
             <div class="clearfix"></div>
-
             <div class="separator">
-
               <div class="clearfix"></div>
               <br />
-
               <div>
                 <h1><i class="fa fa-magnet"></i> SIPJABS</h1>
                 <p>Sistem Pengawakan Jabatan Struktural</p>
@@ -72,14 +66,12 @@
     </div>
   </div>
 
-    <!-- jQuery -->
-    <script src="{{ asset('asset/vendors/jquery/dist/jquery.min.js') }}"></script>
-    <!-- Bootstrap -->
-    <script src="{{ asset('asset/vendors/bootstrap/dist/js/bootstrap.min.js') }}"></script>
-
-
-    <!-- Custom Theme Scripts -->
-    <script src="{{ asset('asset/build/js/custom.min.js') }}"></script>
+  <!-- jQuery -->
+  <script src="{{ asset('asset/vendors/jquery/dist/jquery.min.js') }}"></script>
+  <!-- Bootstrap -->
+  <script src="{{ asset('asset/vendors/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+  <!-- Custom Theme Scripts -->
+  <script src="{{ asset('asset/build/js/custom.min.js') }}"></script>
 </body>
 
 </html>
