@@ -37,6 +37,7 @@ Route::prefix('admin')->namespace('Admin')->middleware('cek.admin', 'cek')->grou
     Route::get('/', 'AdminController@index');
     Route::get('/help', 'ProfileController@help')->name('helpadmin');
     Route::get('/cetak/{id}', 'TallentController@cetak_pdf')->name('admin.tallent.cetak');
+    Route::patch('/reset/{id}', 'ProfileController@resetPass')->name('admin.reset.pass');
     Route::resource('users' , 'UsersController',['as' => 'admin']);
     Route::resource('pegawai' , 'PegawaiController',['as' => 'admin']);
     Route::resource('unitkerja' , 'UnitKerjaController',['as' => 'admin']);
@@ -54,6 +55,7 @@ Route::prefix('user')->namespace('User')->middleware('cek.user')->group(function
     Route::get('/cartpegawai/{id}', 'CartController@addCart')->name('user.cart.add');
     Route::get('/deletecart/{id}', 'CartController@destroy')->name('user.cart.delete');
     Route::get('/cetak/{id}', 'TallentController@cetak_pdf')->name('user.tallent.cetak');
+    Route::patch('/reset/{id}', 'ProfileController@resetPass')->name('user.reset.pass');
     Route::resource('profile' , 'ProfileController',['as' => 'user']);
     Route::resource('filter' , 'FilterController',['as' => 'user']);
     Route::resource('cart' , 'CartController',['as' => 'user']);

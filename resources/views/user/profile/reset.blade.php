@@ -24,25 +24,19 @@
                 </div>
 
                 <div class="x_content">
-                  <form action="{{ route('user.profile.update', $user->id) }}" method="POST" class="form-horizontal form-label-left"  enctype="multipart/form-data">
+                  <form action="{{ route('user.reset.pass', $user->id) }}" method="POST" class="form-horizontal form-label-left"  enctype="multipart/form-data">
                     @method('patch')
                     @csrf
                     <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Username</label>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Password Lama</label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input type="text" required="required" class="form-control col-md-7 col-xs-12" name="username" placeholder="{{ $user->username }}" value="{{ old('username') }}">
+                          <input type="password" required="required" class="form-control col-md-7 col-xs-12" name="passlama" placeholder="Masukkan Password Lama">
                         </div>
                       </div>
                       <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Email</label>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Password Baru</label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input type="text" required="required" class="form-control col-md-7 col-xs-12" name="email" placeholder="{{ $user->email }}" value="{{ old('email') }}">
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Foto</label>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input type="file" required="required" class="form-control col-md-7 col-xs-12" name="gambar">
+                          <input type="password" required="required" class="form-control col-md-7 col-xs-12" name="passbaru" placeholder="Masukkan Password Baru">
                         </div>
                       </div>
                       <div class="ln_solid"></div>

@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Auth;
 use Intervention\Image\Facades\Image;
 use Illuminate\Support\Facades\Storage;
 use File;
+use Hash;
 
 use Illuminate\Http\Request;
 
@@ -57,7 +58,12 @@ class ProfileController extends Controller
      */
     public function show($id)
     {
-        //
+        $user = User::with(['pegawai', 'pegawai.jabatanstruktural', 'pegawai.jabatanstruktural.jabatan',
+                            'pegawai.jabatanstruktural.unitkerja', 'pegawai.jabatanstruktural.unitbagian'])
+                            ->where('users.id', '=', session('id'))
+                            ->first();
+
+        return view('admin.profile.reset', compact('user'));
     }
 
     /**
@@ -123,5 +129,25 @@ class ProfileController extends Controller
     public function help()
     {
         return view('admin.profile.help');
+    }
+
+    public function resetPass(Request $request, $id)
+    {
+        $user = User::find($id);
+
+        if (Hash::check($request->passlama, $user->password))
+        {
+            
+            User::where('id', $id)->update([
+                'password' => bcrypt($request->passbaru)
+            ]);
+
+            return back()->with('succes', 'Password berhasil di reset');
+
+        } else 
+        {
+            return back()->with('error', 'Password lama tisak sesuai');
+        }
+        
     }
 }

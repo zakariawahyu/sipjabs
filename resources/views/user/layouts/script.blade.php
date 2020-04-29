@@ -123,6 +123,58 @@
 </script>
 {{-- end script show pegawai form cart --}}
 
+{{-- script show edit user --}}
+<script>
+  $('body').on('click', '.btn-edit-user', function(event){
+    event.preventDefault();
+
+    var me = $(this),
+        url = me.attr('href'),
+        title = me.attr('title');
+
+    $('#myModalTitle').text(title);
+    $('#model-btn-save').addClass('hide');
+    $('#model-btn-close').addClass('hide');
+
+    $.ajax({
+      url : url,
+      dataType : 'html',
+      success : function(response) {
+        $('#modal-body-show').html(response)
+      }
+    });
+
+    $('#modal').modal('show');
+  });
+</script>
+{{-- end script show edit user --}}
+
+{{-- script show reset passsword--}}
+<script>
+  $('body').on('click', '.btn-reset-pass', function(event){
+    event.preventDefault();
+
+    var me = $(this),
+        url = me.attr('href'),
+        title = me.attr('title');
+
+    $('#myModalTitle').text(title);
+    $('#model-btn-save').addClass('hide');
+    $('#model-btn-close').addClass('hide');
+
+    $.ajax({
+      url : url,
+      dataType : 'html',
+      success : function(response) {
+        $('#modal-body-show').html(response)
+      }
+    });
+
+    $('#modal').modal('show');
+  });
+</script>
+{{-- end script show reset password --}}
+
 {{-- script show pegawai form tallent --}}
 <script>
   $('body').on('click', '.btn-show-tallent', function(event){

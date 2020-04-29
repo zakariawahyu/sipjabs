@@ -108,6 +108,58 @@
 </script>
 {{-- end script show pegawai form tallent --}}
 
+{{-- script show edit admin --}}
+<script>
+  $('body').on('click', '.btn-edit-admin', function(event){
+    event.preventDefault();
+
+    var me = $(this),
+        url = me.attr('href'),
+        title = me.attr('title');
+
+    $('#myModalTitle').text(title);
+    $('#model-btn-save').addClass('hide');
+    $('#model-btn-close').addClass('hide');
+
+    $.ajax({
+      url : url,
+      dataType : 'html',
+      success : function(response) {
+        $('#modal-body-show').html(response)
+      }
+    });
+
+    $('#modal').modal('show');
+  });
+</script>
+{{-- end script show edit admin --}}
+
+{{-- script show reset admin --}}
+<script>
+  $('body').on('click', '.btn-reset-admin', function(event){
+    event.preventDefault();
+
+    var me = $(this),
+        url = me.attr('href'),
+        title = me.attr('title');
+
+    $('#myModalTitle').text(title);
+    $('#model-btn-save').addClass('hide');
+    $('#model-btn-close').addClass('hide');
+
+    $.ajax({
+      url : url,
+      dataType : 'html',
+      success : function(response) {
+        $('#modal-body-show').html(response)
+      }
+    });
+
+    $('#modal').modal('show');
+  });
+</script>
+{{-- end script show reset admin --}}
+
 {{-- script notification --}}
 @if (session('error'))
 <script>

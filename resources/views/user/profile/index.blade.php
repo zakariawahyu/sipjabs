@@ -25,8 +25,8 @@
           <div class="row">
             <div class="col-md-2 col-sm-2 col-xs-2"></div>
             <div class="col-md-8 col-sm-12 col-xs-12">
-              <a href="#" class="btn btn-danger pull-right"><i class="fa fa-key"></i> Reset Password</a>
-              <a href="{{ route('user.profile.edit', Auth::user()->id) }}" class="btn btn-info pull-right"><i class="fa fa-edit"></i> Edit Profile</a>
+              <a href="{{ route('user.profile.show', Auth::user()->id) }}" class="btn btn-danger pull-right btn-reset-pass"><i class="fa fa-key"></i> Reset Password</a>
+              <a href="{{ route('user.profile.edit', Auth::user()->id) }}" title="Edit Profile" class="btn btn-info pull-right btn-edit-user"><i class="fa fa-edit"></i> Edit Profile</a>
               <div class="x_panel">
 
                 <div class="x_title">
@@ -37,12 +37,6 @@
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i
                           class="fa fa-wrench"></i></a>
-                      <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">Settings 1</a>
-                        </li>
-                        <li><a href="#">Settings 2</a>
-                        </li>
-                      </ul>
                     </li>
                     <li><a class="close-link"><i class="fa fa-close"></i></a>
                     </li>

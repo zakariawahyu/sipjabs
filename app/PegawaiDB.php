@@ -16,7 +16,7 @@ class PegawaiDB extends Model
         $query_status = Pegawai::with(['riwayatpendidikan', 'riwayatpendidikan.pendidikan', 'jabatanstruktural', 
                                 'jabatanstruktural.jabatan', 'jabatanstruktural.unitbagian', 'jabatanstruktural.unitkerja',
                                 'skillpegawai', 'skillpegawai.skill'])
-                                ->paginate(9, ['*'], 'page');
+                                ->paginate(8, ['*'], 'page');
 
         if(count($query_status) > 0){
 			return $query_status;
@@ -141,7 +141,7 @@ class PegawaiDB extends Model
 
         }else{
 
-            $result = $query->paginate(9, ['*'], 'page');
+            $result = $query->paginate(8, ['*'], 'page');
 
         }
         
