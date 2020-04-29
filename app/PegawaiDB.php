@@ -94,7 +94,7 @@ class PegawaiDB extends Model
         if(isset($leveljabatan))
         {
             $query->whereHas('jabatanstruktural.jabatan', function($q) use($leveljabatan){
-                    $q->where('level_jabatan', '<=', $leveljabatan);
+                    $q->where('level_jabatan', '>=', $leveljabatan);
                 });
         }
 

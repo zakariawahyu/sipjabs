@@ -3,11 +3,12 @@
 namespace App\Http\Controllers\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
+use App\PegawaiDb;
 use App\Jabatan;
 use App\Pegawai;
 use App\Cart;
 
-use App\PegawaiDb;
+
 use Illuminate\Http\Request;
 
 class FilterController extends Controller

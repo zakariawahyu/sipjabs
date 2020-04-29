@@ -5,6 +5,9 @@ use App\Http\Controllers\Controller;
 use App\User;
 use App\Pegawai;
 use App\Tallent;
+use App\UnitKerja;
+use App\Jabatan;
+use App\UnitBagian;
 
 use Illuminate\Http\Request;
 
@@ -20,8 +23,12 @@ class AdminController extends Controller
         $users = User::all();
         $pegawai = Pegawai::all();
         $tallent = Tallent::all();
+        $unitkerja = UnitKerja::all();
+        $jabatan = Jabatan::all();
+        $unitbagian = UnitBagian::all();
 
-        return view('admin.index', compact('users', 'pegawai', 'tallent'));
+
+        return view('admin.index', compact('users', 'pegawai', 'tallent', 'unitkerja', 'jabatan','unitbagian'));
     }
 
     /**

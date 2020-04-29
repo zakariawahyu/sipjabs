@@ -33,30 +33,30 @@ Route::get('/login', 'LoginController@login')->name('login');
 Route::post('/login', 'LoginController@proses_login');
 Route::get('/logout', 'LoginController@logout')->name('logout')->middleware('cek');
 
-Route::prefix('admin')->middleware('cek.admin', 'cek')->group(function(){
-    Route::get('/', 'Admin\AdminController@index');
-    Route::get('/help', 'Admin\ProfileController@help')->name('helpadmin');
-    Route::get('/cetak/{id}', 'Admin\TallentController@cetak_pdf')->name('admin.tallent.cetak');
-    Route::resource('users' , 'Admin\UsersController',['as' => 'admin']);
-    Route::resource('pegawai' , 'Admin\PegawaiController',['as' => 'admin']);
-    Route::resource('unitkerja' , 'Admin\UnitKerjaController',['as' => 'admin']);
-    Route::resource('jabatan' , 'Admin\JabatanController',['as' => 'admin']);
-    Route::resource('unitbagian' , 'Admin\UnitBagianController',['as' => 'admin']);
-    Route::resource('profile' , 'Admin\ProfileController',['as' => 'admin']);
-    Route::resource('tallent' , 'Admin\TallentController',['as' => 'admin']);
+Route::prefix('admin')->namespace('Admin')->middleware('cek.admin', 'cek')->group(function(){
+    Route::get('/', 'AdminController@index');
+    Route::get('/help', 'ProfileController@help')->name('helpadmin');
+    Route::get('/cetak/{id}', 'TallentController@cetak_pdf')->name('admin.tallent.cetak');
+    Route::resource('users' , 'UsersController',['as' => 'admin']);
+    Route::resource('pegawai' , 'PegawaiController',['as' => 'admin']);
+    Route::resource('unitkerja' , 'UnitKerjaController',['as' => 'admin']);
+    Route::resource('jabatan' , 'JabatanController',['as' => 'admin']);
+    Route::resource('unitbagian' , 'UnitBagianController',['as' => 'admin']);
+    Route::resource('profile' , 'ProfileController',['as' => 'admin']);
+    Route::resource('tallent' , 'TallentController',['as' => 'admin']);
 
 });
 
-Route::prefix('user')->middleware('cek.user')->group(function(){
-    Route::get('/', 'User\UserController@index');
-    Route::get('/help', 'User\ProfileController@help')->name('helpuser');
-    Route::get('/search', 'User\FilterController@filtertallent')->name('filtertallent');
-    Route::get('/cartpegawai/{id}', 'User\CartController@addCart')->name('user.cart.add');
-    Route::get('/deletecart/{id}', 'User\CartController@destroy')->name('user.cart.delete');
-    Route::get('/cetak/{id}', 'User\TallentController@cetak_pdf')->name('user.tallent.cetak');
-    Route::resource('profile' , 'User\ProfileController',['as' => 'user']);
-    Route::resource('filter' , 'User\FilterController',['as' => 'user']);
-    Route::resource('cart' , 'User\CartController',['as' => 'user']);
-    Route::resource('tallent' , 'User\TallentController',['as' => 'user']);
+Route::prefix('user')->namespace('User')->middleware('cek.user')->group(function(){
+    Route::get('/', 'UserController@index');
+    Route::get('/help', 'ProfileController@help')->name('helpuser');
+    Route::get('/search', 'FilterController@filtertallent')->name('filtertallent');
+    Route::get('/cartpegawai/{id}', 'CartController@addCart')->name('user.cart.add');
+    Route::get('/deletecart/{id}', 'CartController@destroy')->name('user.cart.delete');
+    Route::get('/cetak/{id}', 'TallentController@cetak_pdf')->name('user.tallent.cetak');
+    Route::resource('profile' , 'ProfileController',['as' => 'user']);
+    Route::resource('filter' , 'FilterController',['as' => 'user']);
+    Route::resource('cart' , 'CartController',['as' => 'user']);
+    Route::resource('tallent' , 'TallentController',['as' => 'user']);
     
 });
