@@ -32,12 +32,6 @@
                       </li>
                       <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
-                        <ul class="dropdown-menu" role="menu">
-                          <li><a href="#">Settings 1</a>
-                          </li>
-                          <li><a href="#">Settings 2</a>
-                          </li>
-                        </ul>
                       </li>
                       <li><a class="close-link"><i class="fa fa-close"></i></a>
                       </li>
@@ -63,7 +57,7 @@
                         <td>{{ $no++ }}</td>
                         <td>{{ $tl->nomor_surat }}</td>
                         <td class="text-center">
-                          <a href="{{ route('admin.tallent.show', $tl->nomor_urut) }}" class="btn btn-info btn-show-tallent-admin" title="{{ $tl->nomor_surat }}"><i class="fa fa-eye"></i> View</a>
+                          <a href="{{ route('admin.tallent.show', $tl->nomor_urut) }}" class="btn btn-info btn-show-tallent-admin" title="Detail Tallent {{ $tl->nomor_surat }}"><i class="fa fa-eye"></i> View</a>
                           <a href="{{ route('admin.tallent.cetak', $tl->nomor_urut) }}" class="btn btn-primary"><i class="fa fa-print"></i> Print PDF</a>
                         </td>
                       </tr>  

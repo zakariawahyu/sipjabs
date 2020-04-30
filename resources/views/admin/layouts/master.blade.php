@@ -43,6 +43,10 @@
   <link href="{{ asset('asset/vendors/pnotify/dist/pnotify.buttons.css') }}" rel="stylesheet">
   <link href="{{ asset('asset/vendors/pnotify/dist/pnotify.nonblock.css') }}" rel="stylesheet">
 
+  <!-- Select2 -->
+  <link rel="stylesheet" href="{{ asset('asset/vendors/select2/css/select2.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('asset/vendors/select2-bootstrap4-theme/select2-bootstrap4.min.css') }}">
+
 </head>
 
 <body class="nav-md">

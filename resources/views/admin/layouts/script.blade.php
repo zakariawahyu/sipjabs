@@ -1,5 +1,7 @@
   <!-- jQuery -->
   <script src="{{ asset('asset/vendors/jquery/dist/jquery.min.js') }}"></script>
+  <!-- Select2 -->
+  <script src="{{ asset('asset/vendors/select2/js/select2.full.min.js') }}"></script>
   <!-- Bootstrap -->
   <script src="{{ asset('asset/vendors/bootstrap/dist/js/bootstrap.min.js') }}"></script>
   <!-- FastClick -->
@@ -58,9 +60,9 @@
   <!-- Custom Theme Scripts -->
   <script src="{{ asset('asset/build/js/custom.min.js') }}"></script>
 
-  {{-- script show pegawai form pegawai --}}
+  {{-- script show pegawai and show tallent on admin --}}
 <script>
-  $('body').on('click', '.btn-show-admin-pegawai', function(event){
+  $('body').on('click', '.btn-show-admin-pegawai, .btn-show-tallent-admin', function(event){
     event.preventDefault();
 
     var me = $(this),
@@ -81,36 +83,12 @@
     $('#modal').modal('show');
   });
 </script>
-{{-- end script show pegawai form pegawai --}}
+{{-- end script show pegawai and show tallent on admin --}}
 
-{{-- script show pegawai form tallent --}}
+
+{{-- script show edit and reset pass admin on profile--}}
 <script>
-  $('body').on('click', '.btn-show-tallent-admin', function(event){
-    event.preventDefault();
-
-    var me = $(this),
-        url = me.attr('href'),
-        title = me.attr('title');
-
-    $('#myModalTitle').text(title);
-    $('#model-btn-save').addClass('hide');
-
-    $.ajax({
-      url : url,
-      dataType : 'html',
-      success : function(response) {
-        $('#modal-body-show').html(response)
-      }
-    });
-
-    $('#modal').modal('show');
-  });
-</script>
-{{-- end script show pegawai form tallent --}}
-
-{{-- script show edit admin --}}
-<script>
-  $('body').on('click', '.btn-edit-admin', function(event){
+  $('body').on('click', '.btn-edit-admin, .btn-reset-admin, .btn-edit-users-admin', function(event){
     event.preventDefault();
 
     var me = $(this),
@@ -132,33 +110,7 @@
     $('#modal').modal('show');
   });
 </script>
-{{-- end script show edit admin --}}
-
-{{-- script show reset admin --}}
-<script>
-  $('body').on('click', '.btn-reset-admin', function(event){
-    event.preventDefault();
-
-    var me = $(this),
-        url = me.attr('href'),
-        title = me.attr('title');
-
-    $('#myModalTitle').text(title);
-    $('#model-btn-save').addClass('hide');
-    $('#model-btn-close').addClass('hide');
-
-    $.ajax({
-      url : url,
-      dataType : 'html',
-      success : function(response) {
-        $('#modal-body-show').html(response)
-      }
-    });
-
-    $('#modal').modal('show');
-  });
-</script>
-{{-- end script show reset admin --}}
+{{-- end script show edit and reset pass admin on profile--}}
 
 {{-- script notification --}}
 @if (session('error'))
@@ -183,3 +135,33 @@
 </script>
 @endif
 {{-- end script notification --}}
+
+<script>
+  $(function () {
+    //Initialize Select2 Elements
+    $('.select2').select2()
+
+    //Initialize Select2 Elements
+    $('.select2bs4').select2({
+      theme: 'bootstrap4'
+    })
+  })
+</script>
+
+<script>
+  $("#datatablepegawai").DataTable({
+    processing: true,
+    serverSide: true,
+    ajax: "{{ route('admin.pegawai.get') }}",
+    columns: [
+      {data: 'DT_RowIndex', name: 'id'},
+      {data: 'nama_lengkap', name: 'nama_lengkap'},
+      {data: 'nip', name: 'nip'},
+      {data: 'status_pegawai', name: 'status_pegawai'},
+      {data: 'jabatanstruktural', render: function (data, type, row) {
+        return row.jabatanstruktural.jabatan.nama_jabatan +' '+ row.jabatanstruktural.unitbagian.nama_unitbagian
+      }},
+      {data: 'action', name: 'action'},
+    ]
+  })
+</script>

@@ -31,7 +31,7 @@
                 <div class="flex">
                   <ul class="list-inline count2">
                     <li>
-                      <h3 class="name">Selamat Datang</h3>
+                      <h3 class="name">Selamat Datang Admin</h3>
                      <h3 class="name">{{ Auth::user()->pegawai->nama_lengkap }}</h3>
                     </li>
                   </ul>

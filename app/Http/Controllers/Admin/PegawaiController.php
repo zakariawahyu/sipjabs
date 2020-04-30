@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
 use App\Pegawai;
+use DataTables;
 
 use Illuminate\Http\Request;
 
@@ -16,13 +17,7 @@ class PegawaiController extends Controller
      */
     public function index()
     {
-        $pegawai = Pegawai::with(['riwayatpendidikan', 'riwayatpendidikan.pendidikan', 'jabatanstruktural', 
-                                'jabatanstruktural.jabatan', 'jabatanstruktural.unitbagian', 'jabatanstruktural.unitkerja',
-                                'skillpegawai', 'skillpegawai.skill'])
-                                ->orderBy('pegawai.id', 'asc')
-                                ->get();
-
-        return view('admin.pegawai.index')->withPegawai($pegawai);
+        return view('admin.pegawai.index');
     }
 
     /**
@@ -71,7 +66,7 @@ class PegawaiController extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('admin.pegawai.edit');
     }
 
     /**
@@ -95,5 +90,24 @@ class PegawaiController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function dataTables()
+    {
+        $pegawai = Pegawai::with(['jabatanstruktural', 'jabatanstruktural.jabatan', 'jabatanstruktural.unitbagian', 'jabatanstruktural.unitkerja'])
+                                ->orderBy('pegawai.id', 'asc')
+                                ->get();
+        
+        return DataTables::of($pegawai)
+                        ->addColumn('action', function($pegawai){
+                            return view('admin.pegawai.action', [
+                                'pegawai' => $pegawai,
+                                'url_show' => route('admin.pegawai.show', $pegawai->id),
+                                'url_edit' => route('admin.pegawai.edit', $pegawai->id)
+                            ]);
+                        })
+                        ->addIndexColumn()
+                        ->rawColumns(['action'])
+                        ->make(true);
     }
 }

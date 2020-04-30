@@ -36,14 +36,14 @@ class LoginController extends Controller
             $request->session()->put('role', Auth::user()->role);
             $request->session()->put('id', Auth::id());
 
-            return redirect('admin')->with('succes', 'Selamat datang admin '.Auth::user()->username);
+            return redirect('admin');
 
             }elseif($level == 'user') {
                 // jika berhasil login dan role user
                 $request->session()->put('role', Auth::user()->role);
                 $request->session()->put('id', Auth::id());
 
-                return redirect('user')->with('succes', 'Selamat datang user '.Auth::user()->username);
+                return redirect('user');
             }
         }
         else {

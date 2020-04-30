@@ -38,6 +38,8 @@ Route::prefix('admin')->namespace('Admin')->middleware('cek.admin', 'cek')->grou
     Route::get('/help', 'ProfileController@help')->name('helpadmin');
     Route::get('/cetak/{id}', 'TallentController@cetak_pdf')->name('admin.tallent.cetak');
     Route::patch('/reset/{id}', 'ProfileController@resetPass')->name('admin.reset.pass');
+    Route::get('/deleteusers/{id}', 'UsersController@destroy')->name('admin.users.delete');
+    Route::get('/getpegawai', 'PegawaiController@dataTables')->name('admin.pegawai.get');
     Route::resource('users' , 'UsersController',['as' => 'admin']);
     Route::resource('pegawai' , 'PegawaiController',['as' => 'admin']);
     Route::resource('unitkerja' , 'UnitKerjaController',['as' => 'admin']);

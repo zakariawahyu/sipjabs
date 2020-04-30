@@ -3,7 +3,7 @@
 @section('title', 'SIPJABS | Data Users')
 
 @section('content')
-<div class="right_col" role="main">
+      <div class="right_col" role="main">
         <div class="">
           <div class="page-title">
             <div class="title_left">
@@ -24,7 +24,7 @@
 
           <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
-              <a href="#" class="btn btn-info pull-right"><i class="fa fa-plus-circle"></i> Tambah User</a>
+              <a href="{{ route('admin.users.create') }}" class="btn btn-info pull-right"><i class="fa fa-plus-circle"></i> Tambah User</a>
               <div class="x_panel">
 
                 <div class="x_title">
@@ -53,11 +53,12 @@
                     <thead>
                       <tr>
                         <th>No</th>
-                        <th>Username</th>
                         <th>Nama Lengkap</th>
                         <th>Jabatan</th>
+                        <th>Username</th>
+                        <th>Email</th>
                         <th>Hak Akses</th>
-                        <th style="width: 15%;">Action</th>
+                        <th>Action</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -67,13 +68,14 @@
                       @foreach ($users as $user)
                       <tr>
                         <td>{{ $no++ }}</td>
-                        <td>{{ $user->username }}</td>
                         <td>{{ $user->pegawai->nama_lengkap }}</td>
                         <td>{{ $user->pegawai->jabatanstruktural->jabatan->nama_jabatan }} {{$user->pegawai->jabatanstruktural->unitbagian->nama_unitbagian}}</td>
+                        <td>{{ $user->username }}</td>
+                        <td>{{ $user->email }}</td>
                         <td>{{ $user->role }}</td>
                         <td class="text-center">
-                          <a href="#" class="btn btn-primary"><i class="fa fa-edit"></i> Edit</a>
-                          <a href="#" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
+                          <a href="{{ route('admin.users.edit', $user->id) }}" class="btn btn-primary btn-edit-users-admin"><i class="fa fa-edit"></i> Edit</a>
+                          <a href="{{ route('admin.users.delete', $user->id) }}" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
                         </td>
                       </tr>
                       @endforeach

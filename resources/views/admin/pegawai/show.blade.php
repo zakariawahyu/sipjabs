@@ -1,19 +1,5 @@
     <div role="main">
         <div class="">
-          <div class="page-title">
-            <div class="title_left">
-              <h3>Detail Pegawai</h3>
-            </div>
-
-            <div class="title_right">
-              <div class="col-md-3 col-sm-3 col-xs-8 pull-right">
-                <ol class="breadcrumb float-sm-right">
-                  <li class="breadcrumb-item"><a href="#">Home</a></li>
-                  <li class="breadcrumb-item active">Detail Pegawai</li>
-                </ol>
-              </div>
-            </div>
-          </div>
 
           <div class="clearfix"></div>
 
@@ -27,12 +13,6 @@
                       </li>
                       <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
-                        <ul class="dropdown-menu" role="menu">
-                          <li><a href="#">Settings 1</a>
-                          </li>
-                          <li><a href="#">Settings 2</a>
-                          </li>
-                        </ul>
                       </li>
                       <li><a class="close-link"><i class="fa fa-close"></i></a>
                       </li>

@@ -42,14 +42,7 @@ class CartController extends Controller
      */
     public function store(Request $request)
     {
-        $cart = new Cart;
-
-        $cart->id_user = session('id');
-        $cart->id_pegawai = $request->id;
-
-        $cart->save();
-
-        return back()->with('succes', 'Berhasil ditambahkan ke Cart');
+        //
     }
 
     /**
@@ -118,7 +111,7 @@ class CartController extends Controller
     public function addCart($id)
     {
         $carts = Cart::where('id_user', session('id'))
-                        ->where('id_pegawai', $id)->get();
+                    ->where('id_pegawai', $id)->get();
         
             
         if ($carts->count()>0)
@@ -129,12 +122,10 @@ class CartController extends Controller
         } else
         {
 
-        $cart = new Cart;
-
-        $cart->id_user = session('id');
-        $cart->id_pegawai = $id;
-
-        $cart->save();
+        Cart::create([
+            'id_user' => session('id'),
+            'id_pegawai' => $id
+        ]);
 
         return back()->with('succes', 'Berhasil ditambahkan ke cart');
 

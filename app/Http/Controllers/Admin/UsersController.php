@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
 use App\User;
+use App\Pegawai;
 
 use Illuminate\Http\Request;
 
@@ -30,7 +31,9 @@ class UsersController extends Controller
      */
     public function create()
     {
-        //
+        $pegawai = Pegawai::all();
+
+        return view('admin.users.create', compact('pegawai'));
     }
 
     /**
@@ -41,7 +44,23 @@ class UsersController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $users = User::where('id_pegawai', $request->id_pegawai)->first();
+
+        if ($users != null) {
+            return back()->with('error', 'Pegawai sudah mempunyai akun');
+        } else {
+
+            User::create([
+                'id_pegawai' => $request->id_pegawai,
+                'username' => $request->username,
+                'password' => bcrypt($request->password),
+                'email' => $request->email,
+                'role' => $request->role,
+            ]);
+
+            return back()->with('succes', 'Pegawai berhasil di daftarkan sebagai users');
+        }
+        
     }
 
     /**
@@ -63,7 +82,10 @@ class UsersController extends Controller
      */
     public function edit($id)
     {
-        //
+
+        $user = User::find($id);
+
+        return view('admin.users.edit', compact('user'));
     }
 
     /**
@@ -86,6 +108,10 @@ class UsersController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $users = User::find($id);
+
+        $users->delete();
+
+        return back()->with('succes', 'User berhasil dihapus');
     }
 }
