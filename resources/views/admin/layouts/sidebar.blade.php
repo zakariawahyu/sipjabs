@@ -46,8 +46,11 @@
                     <li><a href="{{ route('admin.unitkerja.index') }}">Data Unit Kerja</a></li>
                     <li><a href="{{ route('admin.jabatan.index') }}">Data Jabatan</a></li>
                     <li><a href="{{ route('admin.unitbagian.index') }}">Data Unit Bagian</a></li>
+                    <li><a href="{{ route('admin.jabatanstruktural.index') }}">Data Jabatan Struktural</a></li>
                   </ul>
                 </li>
+                <li><a href="{{ route('admin.pendidikan.index') }}"><i class="fa fa-graduation-cap"></i> Data Pendidikan</a></li>
+                <li><a href="{{ route('admin.skill.index') }}"><i class="fa fa-certificate"></i> Data Skill</a></li>
               </ul>
             </div>
           </div>

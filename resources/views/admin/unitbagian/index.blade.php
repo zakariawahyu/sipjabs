@@ -35,12 +35,6 @@
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i
                           class="fa fa-wrench"></i></a>
-                      <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">Settings 1</a>
-                        </li>
-                        <li><a href="#">Settings 2</a>
-                        </li>
-                      </ul>
                     </li>
                     <li><a class="close-link"><i class="fa fa-close"></i></a>
                     </li>
@@ -67,7 +61,6 @@
                         <td>{{ $no++ }}</td>
                         <td>{{ $ub->nama_unitbagian }}</td>
                         <td class="text-center">
-                          <a href="#" class="btn btn-info"><i class="fa fa-eye"></i> View</a>
                           <a href="#" class="btn btn-primary"><i class="fa fa-edit"></i> Edit</a>
                           <a href="#" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
                         </td>

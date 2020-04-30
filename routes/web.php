@@ -40,14 +40,17 @@ Route::prefix('admin')->namespace('Admin')->middleware('cek.admin', 'cek')->grou
     Route::patch('/reset/{id}', 'ProfileController@resetPass')->name('admin.reset.pass');
     Route::get('/deleteusers/{id}', 'UsersController@destroy')->name('admin.users.delete');
     Route::get('/getpegawai', 'PegawaiController@dataTables')->name('admin.pegawai.get');
+    Route::get('/getjabatanstruk', 'JabatanStrukturalController@dataTables')->name('admin.jabatanstruktural.get');
     Route::resource('users' , 'UsersController',['as' => 'admin']);
     Route::resource('pegawai' , 'PegawaiController',['as' => 'admin']);
     Route::resource('unitkerja' , 'UnitKerjaController',['as' => 'admin']);
     Route::resource('jabatan' , 'JabatanController',['as' => 'admin']);
     Route::resource('unitbagian' , 'UnitBagianController',['as' => 'admin']);
+    Route::resource('jabatanstruktural' , 'JabatanStrukturalController',['as' => 'admin']);
     Route::resource('profile' , 'ProfileController',['as' => 'admin']);
     Route::resource('tallent' , 'TallentController',['as' => 'admin']);
-
+    Route::resource('pendidikan' , 'PendidikanController',['as' => 'admin']);
+    Route::resource('skill' , 'SkillController',['as' => 'admin']);
 });
 
 Route::prefix('user')->namespace('User')->middleware('cek.user')->group(function(){

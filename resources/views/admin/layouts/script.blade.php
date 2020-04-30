@@ -149,6 +149,11 @@
 </script>
 
 <script>
+  $("#datatableskill").DataTable()
+  $("#datatablependidikan").DataTable()
+</script>
+
+<script>
   $("#datatablepegawai").DataTable({
     processing: true,
     serverSide: true,
@@ -161,6 +166,21 @@
       {data: 'jabatanstruktural', render: function (data, type, row) {
         return row.jabatanstruktural.jabatan.nama_jabatan +' '+ row.jabatanstruktural.unitbagian.nama_unitbagian
       }},
+      {data: 'action', name: 'action'},
+    ]
+  })
+</script>
+
+<script>
+  $("#datatablejabstruk").DataTable({
+    processing: true,
+    serverSide: true,
+    ajax: "{{ route('admin.jabatanstruktural.get') }}",
+    columns: [
+      {data: 'DT_RowIndex', name: 'id'},
+      {data: 'unitkerja.nama_unitkerja', name: 'nama_unitkerja'},
+      {data: 'jabatan.nama_jabatan', name: 'nama_jabatan'},
+      {data: 'unitbagian.nama_unitbagian', name: 'nama_unitbagian'},
       {data: 'action', name: 'action'},
     ]
   })

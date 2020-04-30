@@ -1,14 +1,13 @@
 <?php
 
 namespace App\Http\Controllers\Admin;
+
 use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\DB;
-use App\Pegawai;
+use Illuminate\Http\Request;
+use App\JabatanStruktural;
 use DataTables;
 
-use Illuminate\Http\Request;
-
-class PegawaiController extends Controller
+class JabatanStrukturalController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -17,7 +16,7 @@ class PegawaiController extends Controller
      */
     public function index()
     {
-        return view('admin.pegawai.index');
+        return view('admin.jabatanstruktural.index');
     }
 
     /**
@@ -49,13 +48,7 @@ class PegawaiController extends Controller
      */
     public function show($id)
     {
-        $pegawai = Pegawai::with(['riwayatpendidikan', 'riwayatpendidikan.pendidikan', 'jabatanstruktural', 
-                                'jabatanstruktural.jabatan', 'jabatanstruktural.unitbagian', 'jabatanstruktural.unitkerja',
-                                'skillpegawai', 'skillpegawai.skill'])
-                                ->where('pegawai.id', $id)
-                                ->first();        
-
-        return view('admin.pegawai.show', compact('pegawai'));
+        //
     }
 
     /**
@@ -66,7 +59,7 @@ class PegawaiController extends Controller
      */
     public function edit($id)
     {
-        return view('admin.pegawai.edit');
+        //
     }
 
     /**
@@ -94,16 +87,14 @@ class PegawaiController extends Controller
 
     public function dataTables()
     {
-        $pegawai = Pegawai::with(['jabatanstruktural', 'jabatanstruktural.jabatan', 'jabatanstruktural.unitbagian'])
-                                ->orderBy('pegawai.id', 'asc')
-                                ->get();
-        
-        return DataTables::of($pegawai)
-                        ->addColumn('action', function($pegawai){
-                            return view('admin.pegawai.action', [
-                                'pegawai' => $pegawai,
-                                'url_show' => route('admin.pegawai.show', $pegawai->id),
-                                'url_edit' => route('admin.pegawai.edit', $pegawai->id)
+        $jabatanstruk = JabatanStruktural::with(['unitkerja', 'jabatan', 'unitbagian'])->get();
+
+        return DataTables::of($jabatanstruk)
+                        ->addColumn('action', function($jabatanstruk){
+                            return view('admin.jabatanstruktural.action', [
+                                'jabatanstruk' => $jabatanstruk,
+                                'url_delete' => route('admin.jabatanstruktural.destroy', $jabatanstruk->id),
+                                'url_edit' => route('admin.jabatanstruktural.edit', $jabatanstruk->id),
                             ]);
                         })
                         ->addIndexColumn()

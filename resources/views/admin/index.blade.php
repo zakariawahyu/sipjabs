@@ -41,7 +41,7 @@
           </div>
         </div>
         <div class="row top_tiles">
-          <div class="animated flipInY col-md-4 col-sm-6 col-xs-12">
+          <div class="animated flipInY col-md-4 col-sm-12 col-xs-12">
             <div class="tile-stats">
               <div class="icon"><i class="fa fa-users"></i></div>
               <div class="count">{{ $users->count() }}</div>
@@ -49,7 +49,7 @@
               <p>Jumlah user yang menggunakan aplikasi ini.</p>
             </div>
           </div>
-          <div class="animated flipInY col-md-4 col-sm-6 col-xs-12">
+          <div class="animated flipInY col-md-4 col-sm-12 col-xs-12">
             <div class="tile-stats">
               <div class="icon"><i class="fa fa-database"></i></div>
               <div class="count">{{ $pegawai->count() }}</div>
@@ -57,7 +57,7 @@
               <p>Jumlah seluruh pegawai di Universitas Telkom.</p>
             </div>
           </div>
-          <div class="animated flipInY col-md-4 col-sm-6 col-xs-12">
+          <div class="animated flipInY col-md-4 col-sm-12 col-xs-12">
             <div class="tile-stats">
               <div class="icon"><i class="fa fa-list"></i></div>
               <div class="count">{{ $tallent->count() }}</div>
@@ -67,7 +67,7 @@
           </div>
         </div>
         <div class="row top_tiles">
-          <div class="animated flipInY col-md-4 col-sm-6 col-xs-12">
+          <div class="animated flipInY col-md-4 col-sm-12 col-xs-12">
             <div class="tile-stats">
               <div class="icon"><i class="fa fa-credit-card"></i></div>
               <div class="count">{{ $unitkerja->count() }}</div>
@@ -75,7 +75,7 @@
               <p>Jumlah seluruh unit kerja di Universitas Telkom.</p>
             </div>
           </div>
-          <div class="animated flipInY col-md-4 col-sm-6 col-xs-12">
+          <div class="animated flipInY col-md-4 col-sm-12 col-xs-12">
             <div class="tile-stats">
               <div class="icon"><i class="fa fa-credit-card"></i></div>
               <div class="count">{{ $jabatan->count() }}</div>
@@ -83,12 +83,30 @@
               <p>Jumlah seluruh jabatan di Universitas Telkom.</p>
             </div>
           </div>
-          <div class="animated flipInY col-md-4 col-sm-6 col-xs-12">
+          <div class="animated flipInY col-md-4 col-sm-12 col-xs-12">
             <div class="tile-stats">
               <div class="icon"><i class="fa fa-credit-card"></i></div>
               <div class="count">{{ $unitbagian->count() }}</div>
               <h3>Unit Bagian</h3>
               <p>Jumlah seluruh unit bagian di Universitas Telkom.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row top_tiles">
+          <div class="animated flipInY col-md-6 col-sm-12 col-xs-12">
+            <div class="tile-stats">
+              <div class="icon"><i class="fa fa-graduation-cap"></i></div>
+              <div class="count">{{ $unitbagian->count() }}</div>
+              <h3>Pendidikan</h3>
+              <p>Jumlah seluruh pendidikan pegawai.</p>
+            </div>
+          </div>
+          <div class="animated flipInY col-md-6 col-sm-12 col-xs-12">
+            <div class="tile-stats">
+              <div class="icon"><i class="fa fa-certificate"></i></div>
+              <div class="count">{{ $unitbagian->count() }}</div>
+              <h3>Skill</h3>
+              <p>Jumlah seluruh skill pegawai.</p>
             </div>
           </div>
         </div>

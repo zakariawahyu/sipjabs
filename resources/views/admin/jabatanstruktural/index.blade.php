@@ -7,14 +7,14 @@
         <div class="">
           <div class="page-title">
             <div class="title_left">
-              <h3>Jabatan</h3>
+              <h3>Jabatan Struktural</h3>
             </div>
 
             <div class="title_right">
               <div class="col-md-3 col-sm-3 col-xs-8 pull-right">
                 <ol class="breadcrumb float-sm-right">
                   <li class="breadcrumb-item"><a href="#">Home</a></li>
-                  <li class="breadcrumb-item active">Jabatan</li>
+                  <li class="breadcrumb-item active">Jabatan Struktural</li>
                 </ol>
               </div>
             </div>
@@ -24,11 +24,11 @@
 
           <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
-              <a href="#" class="btn btn-info pull-right"><i class="fa fa-plus-circle"></i> Tambah Jabatan</a>
+              <a href="#" class="btn btn-info pull-right"><i class="fa fa-plus-circle"></i> Tambah Jabatan Struktural</a>
               <div class="x_panel">
 
                 <div class="x_title">
-                  <h2>Data Jabatan</h2>
+                  <h2>Data Jabatan Struktural</h2>
                   <ul class="nav navbar-right panel_toolbox">
                     <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                     </li>
@@ -43,29 +43,17 @@
                 </div>
 
                 <div class="x_content">
-                  <table id="datatable" class="table table-striped table-bordered">
+                  <table id="datatablejabstruk" class="table table-striped table-bordered">
                     <thead>
                       <tr>
-                        <th style="width: 5%;">No</th>
-                        <th>Nama Jabatan</th>
-                        <th style="width: 20%;">Action</th>
+                        <th>No</th>
+                        <th>Unit Kerja</th>
+                        <th>Jabatan Jabatan</th>
+                        <th>Unit Bagian</th>
+                        <th>Action</th>
                       </tr>
                     </thead>
                     <tbody>
-                      @php
-                          $no = 1;
-                      @endphp
-
-                      @foreach ($jabatan as $jb)
-                      <tr>
-                        <td>{{ $no++ }}</td>
-                        <td>{{ $jb->nama_jabatan }}</td>
-                        <td class="text-center">
-                          <a href="#" class="btn btn-primary"><i class="fa fa-edit"></i> Edit</a>
-                          <a href="#" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
-                        </td>
-                      </tr>  
-                      @endforeach
                       
                     </tbody>
                   </table>
