@@ -24,11 +24,11 @@
 
           <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
-              <a href="#" class="btn btn-info pull-right"><i class="fa fa-plus-circle"></i> Tambah Unit Kerja</a>
+              <a href="{{ route('admin.unitkerja.create') }}" class="btn btn-info pull-right btn-add-unitkerja" title="Tambah Unit Kerja"><i class="fa fa-plus-circle"></i> Tambah Unit Kerja</a>
               <div class="x_panel">
 
                 <div class="x_title">
-                  <h2>Data Tallent</h2>
+                  <h2>Data Unit Kerja</h2>
                   <ul class="nav navbar-right panel_toolbox">
                     <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                     </li>
@@ -61,7 +61,7 @@
                         <td>{{ $uk->nama_unitkerja }}</td>
                         <td class="text-center">
                           <a href="#" class="btn btn-primary"><i class="fa fa-edit"></i> Edit</a>
-                          <a href="#" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
+                          <a href="{{ route('admin.unitkerja.delete', $uk->id) }}" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
                         </td>
                       </tr>
                     @endforeach

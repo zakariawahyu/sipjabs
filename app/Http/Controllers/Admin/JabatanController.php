@@ -27,7 +27,9 @@ class JabatanController extends Controller
      */
     public function create()
     {
-        //
+        $leveljabatan = Jabatan::select('level_jabatan')->distinct()->get();
+
+        return view('admin.jabatan.create', compact('leveljabatan'));
     }
 
     /**
@@ -38,7 +40,23 @@ class JabatanController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $jabatan= Jabatan::where('nama_jabatan', $request->jabatan)->first();
+
+        if ($jabatan == null) 
+        {
+            Jabatan::create([
+                'nama_jabatan' => $request->jabatan,
+                'level_jabatan' => $request->level
+            ]);
+
+            return back()->with('succes', 'Jabatan berhasil ditambahkan');
+
+        } else 
+        {
+
+            return back()->with('error', 'Jabatan sudah ada dalam database');
+
+        }
     }
 
     /**
@@ -83,6 +101,10 @@ class JabatanController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $jabatan = Jabatan::find($id);
+
+        $jabatan->delete();
+
+        return back()->with('succes', 'Jabatan berhasil dihapus');
     }
 }

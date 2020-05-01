@@ -24,7 +24,7 @@
 
           <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
-              <a href="#" class="btn btn-info pull-right"><i class="fa fa-plus-circle"></i> Tambah Unit Bagian</a>
+              <a href="{{ route('admin.unitbagian.create') }}" title="Tambah Unit Bagian" class="btn btn-info pull-right btn-add-unitbagian"><i class="fa fa-plus-circle"></i> Tambah Unit Bagian</a>
               <div class="x_panel">
 
                 <div class="x_title">
@@ -62,7 +62,7 @@
                         <td>{{ $ub->nama_unitbagian }}</td>
                         <td class="text-center">
                           <a href="#" class="btn btn-primary"><i class="fa fa-edit"></i> Edit</a>
-                          <a href="#" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
+                          <a href="{{ route('admin.unitbagian.delete', $ub->id) }}" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
                         </td>
                       </tr>
                       @endforeach

@@ -1,6 +1,6 @@
 @extends('admin.layouts.master')
 
-@section('title', 'SIPJABS | Data Jabatan')
+@section('title', 'SIPJABS | Data Jabatan Struktural')
 
 @section('content')
     <div class="right_col" role="main">
@@ -24,7 +24,7 @@
 
           <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
-              <a href="#" class="btn btn-info pull-right"><i class="fa fa-plus-circle"></i> Tambah Jabatan Struktural</a>
+              <a href="{{ route('admin.jabatanstruktural.create') }}" class="btn btn-info pull-right"><i class="fa fa-plus-circle"></i> Tambah Jabatan Struktural</a>
               <div class="x_panel">
 
                 <div class="x_title">

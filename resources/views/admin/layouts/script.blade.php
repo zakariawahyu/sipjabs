@@ -86,9 +86,9 @@
 {{-- end script show pegawai and show tallent on admin --}}
 
 
-{{-- script show edit and reset pass admin on profile--}}
+{{-- script show edit and reset pass admin on profile + add jabatan, unit kerja and unit bagian--}}
 <script>
-  $('body').on('click', '.btn-edit-admin, .btn-reset-admin, .btn-edit-users-admin', function(event){
+  $('body').on('click', '.btn-edit-admin, .btn-reset-admin, .btn-edit-users-admin, .btn-add-unitbagian, .btn-add-unitkerja, .btn-add-jabatan, .btn-add-skill, .btn-add-pendidikan', function(event){
     event.preventDefault();
 
     var me = $(this),
@@ -110,7 +110,7 @@
     $('#modal').modal('show');
   });
 </script>
-{{-- end script show edit and reset pass admin on profile--}}
+{{-- end script show edit and reset pass admin on profile + add jabatan, unit kerja and unit bagian--}}
 
 {{-- script notification --}}
 @if (session('error'))

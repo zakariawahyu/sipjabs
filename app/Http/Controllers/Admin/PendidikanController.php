@@ -27,7 +27,9 @@ class PendidikanController extends Controller
      */
     public function create()
     {
-        //
+        $jenjang = Pendidikan::select('jenjang_pendidikan')->distinct()->get();
+
+        return view('admin.pendidikan.create', compact('jenjang'));
     }
 
     /**
@@ -38,7 +40,25 @@ class PendidikanController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $pendidikan = Pendidikan::where('jurusan', $request->jurusan)
+                            ->where('jenjang_pendidikan', $request->jenjang)
+                            ->first();
+
+        if ($pendidikan == null) 
+        {
+            Pendidikan::create([
+                'jenjang_pendidikan' => $request->jenjang,
+                'jurusan' => $request->jurusan
+            ]);
+            
+            return back()->with('succes', 'Pendidikan berhasil ditambahkan');
+
+        } else 
+        {
+
+            return back()->with('error', 'Pendidikan sudah ada dalam database');
+
+        }
     }
 
     /**
@@ -83,6 +103,10 @@ class PendidikanController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $pendidikan = Pendidikan::find($id);
+
+        $pendidikan->delete();
+
+        return back()->with('succes', 'Pendidikan berhasil dihapus');
     }
 }

@@ -8,6 +8,8 @@ use App\Tallent;
 use App\UnitKerja;
 use App\Jabatan;
 use App\UnitBagian;
+use App\Skill;
+use App\Pendidikan;
 
 use Illuminate\Http\Request;
 
@@ -26,9 +28,10 @@ class AdminController extends Controller
         $unitkerja = UnitKerja::all();
         $jabatan = Jabatan::all();
         $unitbagian = UnitBagian::all();
+        $pendidikan = Pendidikan::all();
+        $skill = Skill::all();
 
-
-        return view('admin.index', compact('users', 'pegawai', 'tallent', 'unitkerja', 'jabatan','unitbagian'));
+        return view('admin.index', compact('users', 'pegawai', 'tallent', 'unitkerja', 'jabatan','unitbagian', 'pendidikan', 'skill'));
     }
 
     /**

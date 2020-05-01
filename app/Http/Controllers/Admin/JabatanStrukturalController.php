@@ -4,6 +4,9 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\UnitKerja;
+use App\Jabatan;
+use App\UnitBagian;
 use App\JabatanStruktural;
 use DataTables;
 
@@ -26,7 +29,11 @@ class JabatanStrukturalController extends Controller
      */
     public function create()
     {
-        //
+        $unitkerja = UnitKerja::all();
+        $jabatan = Jabatan::all();
+        $unitbagian = UnitBagian::all();
+
+        return view('admin.jabatanstruktural.create', compact('unitkerja', 'jabatan', 'unitbagian'));
     }
 
     /**
@@ -37,7 +44,29 @@ class JabatanStrukturalController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
+        $jabstruk = JabatanStruktural::select('id')
+                                    ->where('id_jabatan', $request->jabatan)
+                                    ->where('id_unitkerja', $request->unitkerja)
+                                    ->where('id_unitbagian', $request->unitbagian)
+                                    ->first();
+
+        if ($jabstruk == null) 
+        {
+            JabatanStruktural::create([
+                'id_unitkerja' => $request->unitkerja,
+                'id_jabatan' => $request->jabatan,
+                'id_unitbagian' => $request->unitbagian,
+                'formasi_jabatan' => $request->formasi,
+            ]);
+
+            return back()->with('succes', 'Unit kerja berhasil ditambahkan');
+
+        } else 
+        {
+            return back()->with('error', 'Jabatan Struktural sudah ada di database');
+        }
+        
     }
 
     /**
@@ -82,7 +111,11 @@ class JabatanStrukturalController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $jabstruk = JabatanStruktural::find($id);
+
+        $jabstruk->delete();
+
+        return back()->with('succes', 'Jabatan Struktural berhasil dihapus');
     }
 
     public function dataTables()
@@ -93,7 +126,7 @@ class JabatanStrukturalController extends Controller
                         ->addColumn('action', function($jabatanstruk){
                             return view('admin.jabatanstruktural.action', [
                                 'jabatanstruk' => $jabatanstruk,
-                                'url_delete' => route('admin.jabatanstruktural.destroy', $jabatanstruk->id),
+                                'url_delete' => route('admin.jabatanstruktural.delete', $jabatanstruk->id),
                                 'url_edit' => route('admin.jabatanstruktural.edit', $jabatanstruk->id),
                             ]);
                         })

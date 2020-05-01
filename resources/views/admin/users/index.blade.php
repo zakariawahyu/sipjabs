@@ -74,8 +74,8 @@
                         <td>{{ $user->email }}</td>
                         <td>{{ $user->role }}</td>
                         <td class="text-center">
-                          <a href="{{ route('admin.users.edit', $user->id) }}" class="btn btn-primary btn-edit-users-admin"><i class="fa fa-edit"></i> Edit</a>
-                          <a href="{{ route('admin.users.delete', $user->id) }}" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
+                          <a href="{{ route('admin.users.edit', $user->id) }}" title="Edit Profile {{ $user->pegawai->nama_lengkap }}" class="btn btn-primary btn-edit-users-admin"><i class="fa fa-edit"></i> Edit</a>
+                          <a href="{{ route('admin.users.delete', $user->id) }}" title="Edit Profile {{ $user->pegawai->nama_lengkap }}" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
                         </td>
                       </tr>
                       @endforeach

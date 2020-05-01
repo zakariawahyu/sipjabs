@@ -1,6 +1,6 @@
 @extends('admin.layouts.master')
 
-@section('title', 'SIPJABS | Data Jabatan')
+@section('title', 'SIPJABS | Data Skill')
 
 @section('content')
     <div class="right_col" role="main">
@@ -11,7 +11,7 @@
             </div>
 
             <div class="title_right">
-              <div class="col-md-3 col-sm-3 col-xs-8 pull-right">
+              <div class="col-md-2 col-sm-2 col-xs-8 pull-right">
                 <ol class="breadcrumb float-sm-right">
                   <li class="breadcrumb-item"><a href="#">Home</a></li>
                   <li class="breadcrumb-item active">Skill</li>
@@ -24,7 +24,7 @@
 
           <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
-              <a href="#" class="btn btn-info pull-right"><i class="fa fa-plus-circle"></i> Tambah Skill</a>
+              <a href="{{ route('admin.skill.create') }}" title="Tambah Skill" class="btn btn-info pull-right btn-add-skill"><i class="fa fa-plus-circle"></i> Tambah Skill</a>
               <div class="x_panel">
 
                 <div class="x_title">
@@ -61,7 +61,7 @@
                         <td>{{ $sk->nama_skill }}</td>
                         <td class="text-center">
                           <a href="#" class="btn btn-primary"><i class="fa fa-edit"></i> Edit</a>
-                          <a href="#" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
+                          <a href="{{ route('admin.skill.delete', $sk->id) }}" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
                         </td>
                       </tr>
                       @endforeach

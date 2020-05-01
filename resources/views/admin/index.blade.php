@@ -96,7 +96,7 @@
           <div class="animated flipInY col-md-6 col-sm-12 col-xs-12">
             <div class="tile-stats">
               <div class="icon"><i class="fa fa-graduation-cap"></i></div>
-              <div class="count">{{ $unitbagian->count() }}</div>
+              <div class="count">{{ $pendidikan->count() }}</div>
               <h3>Pendidikan</h3>
               <p>Jumlah seluruh pendidikan pegawai.</p>
             </div>
@@ -104,7 +104,7 @@
           <div class="animated flipInY col-md-6 col-sm-12 col-xs-12">
             <div class="tile-stats">
               <div class="icon"><i class="fa fa-certificate"></i></div>
-              <div class="count">{{ $unitbagian->count() }}</div>
+              <div class="count">{{ $skill->count() }}</div>
               <h3>Skill</h3>
               <p>Jumlah seluruh skill pegawai.</p>
             </div>

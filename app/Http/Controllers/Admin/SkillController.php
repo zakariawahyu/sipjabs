@@ -27,7 +27,7 @@ class SkillController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.skill.create');
     }
 
     /**
@@ -38,7 +38,22 @@ class SkillController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $skills = Skill::where('nama_skill', $request->skill)->first();
+
+        if ($skills == null) 
+        {
+            Skill::create([
+                'nama_skill' => $request->skill
+            ]);
+            
+            return back()->with('succes', 'Skill berhasil ditambahkan');
+
+        } else 
+        {
+
+            return back()->with('error', 'Skill sudah ada dalam database');
+
+        }
     }
 
     /**
@@ -83,6 +98,10 @@ class SkillController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $skills = Skill::find($id);
+
+        $skills->delete();
+
+        return back()->with('succes', 'Skill berhasil dihapus');
     }
 }

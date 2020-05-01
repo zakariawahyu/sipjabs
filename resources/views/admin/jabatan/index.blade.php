@@ -24,7 +24,7 @@
 
           <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
-              <a href="#" class="btn btn-info pull-right"><i class="fa fa-plus-circle"></i> Tambah Jabatan</a>
+              <a href="{{ route('admin.jabatan.create') }}" class="btn btn-info pull-right btn-add-jabatan" title="Tambah Jabatan"><i class="fa fa-plus-circle"></i> Tambah Jabatan</a>
               <div class="x_panel">
 
                 <div class="x_title">
@@ -62,7 +62,7 @@
                         <td>{{ $jb->nama_jabatan }}</td>
                         <td class="text-center">
                           <a href="#" class="btn btn-primary"><i class="fa fa-edit"></i> Edit</a>
-                          <a href="#" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
+                          <a href="{{ route('admin.jabatan.delete', $jb->id) }}" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
                         </td>
                       </tr>  
                       @endforeach

@@ -28,7 +28,7 @@ class UnitKerjaController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.unitkerja.create');
     }
 
     /**
@@ -39,7 +39,22 @@ class UnitKerjaController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $unitkerja = Unitkerja::where('nama_unitkerja', $request->unitkerja)->first();
+
+        if ($unitkerja == null) 
+        {
+            UnitKerja::create([
+                'nama_unitkerja' => $request->unitkerja
+            ]);
+            
+            return back()->with('succes', 'Unit kerja berhasil ditambahkan');
+
+        } else 
+        {
+
+            return back()->with('error', 'Unit kerja sudah ada dalam database');
+
+        }
     }
 
     /**
@@ -84,6 +99,10 @@ class UnitKerjaController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $unitkerja = UnitKerja::find($id);
+
+        $unitkerja->delete();
+
+        return back()->with('succes', 'Unit Kerja berhasil dihapus');
     }
 }

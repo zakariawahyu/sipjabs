@@ -1,6 +1,6 @@
 @extends('admin.layouts.master')
 
-@section('title', 'SIPJABS | Data Jabatan')
+@section('title', 'SIPJABS | Data Pendidikan')
 
 @section('content')
     <div class="right_col" role="main">
@@ -24,7 +24,7 @@
 
           <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
-              <a href="#" class="btn btn-info pull-right"><i class="fa fa-plus-circle"></i> Tambah Pendidikan</a>
+              <a href="{{ route('admin.pendidikan.create') }}" title="Tambah Data Pendidikan" class="btn btn-info pull-right btn-add-pendidikan"><i class="fa fa-plus-circle"></i> Tambah Pendidikan</a>
               <div class="x_panel">
 
                 <div class="x_title">
@@ -63,7 +63,7 @@
                             <td>{{ $pk->jurusan }}</td>
                             <td class="text-center">
                               <a href="#" class="btn btn-primary"><i class="fa fa-edit"></i> Edit</a>
-                              <a href="#" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
+                              <a href="{{ route('admin.pendidikan.delete', $pk->id) }}" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
                             </td>
                           </tr>
                       @endforeach

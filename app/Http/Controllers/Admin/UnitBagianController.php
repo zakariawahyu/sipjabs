@@ -28,7 +28,7 @@ class UnitBagianController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.unitbagian.create');
     }
 
     /**
@@ -39,7 +39,22 @@ class UnitBagianController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $unitbagian = UnitBagian::where('nama_unitbagian', $request->unitbagian)->first();
+
+        if ($unitbagian == null) 
+        {
+            UnitBagian::create([
+                'nama_unitbagian' => $request->unitbagian
+            ]);
+            
+            return back()->with('succes', 'Unit bagian berhasil ditambahkan');
+
+        } else 
+        {
+
+            return back()->with('error', 'Unit bagian sudah ada dalam database');
+
+        }
     }
 
     /**
@@ -84,6 +99,10 @@ class UnitBagianController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $unitbagian = UnitBagian::find($id);
+
+        $unitbagian->delete();
+
+        return back()->with('succes', 'Unit Bagian berhasil dihapus');
     }
 }
