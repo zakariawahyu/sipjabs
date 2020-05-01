@@ -30,17 +30,17 @@
                     <div class="form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12">Username</label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input type="text" required="required" class="form-control col-md-7 col-xs-12" name="username" placeholder="{{ $user->username }}" value="{{ old('username') }}">
+                          <input type="text" required="required" class="form-control col-md-7 col-xs-12" name="username" value="{{ $user->username }}" value="{{ old('username') }}">
                         </div>
                       </div>
                       <div class="form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12">Email</label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input type="text" required="required" class="form-control col-md-7 col-xs-12" name="email" placeholder="{{ $user->email }}" value="{{ old('email') }}">
+                          <input type="text" required="required" class="form-control col-md-7 col-xs-12" name="email" value="{{ $user->email }}" value="{{ old('email') }}">
                         </div>
                       </div>
                       <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Foto</label>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Role</label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                           <select name="role" class="form-control col-md-7 col-xs-12">
                               <option value="users" @if ($user->role == 'user')

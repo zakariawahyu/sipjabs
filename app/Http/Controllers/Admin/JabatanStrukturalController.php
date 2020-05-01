@@ -88,7 +88,12 @@ class JabatanStrukturalController extends Controller
      */
     public function edit($id)
     {
-        //
+        $unitkerja = UnitKerja::all();
+        $jabatan = Jabatan::all();
+        $unitbagian = UnitBagian::all();
+        $jabstruk = JabatanStruktural::find($id);
+
+        return view('admin.jabatanstruktural.edit', compact('unitkerja', 'jabatan', 'unitbagian', 'jabstruk'));
     }
 
     /**
@@ -100,7 +105,14 @@ class JabatanStrukturalController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        JabatanStruktural::where('id', $id)->update([
+            'id_unitkerja' => $request->unitkerja,
+            'id_jabatan' => $request->jabatan,
+            'id_unitbagian' => $request->unitbagian,
+            'formasi_jabatan' => $request->formasi
+        ]);
+
+        return back()->with('succes', 'Jabatan Struktural berhasil diupdate');
     }
 
     /**

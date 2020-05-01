@@ -80,7 +80,11 @@ class PendidikanController extends Controller
      */
     public function edit($id)
     {
-        //
+        $jenjang = Pendidikan::select('jenjang_pendidikan')->distinct()->get();
+
+        $pendidikan = Pendidikan::find($id);
+
+        return view('admin.pendidikan.edit', compact('jenjang', 'pendidikan'));
     }
 
     /**
@@ -92,7 +96,12 @@ class PendidikanController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        Pendidikan::where('id', $id)->update([
+            'jenjang_pendidikan' => $request->jenjang,
+            'jurusan' => $request->jurusan,
+        ]);
+
+        return back()->with('succes', 'Pendidikan berhasil di update');
     }
 
     /**

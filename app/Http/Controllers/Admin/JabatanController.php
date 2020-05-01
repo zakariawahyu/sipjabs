@@ -78,7 +78,9 @@ class JabatanController extends Controller
      */
     public function edit($id)
     {
-        //
+        $jabatan = Jabatan::find($id);
+
+        return view('admin.jabatan.edit', compact('jabatan'));
     }
 
     /**
@@ -90,7 +92,12 @@ class JabatanController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        Jabatan::where('id', $id)->update([
+            'nama_jabatan' => $request->jabatan,
+            'level_jabatan' => $request->level
+        ]);
+
+        return back()->with('succes', 'Jabatan berhasil di update');
     }
 
     /**

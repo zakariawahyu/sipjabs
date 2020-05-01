@@ -75,7 +75,9 @@ class SkillController extends Controller
      */
     public function edit($id)
     {
-        //
+        $skill = Skill::find($id);
+
+        return view('admin.skill.edit', compact('skill'));
     }
 
     /**
@@ -87,7 +89,11 @@ class SkillController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        Skill::where('id', $id)->update([
+            'nama_skill' => $request->skill
+        ]);
+
+        return back()->with('succes', 'Skill berhasil di update');
     }
 
     /**

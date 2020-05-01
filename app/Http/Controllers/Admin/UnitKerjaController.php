@@ -76,7 +76,9 @@ class UnitKerjaController extends Controller
      */
     public function edit($id)
     {
-        //
+        $unitkerja = UnitKerja::find($id);
+
+        return view('admin.unitkerja.edit', compact('unitkerja'));
     }
 
     /**
@@ -88,7 +90,11 @@ class UnitKerjaController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        UnitKerja::where('id', $id)->update([
+            'nama_unitkerja' => $request->unitkerja
+        ]);
+
+        return back()->with('succes', 'Unit Kerja berhasil di update');
     }
 
     /**

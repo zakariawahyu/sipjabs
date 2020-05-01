@@ -62,7 +62,7 @@
                             <td>{{ $pk->jenjang_pendidikan }}</td>
                             <td>{{ $pk->jurusan }}</td>
                             <td class="text-center">
-                              <a href="#" class="btn btn-primary"><i class="fa fa-edit"></i> Edit</a>
+                              <a href="{{ route('admin.pendidikan.edit', $pk->id) }}" title="Edit Pendidikan" class="btn btn-primary btn-edit-pendidikan"><i class="fa fa-edit"></i> Edit</a>
                               <a href="{{ route('admin.pendidikan.delete', $pk->id) }}" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
                             </td>
                           </tr>

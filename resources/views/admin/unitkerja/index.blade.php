@@ -60,7 +60,7 @@
                         <td>{{ $no++ }}</td>
                         <td>{{ $uk->nama_unitkerja }}</td>
                         <td class="text-center">
-                          <a href="#" class="btn btn-primary"><i class="fa fa-edit"></i> Edit</a>
+                          <a href="{{ route('admin.unitkerja.edit', $uk->id) }}" title="Edit Unit Kerja" class="btn btn-primary btn-edit-unitkerja"><i class="fa fa-edit"></i> Edit</a>
                           <a href="{{ route('admin.unitkerja.delete', $uk->id) }}" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
                         </td>
                       </tr>

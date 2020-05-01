@@ -88,7 +88,7 @@
 
 {{-- script show edit and reset pass admin on profile + add jabatan, unit kerja and unit bagian--}}
 <script>
-  $('body').on('click', '.btn-edit-admin, .btn-reset-admin, .btn-edit-users-admin, .btn-add-unitbagian, .btn-add-unitkerja, .btn-add-jabatan, .btn-add-skill, .btn-add-pendidikan', function(event){
+  $('body').on('click', '.btn-edit-admin, .btn-reset-admin, .btn-edit-users-admin, .btn-add-unitbagian, .btn-add-unitkerja, .btn-add-jabatan, .btn-add-skill, .btn-add-pendidikan, .btn-edit-unitkerja, .btn-edit-jabatan, .btn-edit-unitbagian, .btn-edit-jabstruk, .btn-edit-pendidikan, .btn-edit-skill', function(event){
     event.preventDefault();
 
     var me = $(this),
@@ -181,6 +181,7 @@
       {data: 'unitkerja.nama_unitkerja', name: 'nama_unitkerja'},
       {data: 'jabatan.nama_jabatan', name: 'nama_jabatan'},
       {data: 'unitbagian.nama_unitbagian', name: 'nama_unitbagian'},
+      {data: 'formasi_jabatan', name: 'formasi_jabatan'},
       {data: 'action', name: 'action'},
     ]
   })

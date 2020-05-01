@@ -50,6 +50,7 @@
                         <th>Unit Kerja</th>
                         <th>Jabatan Jabatan</th>
                         <th>Unit Bagian</th>
+                        <th>Formasi Jabatan</th>
                         <th>Action</th>
                       </tr>
                     </thead>

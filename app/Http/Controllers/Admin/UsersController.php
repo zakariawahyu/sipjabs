@@ -97,7 +97,13 @@ class UsersController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        User::where('id', $id)->update([
+            'username' => $request->username,
+            'email' => $request->email,
+            'role' => $request->role,
+        ]);
+
+        return back()->with('succes', 'Users berhasil di update');
     }
 
     /**

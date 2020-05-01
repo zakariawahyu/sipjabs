@@ -48,6 +48,7 @@
                       <tr>
                         <th style="width: 5%;">No</th>
                         <th>Nama Jabatan</th>
+                        <th>Level Jabatan</th>
                         <th style="width: 20%;">Action</th>
                       </tr>
                     </thead>
@@ -60,8 +61,9 @@
                       <tr>
                         <td>{{ $no++ }}</td>
                         <td>{{ $jb->nama_jabatan }}</td>
+                        <td>{{ $jb->level_jabatan }}</td>
                         <td class="text-center">
-                          <a href="#" class="btn btn-primary"><i class="fa fa-edit"></i> Edit</a>
+                          <a href="{{ route('admin.jabatan.edit', $jb->id) }}" title="Edit Jabatan" class="btn btn-primary btn-edit-jabatan"><i class="fa fa-edit"></i> Edit</a>
                           <a href="{{ route('admin.jabatan.delete', $jb->id) }}" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
                         </td>
                       </tr>  

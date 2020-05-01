@@ -60,7 +60,7 @@
                         <td>{{ $no++ }}</td>
                         <td>{{ $sk->nama_skill }}</td>
                         <td class="text-center">
-                          <a href="#" class="btn btn-primary"><i class="fa fa-edit"></i> Edit</a>
+                          <a href="{{ route('admin.skill.edit', $sk->id) }}" class="btn btn-primary btn-edit-skill"><i class="fa fa-edit"></i> Edit</a>
                           <a href="{{ route('admin.skill.delete', $sk->id) }}" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
                         </td>
                       </tr>
