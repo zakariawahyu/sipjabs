@@ -73,3 +73,9 @@ Route::prefix('user')->namespace('User')->middleware('cek.user')->group(function
     Route::resource('tallent' , 'TallentController',['as' => 'user']);
     
 });
+
+
+
+// Route::get('/', function () {
+//     return view('maitance');
+// });
