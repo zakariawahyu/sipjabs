@@ -28,6 +28,7 @@ class CreatePegawaiTable extends Migration
             $table->string('berat_badan');
             $table->integer('masa_kerja');
             $table->string('alamat');
+            $table->string('kode_etik');
             $table->timestamps();
 
             $table->foreign('id_jabatanstruktural')->references('id')->on('jabatan_struktural')->onDelete('CASCADE');

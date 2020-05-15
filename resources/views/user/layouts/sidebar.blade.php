@@ -36,8 +36,8 @@
             <div class="menu_section">
               <h3>Staffing</h3>
               <ul class="nav side-menu">
-                <li><a href="{{ route('user.filter.index') }}"><i class="fa fa-search"></i> Cari Tallent</a></li>
-                <li><a href="{{ route('user.tallent.index') }}"><i class="fa fa-database"></i> Data Tallent</a></li>
+                <li><a href="{{ route('user.filter.index') }}"><i class="fa fa-search"></i> Cari Kandidat</a></li>
+                <li><a href="{{ route('user.tallent.index') }}"><i class="fa fa-database"></i> Data Kandidat</a></li>
               </ul>
             </div>
           </div>

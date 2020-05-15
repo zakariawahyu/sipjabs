@@ -21,5 +21,7 @@ class DatabaseSeeder extends Seeder
         $this->call(RiwayatPendidikanSeeder::class);
         $this->call(SkillSeeder::class);
         $this->call(SkillPegawaiSeeder::class);
+        $this->call(PersonalQualitySeeder::class);
+        $this->call(PersonalQualityPegawaiSeeder::class);
     }
 }

@@ -51,6 +51,41 @@
                 <div class="x_content">
                   {{-- Form Filter Utama --}}
                   <form  class="form-horizontal form-label-left" action="{{ route('filtertallent') }}" method="GET">
+                    <p class="text-center">Jabatan dituju</p>
+                    <div class="form-group">
+                      <label class="control-label col-md-3 col-sm-3 col-xs-12">Unit Kerja</label>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <select name="level" class="form-control">
+                            <option disabled selected value>Pilih Unit Kerja</option>
+                            @foreach ($unitkerja as $uk)
+                                <option value="{{ $uk->id }}">{{ $uk->nama_unitkerja }}</option>
+                            @endforeach
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-md-3 col-sm-3 col-xs-12">Jabatan</label>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <select name="level" class="form-control">
+                            <option disabled selected value>Pilih Jabatan</option>
+                            @foreach ($jabatan as $jb)
+                                <option value="{{ $jb->level_jabatan }}">{{ $jb->nama_jabatan }}</option>
+                            @endforeach
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-md-3 col-sm-3 col-xs-12">Unit Bagian</label>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <select name="level" class="form-control">
+                            <option disabled selected value>Pilih Jabatan</option>
+                            @foreach ($jabatan as $jb)
+                                <option value="{{ $jb->level_jabatan }}">{{ $jb->nama_jabatan }}</option>
+                            @endforeach
+                        </select>
+                      </div>
+                    </div>
+                    <hr>
                     <div class="form-group">
                       <label class="control-label col-md-3 col-sm-3 col-xs-12">Jabatan Minimal</label>
                       <div class="col-md-6 col-sm-6 col-xs-12">

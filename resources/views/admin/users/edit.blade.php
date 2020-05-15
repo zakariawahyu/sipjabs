@@ -43,7 +43,7 @@
                         <label class="control-label col-md-3 col-sm-3 col-xs-12">Role</label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                           <select name="role" class="form-control col-md-7 col-xs-12">
-                              <option value="users" @if ($user->role == 'user')
+                              <option value="user" @if ($user->role == 'user')
                                   selected
                               @endif>User</option>
                               <option value="admin" @if ($user->role == 'admin')

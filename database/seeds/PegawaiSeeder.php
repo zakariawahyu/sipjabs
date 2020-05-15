@@ -29,6 +29,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -45,6 +46,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -61,6 +63,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -77,6 +80,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -93,6 +97,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -109,6 +114,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -125,6 +131,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -141,6 +148,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -157,6 +165,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -173,6 +182,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -189,6 +199,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -205,6 +216,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -221,6 +233,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -237,6 +250,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -253,6 +267,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -269,6 +284,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -285,6 +301,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -301,6 +318,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -317,6 +335,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -333,6 +352,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -349,6 +369,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -365,6 +386,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -381,6 +403,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -397,6 +420,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -413,6 +437,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -429,6 +454,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -445,6 +471,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -461,6 +488,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -477,6 +505,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -493,6 +522,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -509,6 +539,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -525,6 +556,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -541,6 +573,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -557,6 +590,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -573,6 +607,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -589,6 +624,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Ya',
         ]);
 
         Pegawai::create([
@@ -605,6 +641,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -621,6 +658,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -637,6 +675,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -653,6 +692,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -669,6 +709,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -685,6 +726,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -701,6 +743,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -717,6 +760,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -733,6 +777,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -749,6 +794,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -765,6 +811,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -781,6 +828,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -797,6 +845,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -813,6 +862,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -829,6 +879,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -845,6 +896,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -861,6 +913,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -877,6 +930,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -893,6 +947,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -909,6 +964,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -925,6 +981,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -941,6 +998,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -957,6 +1015,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -973,6 +1032,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -989,6 +1049,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1005,6 +1066,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1021,6 +1083,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1037,6 +1100,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1053,6 +1117,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1069,6 +1134,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1085,6 +1151,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1101,6 +1168,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1117,6 +1185,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1133,6 +1202,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '1',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1149,6 +1219,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1165,6 +1236,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1181,6 +1253,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1197,6 +1270,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1213,6 +1287,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1229,6 +1304,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1245,6 +1321,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1261,6 +1338,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1277,6 +1355,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1293,6 +1372,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1309,6 +1389,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1325,6 +1406,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1341,6 +1423,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1357,6 +1440,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Ya',
         ]);
 
         Pegawai::create([
@@ -1373,6 +1457,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1389,6 +1474,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1405,6 +1491,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1421,6 +1508,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1437,6 +1525,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1453,6 +1542,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1469,6 +1559,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1485,6 +1576,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1501,6 +1593,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1517,6 +1610,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1533,6 +1627,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1549,6 +1644,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1565,6 +1661,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1581,6 +1678,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1597,6 +1695,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1613,6 +1712,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1629,6 +1729,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1645,6 +1746,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1661,6 +1763,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1677,6 +1780,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1693,6 +1797,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1709,6 +1814,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1725,6 +1831,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1741,6 +1848,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1757,6 +1865,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1773,6 +1882,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1789,6 +1899,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1805,6 +1916,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1821,6 +1933,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1837,6 +1950,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1853,6 +1967,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1869,6 +1984,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1885,6 +2001,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1901,6 +2018,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1917,6 +2035,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1933,6 +2052,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1949,6 +2069,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1965,6 +2086,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1981,6 +2103,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -1997,6 +2120,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2013,6 +2137,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2029,6 +2154,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2045,6 +2171,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2061,6 +2188,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2077,6 +2205,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2093,6 +2222,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2109,6 +2239,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2125,6 +2256,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2141,6 +2273,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2157,6 +2290,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2173,6 +2307,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Ya',
         ]);
 
         Pegawai::create([
@@ -2189,6 +2324,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2205,6 +2341,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2221,6 +2358,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2237,6 +2375,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2253,6 +2392,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2269,6 +2409,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2285,6 +2426,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2301,6 +2443,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2317,6 +2460,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2333,6 +2477,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2349,6 +2494,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2365,6 +2511,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2381,6 +2528,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2397,6 +2545,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2413,6 +2562,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2429,6 +2579,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2445,6 +2596,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2461,6 +2613,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2477,6 +2630,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2493,6 +2647,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2509,6 +2664,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2525,6 +2681,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2541,6 +2698,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2557,6 +2715,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2573,6 +2732,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2589,6 +2749,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2605,6 +2766,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2621,6 +2783,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2637,6 +2800,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2653,6 +2817,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2669,6 +2834,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2685,6 +2851,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2701,6 +2868,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2717,6 +2885,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2733,6 +2902,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2749,6 +2919,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2765,6 +2936,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2781,6 +2953,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2797,6 +2970,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2813,6 +2987,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2829,6 +3004,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2845,6 +3021,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2861,6 +3038,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2877,6 +3055,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2893,6 +3072,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2909,6 +3089,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2925,6 +3106,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2941,6 +3123,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2957,6 +3140,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2973,6 +3157,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -2989,6 +3174,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3005,6 +3191,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3021,6 +3208,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3037,6 +3225,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3053,6 +3242,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3069,6 +3259,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3085,6 +3276,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3101,6 +3293,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3117,6 +3310,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3133,6 +3327,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3149,6 +3344,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3165,6 +3361,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3181,6 +3378,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3197,6 +3395,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3213,6 +3412,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Ya',
         ]);
 
         Pegawai::create([
@@ -3229,6 +3429,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3245,6 +3446,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3261,6 +3463,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3277,6 +3480,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3293,6 +3497,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3309,6 +3514,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3325,6 +3531,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3341,6 +3548,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3357,6 +3565,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3373,6 +3582,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3389,6 +3599,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3405,6 +3616,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3421,6 +3633,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3437,6 +3650,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3453,6 +3667,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3469,6 +3684,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3485,6 +3701,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3501,6 +3718,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3517,6 +3735,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3533,6 +3752,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3549,6 +3769,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3565,6 +3786,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3581,6 +3803,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3597,6 +3820,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3613,6 +3837,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3629,6 +3854,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3645,6 +3871,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3661,6 +3888,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3677,6 +3905,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3693,6 +3922,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3709,6 +3939,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3725,6 +3956,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3741,6 +3973,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3757,6 +3990,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3773,6 +4007,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3789,6 +4024,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3805,6 +4041,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3821,6 +4058,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3837,6 +4075,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3853,6 +4092,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3869,6 +4109,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3885,6 +4126,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3901,6 +4143,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3917,6 +4160,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3933,6 +4177,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3949,6 +4194,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3965,6 +4211,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3981,6 +4228,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -3997,6 +4245,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4013,6 +4262,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4029,6 +4279,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4045,6 +4296,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4061,6 +4313,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4077,6 +4330,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4093,6 +4347,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4109,6 +4364,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4125,6 +4381,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4141,6 +4398,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4157,6 +4415,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4173,6 +4432,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4189,6 +4449,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4205,6 +4466,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4221,6 +4483,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4237,6 +4500,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4253,6 +4517,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4269,6 +4534,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4285,6 +4551,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4301,6 +4568,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4317,6 +4585,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4333,6 +4602,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4349,6 +4619,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Ya',
         ]);
 
         Pegawai::create([
@@ -4365,6 +4636,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4381,6 +4653,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4397,6 +4670,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4413,6 +4687,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4429,6 +4704,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4445,6 +4721,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4461,6 +4738,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4477,6 +4755,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4493,6 +4772,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4509,6 +4789,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4525,6 +4806,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4541,6 +4823,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4557,6 +4840,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4573,6 +4857,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4589,6 +4874,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4605,6 +4891,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4621,6 +4908,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4637,6 +4925,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4653,6 +4942,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4669,6 +4959,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4685,6 +4976,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4701,6 +4993,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4717,6 +5010,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4733,6 +5027,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4749,6 +5044,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4765,6 +5061,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4781,6 +5078,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4797,6 +5095,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4813,6 +5112,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4829,6 +5129,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4845,6 +5146,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4861,6 +5163,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4877,6 +5180,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4893,6 +5197,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4909,6 +5214,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4925,6 +5231,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4941,6 +5248,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4957,6 +5265,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4973,6 +5282,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -4989,6 +5299,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5005,6 +5316,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5021,6 +5333,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5037,6 +5350,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5053,6 +5367,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5069,6 +5384,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5085,6 +5401,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5101,6 +5418,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5117,6 +5435,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5133,6 +5452,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '66',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5149,6 +5469,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5165,6 +5486,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5181,6 +5503,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5197,6 +5520,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5213,6 +5537,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '70',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5229,6 +5554,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '66',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5245,6 +5571,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5261,6 +5588,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5277,6 +5605,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5293,6 +5622,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5309,6 +5639,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5325,6 +5656,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5341,6 +5673,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5357,6 +5690,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5373,6 +5707,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5389,6 +5724,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5405,6 +5741,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5421,6 +5758,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5437,6 +5775,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5453,6 +5792,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5469,6 +5809,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5485,6 +5826,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5501,6 +5843,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5517,6 +5860,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5533,6 +5877,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5549,6 +5894,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5565,6 +5911,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5581,6 +5928,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5597,6 +5945,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5613,6 +5962,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5629,6 +5979,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5645,6 +5996,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5661,6 +6013,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5677,6 +6030,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5693,6 +6047,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5709,6 +6064,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5725,6 +6081,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5741,6 +6098,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5757,6 +6115,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5773,6 +6132,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5789,6 +6149,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5805,6 +6166,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5821,6 +6183,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5837,6 +6200,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5853,6 +6217,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5869,6 +6234,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5885,6 +6251,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5901,6 +6268,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5917,6 +6285,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5933,6 +6302,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Ya',
         ]);
 
         Pegawai::create([
@@ -5949,6 +6319,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5965,6 +6336,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5981,6 +6353,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -5997,6 +6370,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6013,6 +6387,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6029,6 +6404,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6045,6 +6421,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6061,6 +6438,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6077,6 +6455,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6093,6 +6472,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6109,6 +6489,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6125,6 +6506,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6141,6 +6523,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6157,6 +6540,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6173,6 +6557,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6189,6 +6574,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6205,6 +6591,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6221,6 +6608,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6237,6 +6625,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6253,6 +6642,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6269,6 +6659,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6285,6 +6676,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6301,6 +6693,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6317,6 +6710,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6333,6 +6727,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6349,6 +6744,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6365,6 +6761,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6381,6 +6778,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6397,6 +6795,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6413,6 +6812,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6429,6 +6829,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6445,6 +6846,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6461,6 +6863,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6477,6 +6880,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6493,6 +6897,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6509,6 +6914,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6525,6 +6931,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6541,6 +6948,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6557,6 +6965,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6573,6 +6982,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6589,6 +6999,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6605,6 +7016,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6621,6 +7033,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6637,6 +7050,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6653,6 +7067,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6669,6 +7084,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6685,6 +7101,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6701,6 +7118,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6717,6 +7135,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6733,6 +7152,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6749,6 +7169,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6765,6 +7186,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6781,6 +7203,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6797,6 +7220,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6813,6 +7237,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6829,6 +7254,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6845,6 +7271,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6861,6 +7288,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6877,6 +7305,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6893,6 +7322,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6909,6 +7339,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '66',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6925,6 +7356,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6941,6 +7373,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6957,6 +7390,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6973,6 +7407,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -6989,6 +7424,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7005,6 +7441,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7021,6 +7458,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7037,6 +7475,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7053,6 +7492,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Ya',
         ]);
 
         Pegawai::create([
@@ -7069,6 +7509,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7085,6 +7526,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7101,6 +7543,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7117,6 +7560,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7133,6 +7577,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7149,6 +7594,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7165,6 +7611,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7181,6 +7628,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7197,6 +7645,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7213,6 +7662,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7229,6 +7679,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7245,6 +7696,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7261,6 +7713,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7277,6 +7730,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7293,6 +7747,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7309,6 +7764,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7325,6 +7781,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7341,6 +7798,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7357,6 +7815,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7373,6 +7832,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7389,6 +7849,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7405,6 +7866,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7421,6 +7883,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7437,6 +7900,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7453,6 +7917,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7469,6 +7934,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7485,6 +7951,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7501,6 +7968,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7517,6 +7985,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7533,6 +8002,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7549,6 +8019,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7565,6 +8036,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7581,6 +8053,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7597,6 +8070,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7613,6 +8087,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7629,6 +8104,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7645,6 +8121,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7661,6 +8138,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7677,6 +8155,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7693,6 +8172,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7709,6 +8189,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7725,6 +8206,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7741,6 +8223,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7757,6 +8240,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7773,6 +8257,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7789,6 +8274,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7805,6 +8291,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7821,6 +8308,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7837,6 +8325,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7853,6 +8342,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7869,6 +8359,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7885,6 +8376,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7901,6 +8393,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7917,6 +8410,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7933,6 +8427,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7949,6 +8444,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7965,6 +8461,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7981,6 +8478,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -7997,6 +8495,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8013,6 +8512,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8029,6 +8529,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8045,6 +8546,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8061,6 +8563,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8077,6 +8580,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8093,6 +8597,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8109,6 +8614,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8125,6 +8631,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8141,6 +8648,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8157,6 +8665,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8173,6 +8682,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8189,6 +8699,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8205,6 +8716,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8221,6 +8733,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8237,6 +8750,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8253,6 +8767,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8269,6 +8784,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8285,6 +8801,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8301,6 +8818,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8317,6 +8835,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8333,6 +8852,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8349,6 +8869,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8365,6 +8886,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8381,6 +8903,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8397,6 +8920,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8413,6 +8937,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8429,6 +8954,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8445,6 +8971,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8461,6 +8988,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8477,6 +9005,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8493,6 +9022,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8509,6 +9039,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8525,6 +9056,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8541,6 +9073,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8557,6 +9090,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8573,6 +9107,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8589,6 +9124,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8605,6 +9141,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8621,6 +9158,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8637,6 +9175,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8653,6 +9192,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8669,6 +9209,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8685,6 +9226,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8701,6 +9243,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '8',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8717,6 +9260,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '10',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Ya',
         ]);
 
         Pegawai::create([
@@ -8733,6 +9277,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '7',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8749,6 +9294,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8765,6 +9311,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8781,6 +9328,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8797,6 +9345,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8813,6 +9362,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '2',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8829,6 +9379,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '9',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8845,6 +9396,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8861,6 +9413,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8877,6 +9430,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8893,6 +9447,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8909,6 +9464,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8925,6 +9481,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8941,6 +9498,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8957,6 +9515,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8973,6 +9532,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -8989,6 +9549,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -9005,6 +9566,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '65',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -9021,6 +9583,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '6',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -9037,6 +9600,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -9053,6 +9617,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '58',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -9069,6 +9634,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -9085,6 +9651,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '51',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -9101,6 +9668,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '3',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -9117,6 +9685,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -9133,7 +9702,8 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '55',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
-        ]);    
+        'kode_etik' => 'Tidak',
+        ]);
 
         Pegawai::create([
         'nama_lengkap' => 'ZAKARIA WAHYU NUR UTOMO',
@@ -9149,6 +9719,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '72',
         'masa_kerja' => '5',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
         Pegawai::create([
@@ -9165,6 +9736,7 @@ class PegawaiSeeder extends Seeder
         'berat_badan' => '60',
         'masa_kerja' => '4',
         'alamat' => 'Bojongsoang, Dayeuhkolot, Bandung, Jawa Barat',
+        'kode_etik' => 'Tidak',
         ]);
 
     }

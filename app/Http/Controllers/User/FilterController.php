@@ -5,6 +5,8 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
 use App\PegawaiDb;
 use App\Jabatan;
+use App\UnitKerja;
+use App\UnitBagian;
 use App\Pegawai;
 use App\Cart;
 
@@ -21,8 +23,10 @@ class FilterController extends Controller
     public function index()
     {
         $jabatan = Jabatan::all();
+        $unitkerja = UnitKerja::all();
+        $unitbagian = UnitBagian::all();
 
-        return view('user.filter.index', compact('jabatan'));
+        return view('user.filter.index', compact('jabatan', 'unitkerja', 'unitbagian'));
     }
 
     /**

@@ -9,7 +9,7 @@
               <div class="x_panel">
 
                 <div class="x_title">
-                  <h2>Edit Profile</h2>
+                  <h2>Form Edit Profile</h2>
                   <ul class="nav navbar-right panel_toolbox">
                     <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                     </li>
@@ -30,17 +30,17 @@
                     <div class="form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12">Username</label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input type="text" required="required" class="form-control col-md-7 col-xs-12" name="username" placeholder="{{ $user->username }}" value="{{ old('username') }}">
+                          <input type="text" required="required" class="form-control col-md-7 col-xs-12" name="username" value="{{ $user->username }}" value="{{ old('username') }}">
                         </div>
                       </div>
                       <div class="form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12">Email</label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input type="text" required="required" class="form-control col-md-7 col-xs-12" name="email" placeholder="{{ $user->email }}" value="{{ old('email') }}">
+                          <input type="text" required="required" class="form-control col-md-7 col-xs-12" name="email" value="{{ $user->email }}" value="{{ old('email') }}">
                         </div>
                       </div>
                       <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Foto</label>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Foto Profile</label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                           <input type="file" required="required" class="form-control col-md-7 col-xs-12" name="gambar">
                         </div>

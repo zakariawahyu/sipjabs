@@ -19,7 +19,7 @@ class UserController extends Controller
     {
         $users = User::all();
         $pegawai = Pegawai::all();
-        $tallent = Tallent::where('id_user', session('id'));
+        $tallent = Tallent::where('id_user', session('id'))->get();
 
         return view('user.index', compact('users', 'pegawai', 'tallent'));
     }

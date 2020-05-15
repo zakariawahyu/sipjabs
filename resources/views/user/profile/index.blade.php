@@ -25,12 +25,12 @@
           <div class="row">
             <div class="col-md-2 col-sm-2 col-xs-2"></div>
             <div class="col-md-8 col-sm-12 col-xs-12">
-              <a href="{{ route('user.profile.show', Auth::user()->id) }}" class="btn btn-danger pull-right btn-reset-pass"><i class="fa fa-key"></i> Reset Password</a>
+              <a href="{{ route('user.profile.show', Auth::user()->id) }}" title="Reset Password" class="btn btn-danger pull-right btn-reset-pass"><i class="fa fa-key"></i> Reset Password</a>
               <a href="{{ route('user.profile.edit', Auth::user()->id) }}" title="Edit Profile" class="btn btn-info pull-right btn-edit-user"><i class="fa fa-edit"></i> Edit Profile</a>
               <div class="x_panel">
 
                 <div class="x_title">
-                  <h2>Profilku</h2>
+                  <h2>Profile</h2>
                   <ul class="nav navbar-right panel_toolbox">
                     <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                     </li>

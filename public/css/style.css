@@ -1440,3 +1440,12 @@
 
 /* End Cart Area css
 ============================================================================================ */
+
+div.scroll-page {
+                padding:4px; 
+                width : auto; 
+                height: 280px; 
+                overflow-x: hidden; 
+                overflow-x: auto; 
+                text-align:justify; 
+}

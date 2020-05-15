@@ -57,7 +57,7 @@
                 <h1><i class="fa fa-magnet"></i> SIPJABS</h1>
                 <p>Sistem Pengawakan Jabatan Struktural</p>
                 <p></p>
-                <p>©2020 Direktorat Sumber Daya Manusia Telkom University</p>
+                <p>©2020 Direktorat Sumber Daya Manusia Universitas Telkom</p>
               </div>
             </div>
           </form>
