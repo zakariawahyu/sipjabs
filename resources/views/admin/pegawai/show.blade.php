@@ -30,6 +30,8 @@
                         </li>
                         <li role="presentation" class=""><a href="#tab_content3" role="tab" id="profile-tab2" data-toggle="tab" aria-expanded="false">Skill</a>
                         </li>
+                        <li role="presentation" class=""><a href="#tab_content4" role="tab" id="profile-tab3" data-toggle="tab" aria-expanded="false">Personal Quality</a>
+                        </li>
                       </ul>
                       <div id="myTabContent" class="tab-content">
                         <div role="tabpanel" class="tab-pane fade active in" id="tab_content1" aria-labelledby="home-tab">
@@ -188,6 +190,38 @@
                                 @foreach ($pegawai->skillpegawai as $sk)
                                 <tr>
                                    <td>{{ $sk->skill->nama_skill }}</td>
+                                </tr>
+                                @endforeach
+                              </table>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+
+                            </div>
+                          </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="tab_content4" aria-labelledby="profile-tab">
+                          <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                              <div class="text-center">
+                                 @if ($pegawai->jenis_kelamin == "L")
+                                    <img src="{{ asset('asset/images/male.png') }}" class="img-circle">
+                                @else
+                                    <img src="{{ asset('asset/images/female.png') }}" class="img-circle">
+                                @endif
+                                <h3 class="profile-username text-center">PERSONAL QUALITY PEGAWAI</h3>
+                                <br><br>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                              <table class="table table-hover text-center">
+                                @foreach ($pegawai->personalquality as $pq)
+                                <tr>
+                                   <td>{{ $pq->personalquality->nama_personalquality }}</td>
                                 </tr>
                                 @endforeach
                               </table>

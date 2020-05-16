@@ -12,10 +12,7 @@ class PersonalQualitySeeder extends Seeder
      */
     public function run()
     {
-        PersonalQuality::create([
-        'nama_personalquality' => 'Nama Personal Quality',
-        ]);
-
+        
         PersonalQuality::create([
         'nama_personalquality' => 'Accountable',
         ]);

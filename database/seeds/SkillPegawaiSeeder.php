@@ -17840,6 +17840,56 @@ class SkillPegawaiSeeder extends Seeder
         'id_skill' => '65',
         ]);
 
+        SkillPegawai::create([
+        'id_pegawai' => '571',
+        'id_skill' => '25',
+        ]);
+
+        SkillPegawai::create([
+        'id_pegawai' => '571',
+        'id_skill' => '45',
+        ]);
+
+        SkillPegawai::create([
+        'id_pegawai' => '571',
+        'id_skill' => '55',
+        ]);
+
+        SkillPegawai::create([
+        'id_pegawai' => '571',
+        'id_skill' => '98',
+        ]);
+
+        SkillPegawai::create([
+        'id_pegawai' => '571',
+        'id_skill' => '78',
+        ]);
+
+        SkillPegawai::create([
+        'id_pegawai' => '572',
+        'id_skill' => '2',
+        ]);
+
+        SkillPegawai::create([
+        'id_pegawai' => '572',
+        'id_skill' => '25',
+        ]);
+
+        SkillPegawai::create([
+        'id_pegawai' => '572',
+        'id_skill' => '18',
+        ]);
+
+        SkillPegawai::create([
+        'id_pegawai' => '572',
+        'id_skill' => '99',
+        ]);
+
+        SkillPegawai::create([
+        'id_pegawai' => '572',
+        'id_skill' => '101',
+        ]);
+
 
     }
 }

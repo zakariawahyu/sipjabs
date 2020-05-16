@@ -57,6 +57,7 @@ Route::prefix('admin')->namespace('Admin')->middleware('cek.admin', 'cek')->grou
     Route::resource('tallent' , 'TallentController',['as' => 'admin']);
     Route::resource('pendidikan' , 'PendidikanController',['as' => 'admin']);
     Route::resource('skill' , 'SkillController',['as' => 'admin']);
+    Route::resource('personalquality' , 'PersonalQualityController',['as' => 'admin']);
 });
 
 Route::prefix('user')->namespace('User')->middleware('cek.user')->group(function(){

@@ -11538,5 +11538,54 @@ class PersonalQualityPegawaiSeeder extends Seeder
         'id_personalquality' => '65',
         ]);
 
+        PersonalQualityPegawai::create([
+        'id_pegawai' => '571',
+        'id_personalquality' => '65',
+        ]);
+
+        PersonalQualityPegawai::create([
+        'id_pegawai' => '571',
+        'id_personalquality' => '8',
+        ]);
+
+        PersonalQualityPegawai::create([
+        'id_pegawai' => '571',
+        'id_personalquality' => '100',
+        ]);
+
+        PersonalQualityPegawai::create([
+        'id_pegawai' => '571',
+        'id_personalquality' => '24',
+        ]);
+
+        PersonalQualityPegawai::create([
+        'id_pegawai' => '571',
+        'id_personalquality' => '16',
+        ]);
+
+        PersonalQualityPegawai::create([
+        'id_pegawai' => '572',
+        'id_personalquality' => '88',
+        ]);
+
+        PersonalQualityPegawai::create([
+        'id_pegawai' => '572',
+        'id_personalquality' => '26',
+        ]);
+
+        PersonalQualityPegawai::create([
+        'id_pegawai' => '572',
+        'id_personalquality' => '98',
+        ]);
+
+        PersonalQualityPegawai::create([
+        'id_pegawai' => '572',
+        'id_personalquality' => '101',
+        ]);
+
+        PersonalQualityPegawai::create([
+        'id_pegawai' => '572',
+        'id_personalquality' => '2',
+        ]);
     }
 }

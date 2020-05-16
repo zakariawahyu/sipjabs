@@ -46,7 +46,7 @@
               <div class="icon"><i class="fa fa-users"></i></div>
               <div class="count">{{ $users->count() }}</div>
               <h3>Users</h3>
-              <p>Jumlah user yang menggunakan aplikasi ini.</p>
+              <p>Jumlah user yang menggunakan aplikasi SIPJABS</p>
             </div>
           </div>
           <div class="animated flipInY col-md-4 col-sm-12 col-xs-12">
@@ -54,15 +54,15 @@
               <div class="icon"><i class="fa fa-database"></i></div>
               <div class="count">{{ $pegawai->count() }}</div>
               <h3>Pegawai</h3>
-              <p>Jumlah seluruh pegawai di Universitas Telkom.</p>
+              <p>Jumlah seluruh pegawai di Universitas Telkom baik Dosen maupun TPA</p>
             </div>
           </div>
           <div class="animated flipInY col-md-4 col-sm-12 col-xs-12">
             <div class="tile-stats">
               <div class="icon"><i class="fa fa-list"></i></div>
               <div class="count">{{ $tallent->count() }}</div>
-              <h3>Tallent</h3>
-              <p>Jumlah seluruh tallent yang terpilih.</p>
+              <h3>Kandidat</h3>
+              <p>Jumlah seluruh kandidat yang terpilih oleh user dan akan diajukan untuk penilaian</p>
             </div>
           </div>
         </div>
@@ -72,7 +72,7 @@
               <div class="icon"><i class="fa fa-credit-card"></i></div>
               <div class="count">{{ $unitkerja->count() }}</div>
               <h3>Unit Kerja</h3>
-              <p>Jumlah seluruh unit kerja di Universitas Telkom.</p>
+              <p>Jumlah seluruh unit kerja di Universitas Telkom</p>
             </div>
           </div>
           <div class="animated flipInY col-md-4 col-sm-12 col-xs-12">
@@ -80,7 +80,7 @@
               <div class="icon"><i class="fa fa-credit-card"></i></div>
               <div class="count">{{ $jabatan->count() }}</div>
               <h3>Jabatan</h3>
-              <p>Jumlah seluruh jabatan di Universitas Telkom.</p>
+              <p>Jumlah seluruh jabatan di Universitas Telkom</p>
             </div>
           </div>
           <div class="animated flipInY col-md-4 col-sm-12 col-xs-12">
@@ -88,25 +88,76 @@
               <div class="icon"><i class="fa fa-credit-card"></i></div>
               <div class="count">{{ $unitbagian->count() }}</div>
               <h3>Unit Bagian</h3>
-              <p>Jumlah seluruh unit bagian di Universitas Telkom.</p>
+              <p>Jumlah seluruh unit bagian di Universitas Telkom</p>
             </div>
           </div>
         </div>
         <div class="row top_tiles">
-          <div class="animated flipInY col-md-6 col-sm-12 col-xs-12">
+          <div class="animated flipInY col-md-4 col-sm-12 col-xs-12">
             <div class="tile-stats">
               <div class="icon"><i class="fa fa-graduation-cap"></i></div>
               <div class="count">{{ $pendidikan->count() }}</div>
               <h3>Pendidikan</h3>
-              <p>Jumlah seluruh pendidikan pegawai.</p>
+              <p>Jumlah seluruh pendidikan pegawai</p>
             </div>
           </div>
-          <div class="animated flipInY col-md-6 col-sm-12 col-xs-12">
+          <div class="animated flipInY col-md-4 col-sm-12 col-xs-12">
             <div class="tile-stats">
               <div class="icon"><i class="fa fa-certificate"></i></div>
               <div class="count">{{ $skill->count() }}</div>
               <h3>Skill</h3>
-              <p>Jumlah seluruh skill pegawai.</p>
+              <p>Jumlah seluruh skill pegawai</p>
+            </div>
+          </div>
+          <div class="animated flipInY col-md-4 col-sm-12 col-xs-12">
+            <div class="tile-stats">
+              <div class="icon"><i class="fa fa-briefcase"></i></div>
+              <div class="count">{{ $skill->count() }}</div>
+              <h3>Personal Quality</h3>
+              <p>Jumlah seluruh personal quality pegawai</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="x_panel">
+              <div class="x_title">
+                <h2>Data Kandidat <small>| Pegawai terpilih : {{ $tallent->count() }}</small></h2>
+                <ul class="nav navbar-right panel_toolbox">
+                  <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i
+                        class="fa fa-wrench"></i></a>
+                    <ul class="dropdown-menu" role="menu">
+
+                    </ul>
+                  </li>
+                  <li><a class="close-link"><i class="fa fa-close"></i></a>
+                  </li>
+                </ul>
+                <div class="clearfix"></div>
+              </div>
+              <div class="x_content scroll-page">
+                @foreach ($tallent as $tl)
+                
+                <article class="media event">
+                  <a class="pull-left date">
+                    @if ($tl->pegawai->jenis_kelamin == 'L')
+                        <img src="{{ asset('asset/images/male.png') }}" alt="" class="img-circle img-responsive">
+                      @else
+                        <img src="{{ asset('asset/images/female.png') }}" alt="" class="img-circle img-responsive">
+                      @endif
+                  </a>
+                  <div class="media-body">
+                    <a class="title" href="#">{{ $tl->pegawai->nama_lengkap }} | {{ $tl->pegawai->nip }}</a>
+                    <p>Jabatan lama : {{ $tl->pegawai->jabatanstruktural->jabatan->nama_jabatan }} {{ $tl->pegawai->jabatanstruktural->unitkerja->nama_unitkerja }}</p>
+                    <p>Jabatan promosi : {{ $tl->nomor_surat }}</p>
+                  </div>
+                </article>
+
+                @endforeach
+              </div>
             </div>
           </div>
         </div>
@@ -117,7 +168,7 @@
                 <h1><i class="fa fa-magnet"></i> SIPJABS</h1>
                 <p>Sistem Pengawakan Jabatan Struktural</p>
                 <p></p>
-                <p>©2020 Direktorat Sumber Daya Manusia Telkom University</p>
+                <p>©2020 Direktorat Sumber Daya Manusia Universitas Telkom</p>
               </div>
             </div>
           </div>

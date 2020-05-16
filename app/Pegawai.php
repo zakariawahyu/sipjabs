@@ -18,6 +18,12 @@ class Pegawai extends Model
       return $this->hasMany(SkillPegawai::class, 'id_pegawai');
     }
 
+    //  many to many menghubungkan table pegawai dengan personal_quality_pegawai
+    public function personalquality()
+    {
+      return $this->hasMany(PersonalQualityPegawai::class, 'id_pegawai');
+    }
+
     //  one to one menghubungkan table pegawai dengan jabatan_struktural
     public function jabatanstruktural()
     {

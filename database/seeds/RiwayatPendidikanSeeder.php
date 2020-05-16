@@ -4644,5 +4644,25 @@ class RiwayatPendidikanSeeder extends Seeder
         'id_pegawai' => '570',
         'id_pendidikan' => '97',
         ]);
+
+        RiwayatPendidikan::create([
+        'id_pegawai' => '571',
+        'id_pendidikan' => '13',
+        ]);
+
+        RiwayatPendidikan::create([
+        'id_pegawai' => '571',
+        'id_pendidikan' => '98',
+        ]);
+
+        RiwayatPendidikan::create([
+        'id_pegawai' => '572',
+        'id_pendidikan' => '13',
+        ]);
+
+        RiwayatPendidikan::create([
+        'id_pegawai' => '572',
+        'id_pendidikan' => '93',
+        ]);
     }
 }
