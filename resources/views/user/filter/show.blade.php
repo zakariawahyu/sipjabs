@@ -1,6 +1,5 @@
-
+    <div role="main">
         <div class="">
-          
 
           <div class="clearfix"></div>
 
@@ -14,12 +13,6 @@
                       </li>
                       <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
-                        <ul class="dropdown-menu" role="menu">
-                          <li><a href="#">Settings 1</a>
-                          </li>
-                          <li><a href="#">Settings 2</a>
-                          </li>
-                        </ul>
                       </li>
                       <li><a class="close-link"><i class="fa fa-close"></i></a>
                       </li>
@@ -36,6 +29,8 @@
                         <li role="presentation" class=""><a href="#tab_content2" role="tab" id="profile-tab" data-toggle="tab" aria-expanded="false">Pendidikan</a>
                         </li>
                         <li role="presentation" class=""><a href="#tab_content3" role="tab" id="profile-tab2" data-toggle="tab" aria-expanded="false">Skill</a>
+                        </li>
+                        <li role="presentation" class=""><a href="#tab_content4" role="tab" id="profile-tab3" data-toggle="tab" aria-expanded="false">Personal Quality</a>
                         </li>
                       </ul>
                       <div id="myTabContent" class="tab-content">
@@ -54,10 +49,10 @@
                             </div>
                           </div>
                           <div class="row">
-                            <div class="col-md-2 col-sm-2">
+                            <div class="col-md-3 col-sm-3">
 
                             </div>
-                            <div class="col-md-8 col-sm-8 col-xs-12">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
                                      <table class="table table-hover">
                                 <tr>
                                   <td>Nama Lengkap</td>
@@ -82,15 +77,15 @@
                                 <tr>
                                   <td>Masa kerja</td>
                                   <td>:</td>
-                                  <td>{{ $pegawai->masa_kerja }} Tahun</td>
+                                  <td>{{ $pegawai->masa_kerja }} Tahun (Mulai dari tahun @php
+                                      $masa = $pegawai->masa_kerja;
+                                      $tgl1 = date('Y');
+                                      $tgl2 = date('Y', strtotime('-'.$masa.' year', strtotime($tgl1))); 
+                                      echo $tgl2;
+                                  @endphp)</td>
                                 </tr>
                                 <tr>
-                                  <td>Tempat Lahir</td>
-                                  <td>:</td>
-                                  <td>{{ $pegawai->ttl }}</td>
-                                </tr>
-                                <tr>
-                                  <td>Tanggal Lahir</td>
+                                  <td>TTL</td>
                                   <td>:</td>
                                   <td>{{ $pegawai->ttl }}</td>
                                 </tr>
@@ -107,7 +102,7 @@
                                 <tr>
                                   <td>Jenis Kelamin</td>
                                   <td>:</td>
-                                  @if ( $pegawai->jenis_kelamin =="L")
+                                   @if ( $pegawai->jenis_kelamin =="L")
                                   <td>Laki Laki</td>
                                   @elseif($pegawai->jenis_kelamin =="P")
                                   <td>Perempuan</td>
@@ -133,9 +128,14 @@
                                   <td>:</td>
                                   <td>{{ $pegawai->alamat }}</td>
                                 </tr>
+                                <tr>
+                                  <td>Melanggar kode etik</td>
+                                  <td>:</td>
+                                  <td>{{ $pegawai->kode_etik   }}</td>
+                                </tr>
                               </table>
                             </div>
-                            <div class="col-md-2 col-sm-2 col-xs-2">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
 
                             </div>
                           </div>
@@ -204,6 +204,38 @@
                             </div>
                           </div>
                         </div>
+                        <div role="tabpanel" class="tab-pane fade" id="tab_content4" aria-labelledby="profile-tab">
+                          <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                              <div class="text-center">
+                                 @if ($pegawai->jenis_kelamin == "L")
+                                    <img src="{{ asset('asset/images/male.png') }}" class="img-circle">
+                                @else
+                                    <img src="{{ asset('asset/images/female.png') }}" class="img-circle">
+                                @endif
+                                <h3 class="profile-username text-center">PERSONAL QUALITY PEGAWAI</h3>
+                                <br><br>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                              <table class="table table-hover text-center">
+                                @foreach ($pegawai->personalquality as $pq)
+                                <tr>
+                                   <td>{{ $pq->personalquality->nama_personalquality }}</td>
+                                </tr>
+                                @endforeach
+                              </table>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
 
@@ -212,4 +244,4 @@
               </div>
           </div>
         </div>
-   
+      </div>

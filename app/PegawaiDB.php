@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\DB;
 use App\Pegawai;
 use App\Pendidikan;
 use App\Skill;
+use App\PersonalQuality;
 
 class PegawaiDB extends Model
 {
@@ -32,6 +33,13 @@ class PegawaiDB extends Model
 		$query_status = Pegawai::select('status_pegawai')->distinct()->get();
 		return $query_status;
     }
+
+    public function getKodeEtik()
+    {	
+        // untuk mengambil data status pegawai
+		$query_status = Pegawai::select('kode_etik')->distinct()->get();
+		return $query_status;
+    }
     
     public function getDataJenjang()
     {
@@ -46,6 +54,13 @@ class PegawaiDB extends Model
         $query_status = Skill::select('nama_skill')->distinct()->get();
         return $query_status;
     }
+
+   public function getDataPersonalQuality()
+    {
+        // untuk mengambil data personal quality
+        $query_status = PersonalQuality::select('nama_personalquality')->distinct()->get();
+        return $query_status;
+    } 
 
     public function getDataJurusan()
     {
@@ -65,6 +80,8 @@ class PegawaiDB extends Model
         $jenjang = $request->jenjang;
         $jurusan = $request->jurusan;
         $skill = $request->skill;
+        $personalquality = $request->personalquality;
+        $kodeetik = $request->kode_etik;
 
         if ($order_by == 'asc')
         {
@@ -109,6 +126,12 @@ class PegawaiDB extends Model
         {
 			$query->whereIn('status_pegawai', $statuspegawai);
         }
+
+        // query untuk filter status pegawai
+        if (isset($kodeetik))
+        {
+			$query->whereIn('kode_etik', $kodeetik);
+        }
         
         // query untuk filter jenjang pendidikan pegawai
         if (isset($jenjang))
@@ -131,6 +154,14 @@ class PegawaiDB extends Model
         {
 			$query->whereHas('skillpegawai.skill', function($q) use($skill){
                     $q->whereIn('nama_skill', $skill);
+                });
+        }
+
+        // query untuk filter personalquality pegawai
+        if (isset($personalquality))
+        {
+			$query->whereHas('personalquality.personalquality', function($q) use($personalquality){
+                    $q->whereIn('nama_personalquality', $personalquality);
                 });
         }
         

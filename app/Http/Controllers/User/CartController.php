@@ -5,6 +5,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
 use App\Cart;
 use App\Pegawai;
+use App\JabatanStruktural;
 
 use Illuminate\Http\Request;
 
@@ -110,8 +111,25 @@ class CartController extends Controller
 
     public function addCart($id)
     {
+
+        $str = str_replace('%20',' ',$id);
+        $PecahStr = explode(' ', $str);
+        $valuepegawai = $PecahStr[0];
+        $valueunitkerja = $PecahStr[1];
+        $valuejabatan = $PecahStr[2];
+        $valueunitbagian = $PecahStr[3];
+
+        if ( ! isset($PecahStr[1])) {
+            $PecahStr[1] = null;
+        }
+
+        $jabstruk = JabatanStruktural::where('id_unitkerja', $valueunitkerja)
+                                            ->where('id_jabatan', $valuejabatan)
+                                            ->where('id_unitbagian', $valueunitbagian)
+                                            ->first();
+
         $carts = Cart::where('id_user', session('id'))
-                    ->where('id_pegawai', $id)->get();
+                    ->where('id_pegawai', $valuepegawai)->get();
         
             
         if ($carts->count()>0)
@@ -124,7 +142,8 @@ class CartController extends Controller
 
         Cart::create([
             'id_user' => session('id'),
-            'id_pegawai' => $id
+            'id_pegawai' => $valuepegawai,
+            'id_jabstruklama' => $jabstruk->id
         ]);
 
         return back()->with('succes', 'Berhasil ditambahkan ke cart');

@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Tallent extends Model
 {
     // nama field yang boleh di isi
-    protected $fillable = ['id_user', 'id_pegawai','nomor_urut', 'nomor_surat'];
+    protected $fillable = ['id_user', 'id_pegawai','nomor_urut', 'nomor_surat', 'id_jabstruklama'];
 
     // one to one menghubungkan table skill_pegawai dengan table skill
     public function pegawai()

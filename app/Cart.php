@@ -7,12 +7,18 @@ use Illuminate\Database\Eloquent\Model;
 class Cart extends Model
 {
     // nama field yang boleh di isi
-    protected $fillable = ['id_user', 'id_pegawai'];
+    protected $fillable = ['id_user', 'id_pegawai', 'id_jabstruklama'];
 
-    // one to one menghubungkan table skill_pegawai dengan table skill
+    // one to one menghubungkan table cart dengan table pegawai
     public function pegawai()
     {
       return $this->belongsTo(Pegawai::class, 'id_pegawai');
+    }
+
+    // one to one menghubungkan table cart dengan table jabatan struktural
+    public function jabatanstruktural()
+    {
+      return $this->belongsTo(JabatanStruktural::class, 'id_jabstruklama');
     }
 
     public function getCart()

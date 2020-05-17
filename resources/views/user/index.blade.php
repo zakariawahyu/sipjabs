@@ -48,6 +48,10 @@
               <div class="count">{{ $users->count() }}</div>
               <h3>Users</h3>
               <p>Jumlah users yang menggunakan aplikasi SIPJABS</p>
+              <hr>
+              <div class="text-center small-box">
+                <a href="#" class="small-box-footer">Show more <i class="fa fa-arrow-circle-right"></i></a>
+              </div>
             </div>
           </div>
           <div class="animated flipInY col-md-4 col-sm-6 col-xs-12">
@@ -56,6 +60,10 @@
               <div class="count">{{ $pegawai->count() }}</div>
               <h3>Pegawai</h3>
               <p>Jumlah seluruh pegawai di Universitas Telkom baik Dosen maupun TPA</p>
+              <hr>
+              <div class="text-center small-box">
+                <a href="#" class="small-box-footer">Show more <i class="fa fa-arrow-circle-right"></i></a>
+              </div>
             </div>
           </div>
           <div class="animated flipInY col-md-4 col-sm-6 col-xs-12">
@@ -64,6 +72,10 @@
               <div class="count">{{ $tallent->count() }}</div>
               <h3>Kandidat</h3>
               <p>Jumlah seluruh kandidat yang terpilih oleh {{ Auth::user()->username }} dan akan diajukan untuk penilaian</p>
+              <hr>
+              <div class="text-center small-box">
+                <a href="{{ route('user.tallent.index') }}" class="small-box-footer">Show more <i class="fa fa-arrow-circle-right"></i></a>
+              </div>
             </div>
           </div>
         </div>

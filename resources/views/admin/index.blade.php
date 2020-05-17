@@ -47,6 +47,10 @@
               <div class="count">{{ $users->count() }}</div>
               <h3>Users</h3>
               <p>Jumlah user yang menggunakan aplikasi SIPJABS</p>
+              <hr>
+              <div class="text-center small-box">
+                <a href="{{ route('admin.users.index') }}" class="small-box-footer">Show more <i class="fa fa-arrow-circle-right"></i></a>
+              </div>
             </div>
           </div>
           <div class="animated flipInY col-md-4 col-sm-12 col-xs-12">
@@ -55,6 +59,10 @@
               <div class="count">{{ $pegawai->count() }}</div>
               <h3>Pegawai</h3>
               <p>Jumlah seluruh pegawai di Universitas Telkom baik Dosen maupun TPA</p>
+              <hr>
+              <div class="text-center small-box">
+                <a href="{{ route('admin.pegawai.index') }}" class="small-box-footer">Show more <i class="fa fa-arrow-circle-right"></i></a>
+              </div>
             </div>
           </div>
           <div class="animated flipInY col-md-4 col-sm-12 col-xs-12">
@@ -63,6 +71,10 @@
               <div class="count">{{ $tallent->count() }}</div>
               <h3>Kandidat</h3>
               <p>Jumlah seluruh kandidat yang terpilih oleh user dan akan diajukan untuk penilaian</p>
+              <hr>
+              <div class="text-center small-box">
+                <a href="{{ route('admin.tallent.index') }}" class="small-box-footer">Show more <i class="fa fa-arrow-circle-right"></i></a>
+              </div>
             </div>
           </div>
         </div>
@@ -73,6 +85,10 @@
               <div class="count">{{ $unitkerja->count() }}</div>
               <h3>Unit Kerja</h3>
               <p>Jumlah seluruh unit kerja di Universitas Telkom</p>
+              <hr>
+              <div class="text-center small-box">
+                <a href="{{ route('admin.unitkerja.index') }}" class="small-box-footer">Show more <i class="fa fa-arrow-circle-right"></i></a>
+              </div>
             </div>
           </div>
           <div class="animated flipInY col-md-4 col-sm-12 col-xs-12">
@@ -81,6 +97,10 @@
               <div class="count">{{ $jabatan->count() }}</div>
               <h3>Jabatan</h3>
               <p>Jumlah seluruh jabatan di Universitas Telkom</p>
+              <hr>
+              <div class="text-center small-box">
+                <a href="{{ route('admin.jabatan.index') }}" class="small-box-footer">Show more <i class="fa fa-arrow-circle-right"></i></a>
+              </div>
             </div>
           </div>
           <div class="animated flipInY col-md-4 col-sm-12 col-xs-12">
@@ -89,6 +109,10 @@
               <div class="count">{{ $unitbagian->count() }}</div>
               <h3>Unit Bagian</h3>
               <p>Jumlah seluruh unit bagian di Universitas Telkom</p>
+              <hr>
+              <div class="text-center small-box">
+                <a href="{{ route('admin.unitbagian.index') }}" class="small-box-footer">Show more <i class="fa fa-arrow-circle-right"></i></a>
+              </div>
             </div>
           </div>
         </div>
@@ -99,6 +123,10 @@
               <div class="count">{{ $pendidikan->count() }}</div>
               <h3>Pendidikan</h3>
               <p>Jumlah seluruh pendidikan pegawai</p>
+              <hr>
+              <div class="text-center small-box">
+                <a href="{{ route('admin.pendidikan.index') }}" class="small-box-footer">Show more <i class="fa fa-arrow-circle-right"></i></a>
+              </div>
             </div>
           </div>
           <div class="animated flipInY col-md-4 col-sm-12 col-xs-12">
@@ -107,14 +135,22 @@
               <div class="count">{{ $skill->count() }}</div>
               <h3>Skill</h3>
               <p>Jumlah seluruh skill pegawai</p>
+              <hr>
+              <div class="text-center small-box">
+                <a href="{{ route('admin.skill.index') }}" class="small-box-footer">Show more <i class="fa fa-arrow-circle-right"></i></a>
+              </div>
             </div>
           </div>
           <div class="animated flipInY col-md-4 col-sm-12 col-xs-12">
             <div class="tile-stats">
               <div class="icon"><i class="fa fa-briefcase"></i></div>
-              <div class="count">{{ $skill->count() }}</div>
+              <div class="count">{{ $personalquality->count() }}</div>
               <h3>Personal Quality</h3>
               <p>Jumlah seluruh personal quality pegawai</p>
+              <hr>
+              <div class="text-center small-box">
+                <a href="{{ route('admin.personalquality.index') }}" class="small-box-footer">Show more <i class="fa fa-arrow-circle-right"></i></a>
+              </div>
             </div>
           </div>
         </div>

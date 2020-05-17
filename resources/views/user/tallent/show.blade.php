@@ -1,28 +1,17 @@
       <div role="main">
         <div class="">
-          <div class="page-title">
-            <div class="title_left">
-              <h3>Detail Tallent</h3>
-            </div>
-
-            <div class="title_right">
-              <div class="col-md-3 col-sm-3 col-xs-8 pull-right">
-                <ol class="breadcrumb float-sm-right">
-                  <li class="breadcrumb-item"><a href="#">Home</a></li>
-                  <li class="breadcrumb-item active"> Tallent</li>
-                </ol>
-              </div>
-            </div>
-          </div>
 
           <div class="clearfix"></div>
 
           <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
+              @php
+                  $no =1;
+              @endphp
               @foreach ($tallents as $tl)
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2><i class="fa fa-bars"></i> Nomor Surat <small>{{ $tl->nomor_surat }}</small></h2>
+                    <h2><i class="fa fa-bars"></i> Detail Kandidat {{ $no++ }}</h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
@@ -44,10 +33,6 @@
 
                     
                     <div class="" role="tabpanel" data-example-id="togglable-tabs">
-                      <ul id="myTab" class="nav nav-tabs bar_tabs" role="tablist">
-                        <li role="presentation" class="active"><a href="#tab_content1" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">Detail Pegawai</a>
-                        </li>
-                      </ul>
                       <div id="myTabContent" class="tab-content">
                         <div role="tabpanel" class="tab-pane fade active in" id="tab_content1" aria-labelledby="home-tab">
                           <div class="row">
@@ -89,15 +74,15 @@
                                 <tr>
                                   <td>Masa kerja</td>
                                   <td>:</td>
-                                  <td>{{ $tl->pegawai->masa_kerja }} Tahun</td>
+                                  <td>{{ $tl->pegawai->masa_kerja }} Tahun (Mulai dari tahun @php
+                                      $masa = $tl->pegawai->masa_kerja;
+                                      $tgl1 = date('Y');
+                                      $tgl2 = date('Y', strtotime('-'.$masa.' year', strtotime($tgl1))); 
+                                      echo $tgl2;
+                                  @endphp)</td>
                                 </tr>
                                 <tr>
-                                  <td>Tempat Lahir</td>
-                                  <td>:</td>
-                                  <td>{{ $tl->pegawai->ttl }}</td>
-                                </tr>
-                                <tr>
-                                  <td>Tanggal Lahir</td>
+                                  <td>TTL</td>
                                   <td>:</td>
                                   <td>{{ $tl->pegawai->ttl }}</td>
                                 </tr>
@@ -140,6 +125,11 @@
                                   <td>:</td>
                                   <td>{{ $tl->pegawai->alamat }}</td>
                                 </tr>
+                                <tr>
+                                  <td>Melanggar kode etik</td>
+                                  <td>:</td>
+                                  <td>{{ $tl->pegawai->kode_etik   }}</td>
+                                </tr>
                               </table>
                             </div>
                             <div class="col-md-3 col-sm-3">
@@ -156,6 +146,13 @@
                                 @foreach ($tl->pegawai->skillpegawai as $sk)
                                 <tr>
                                    <td>Skill {{ $sk->skill->nama_skill }}</td>
+                                </tr>
+                                @endforeach
+                              </table>
+                              <table class="table table-hover text-center">
+                                @foreach ($tl->pegawai->personalquality as $pq)
+                                <tr>
+                                   <td>{{ $pq->personalquality->nama_personalquality }}</td>
                                 </tr>
                                 @endforeach
                               </table>

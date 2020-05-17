@@ -19,10 +19,12 @@ class CreateTallentsTable extends Migration
             $table->bigInteger('id_pegawai')->unsigned();
             $table->string('nomor_urut');
             $table->string('nomor_surat');
+            $table->bigInteger('id_jabstruklama')->unsigned();
             $table->timestamps();
 
             $table->foreign('id_user')->references('id')->on('users')->onDelete('CASCADE');
             $table->foreign('id_pegawai')->references('id')->on('pegawai')->onDelete('CASCADE');
+            $table->foreign('id_jabstruklama')->references('id')->on('jabatan_struktural')->onDelete('CASCADE');
         });
     }
 

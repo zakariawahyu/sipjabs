@@ -77,15 +77,15 @@
                                 <tr>
                                   <td>Masa kerja</td>
                                   <td>:</td>
-                                  <td>{{ $pegawai->masa_kerja }} Tahun</td>
+                                  <td>{{ $pegawai->masa_kerja }} Tahun (Mulai dari tahun @php
+                                      $masa = $pegawai->masa_kerja;
+                                      $tgl1 = date('Y');
+                                      $tgl2 = date('Y', strtotime('-'.$masa.' year', strtotime($tgl1))); 
+                                      echo $tgl2;
+                                  @endphp)</td>
                                 </tr>
                                 <tr>
-                                  <td>Tempat Lahir</td>
-                                  <td>:</td>
-                                  <td>{{ $pegawai->ttl }}</td>
-                                </tr>
-                                <tr>
-                                  <td>Tanggal Lahir</td>
+                                  <td>TTL</td>
                                   <td>:</td>
                                   <td>{{ $pegawai->ttl }}</td>
                                 </tr>

@@ -10,6 +10,7 @@ use App\Jabatan;
 use App\UnitBagian;
 use App\Skill;
 use App\Pendidikan;
+use App\PersonalQuality;
 
 use Illuminate\Http\Request;
 
@@ -30,8 +31,9 @@ class AdminController extends Controller
         $unitbagian = UnitBagian::all();
         $pendidikan = Pendidikan::all();
         $skill = Skill::all();
+        $personalquality = PersonalQuality::all();
 
-        return view('admin.index', compact('users', 'pegawai', 'tallent', 'unitkerja', 'jabatan','unitbagian', 'pendidikan', 'skill'));
+        return view('admin.index', compact('users', 'pegawai', 'tallent', 'unitkerja', 'jabatan','unitbagian', 'pendidikan', 'skill', 'personalquality'));
     }
 
     /**

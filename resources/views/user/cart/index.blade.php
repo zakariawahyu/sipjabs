@@ -32,12 +32,6 @@
                       </li>
                       <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
-                        <ul class="dropdown-menu" role="menu">
-                          <li><a href="#">Settings 1</a>
-                          </li>
-                          <li><a href="#">Settings 2</a>
-                          </li>
-                        </ul>
                       </li>
                       <li><a class="close-link"><i class="fa fa-close"></i></a>
                       </li>
@@ -74,7 +68,10 @@
                                                             <p>Nama : {{ $ct->pegawai->nama_lengkap }}</p>
                                                             <p>NIP  : {{ $ct->pegawai->nip }}</p>
                                                             <p>Status : {{ $ct->pegawai->status_pegawai }}</p>
-                                                            <p>{{ $ct->pegawai->jabatanstruktural->jabatan->nama_jabatan }} {{ $ct->pegawai->jabatanstruktural->unitbagian->nama_unitbagian }}</p>
+                                                            <hr>
+                                                            <p>Jabatan Lama : {{ $ct->pegawai->jabatanstruktural->jabatan->nama_jabatan }} {{ $ct->pegawai->jabatanstruktural->unitbagian->nama_unitbagian }}</p>
+                                                            <p>Jabatan Baru : {{ $ct->jabatanstruktural->jabatan->nama_jabatan }} {{ $ct->jabatanstruktural->unitbagian->nama_unitbagian }}</p>
+                                                            <hr>
                                                         </div>
                                                     </div>
                                                 </td>

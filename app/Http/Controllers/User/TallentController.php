@@ -142,7 +142,7 @@ class TallentController extends Controller
                             ->get();
 
         $pdf = PDF::Loadview('user.tallent.cetak', compact('tallents', 'nosurat'));
-        return $pdf->download('laporan-tallent-pdf');
+        return $pdf->download('laporan-pdf');
 
     }
 }

@@ -1,20 +1,20 @@
 @extends('user.layouts.master')
 
-@section('title', 'SIPJABS | Cari Tallent')
+@section('title', 'SIPJABS | Cari Kandidat')
  
 @section('content')
     <div class="right_col" role="main">
         <div class="">
           <div class="page-title">
             <div class="title_left">
-              <h3>Cari Tallent</h3>
+              <h3>Cari Kandidat</h3>
             </div>
 
             <div class="title_right">
               <div class="col-md-4 col-sm-4 col-xs-12 pull-right">
                 <ol class="breadcrumb float-sm-right">
                   <li class="breadcrumb-item"><a href="#">Home</a></li>
-                  <li class="breadcrumb-item active">Cari Tallent</li>
+                  <li class="breadcrumb-item active">Cari Kandidat</li>
                 </ol>
               </div>
             </div>
@@ -28,19 +28,13 @@
               <div class="x_panel">
 
                 <div class="x_title">
-                  <h2>Cari Tallent |<small>Aditional Information</small></h2>
+                  <h2>Form Filter Kandidat |<small>Harap isi posisi target terlebih dahulu</small></h2>
                   <ul class="nav navbar-right panel_toolbox">
                     <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                     </li>
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i
                           class="fa fa-wrench"></i></a>
-                      <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">Settings 1</a>
-                        </li>
-                        <li><a href="#">Settings 2</a>
-                        </li>
-                      </ul>
                     </li>
                     <li><a class="close-link"><i class="fa fa-close"></i></a>
                     </li>
@@ -51,11 +45,12 @@
                 <div class="x_content">
                   {{-- Form Filter Utama --}}
                   <form  class="form-horizontal form-label-left" action="{{ route('filtertallent') }}" method="GET">
-                    <p class="text-center">Jabatan dituju</p>
+                    @csrf
+                    <p class="text-center">Jabatan dituju / Posisi target</p>
                     <div class="form-group">
                       <label class="control-label col-md-3 col-sm-3 col-xs-12">Unit Kerja</label>
                       <div class="col-md-6 col-sm-6 col-xs-12">
-                        <select name="level" class="form-control">
+                        <select id="unitkerja" class="form-control dynamic" data-dependent="jabatan">
                             <option disabled selected value>Pilih Unit Kerja</option>
                             @foreach ($unitkerja as $uk)
                                 <option value="{{ $uk->id }}">{{ $uk->nama_unitkerja }}</option>
@@ -66,22 +61,16 @@
                     <div class="form-group">
                       <label class="control-label col-md-3 col-sm-3 col-xs-12">Jabatan</label>
                       <div class="col-md-6 col-sm-6 col-xs-12">
-                        <select name="level" class="form-control">
+                        <select id="jabatan" class="form-control dynamic" data-dependent="unitbagian">
                             <option disabled selected value>Pilih Jabatan</option>
-                            @foreach ($jabatan as $jb)
-                                <option value="{{ $jb->level_jabatan }}">{{ $jb->nama_jabatan }}</option>
-                            @endforeach
                         </select>
                       </div>
                     </div>
                     <div class="form-group">
                       <label class="control-label col-md-3 col-sm-3 col-xs-12">Unit Bagian</label>
                       <div class="col-md-6 col-sm-6 col-xs-12">
-                        <select name="level" class="form-control">
-                            <option disabled selected value>Pilih Jabatan</option>
-                            @foreach ($jabatan as $jb)
-                                <option value="{{ $jb->level_jabatan }}">{{ $jb->nama_jabatan }}</option>
-                            @endforeach
+                        <select name="jabatanstruktural" id="unitbagian" class="form-control dynamic" data-dependent="jabatanstruktural">
+                            <option disabled selected value>Pilih Unit Bagian</option>
                         </select>
                       </div>
                     </div>

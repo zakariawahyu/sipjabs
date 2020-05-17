@@ -21,7 +21,7 @@ class PegawaiSeeder extends Seeder
         'status_pegawai' => 'DOSEN PEGAWAI TETAP',
         'id_jabatanstruktural' => '1',
         'jenis_kelamin' => 'L',
-        'ttl' => 'Depok, 22/08/19/1974',
+        'ttl' => 'Depok, 22/08/1974',
         'gol_darah' => 'O',
         'status_perkawinan' => 'Menikah',
         'agama' => 'ISLAM',

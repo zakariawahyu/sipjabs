@@ -1,21 +1,21 @@
 @extends('user.layouts.master')
 
-@section('title', 'SIPJABS | Cari Tallent')
+@section('title', 'SIPJABS | Filter Kandidat')
 
 @section('content')
     <div class="right_col" role="main">
         <div class="">
           <div class="page-title">
             <div class="title_left">
-              <h3>Tallent</h3>
+              <h3>Filter Kandidat</h3>
             </div>
 
             <div class="title_right">
               <div class="col-md-4 col-sm-4 col-xs-12 pull-right">
                 <ol class="breadcrumb float-sm-right">
                   <li class="breadcrumb-item"><a href="#">Home</a></li>
-                  <li class="breadcrumb-item"><a href="#">Tallent</a></li>
-                  <li class="breadcrumb-item active">Hasil Tallent</li>
+                  <li class="breadcrumb-item"><a href="#">Kandidat</a></li>
+                  <li class="breadcrumb-item active">Filter Kandidat</li>
                 </ol>
               </div>
             </div>
@@ -28,19 +28,13 @@
               <div class="x_panel">
 
                 <div class="x_title">
-                  <h2>Hasil Tallent |<small>Aditional Information</small></h2>
+                  <h2>Hasil Filter</h2>
                   <ul class="nav navbar-right panel_toolbox">
                     <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                     </li>
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i
                           class="fa fa-wrench"></i></a>
-                      <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">Settings 1</a>
-                        </li>
-                        <li><a href="#">Settings 2</a>
-                        </li>
-                      </ul>
                     </li>
                     <li><a class="close-link"><i class="fa fa-close"></i></a>
                     </li>
@@ -59,6 +53,7 @@
                               <form action="{{ route('filtertallent') }}" id="product_filter_form" method="GET">
                                 <input type="hidden" name="level" value="{{ $level }}">
                                 <input type="hidden" name="masakerja" value="{{ $masakerja }}">
+                                <input type="hidden" name="jabatanstruktural" value="{{ $jabstruk }}">
                                 <div class="row">
                                   <div class="col-lg-5">
                                     <select class="sorting" name="order_by" id="order_by">
@@ -129,7 +124,7 @@
                                       </div>
                                       <div class="col-xs-12 col-sm-6 emphasis">
                                       <a href="{{ route('user.filter.show', $pg->id) }}" class="btn btn-success btn-xs btn-show" title="Detail Pegawai {{ $pg->nama_lengkap }}"><i class="fa fa-user"></i> View Profile</a>
-                                      <a href="{{ route('user.cart.add', $pg->id) }}" class="btn btn-primary btn-xs"><i class="fa fa-check"></i> Pilih</a>
+                                      <a href="{{ route('user.cart.add', $pg->id.' '.$jabstruk) }}" class="btn btn-primary btn-xs"><i class="fa fa-check"></i> Pilih</a>
                                       </div>
                                     </div>
                                   </div>
@@ -199,13 +194,36 @@
                                      @endif
                                     </li>
                                   </ul>
-                                  {{-- <div class="range_item">
-                                    <div id="slider-range"></div>
-                                    <div class="row m0">
-                                      <label for="amount">Price : </label>
-                                      <input type="text" id="amount" readonly>
-                                    </div>
-                                  </div> --}}
+                                </div>
+                                <div class="widgets_inner">
+                                  <h4>Personal Quality Pegawai</h4>
+                                  <ul class="list">
+                                    <li>
+                                      @if ($personalquality)
+                                    <select onchange="javascript:this.form.submit();" name="personalquality[]" class="select2" multiple="multiple" data-placeholder="Pilih Personal Quality" style="width: 100%;">
+                                      @foreach ($personalquality as $pq)
+                                          <option value="{{ $pq->nama_personalquality }}" @if(isset($selected_personalquality)) 	@if (in_array($pq->nama_personalquality, $selected_personalquality)) 	selected 	@endif @endif>{{ $pq->nama_personalquality }}</option>
+                                      @endforeach
+                                    </select>
+                                     @endif
+                                    </li>
+                                  </ul>
+                                </div>
+                                <div class="widgets_inner">
+                                  <h4>Pelanggaran Kode Etik</h4>
+                                  <ul class="list">
+                                    
+                                    @if ($kodeetik)
+                                      @foreach ($kodeetik as $ke)
+                                      <div class="checkbox">
+                                        <label>
+                                          <input onchange="javascript:this.form.submit();" value="{{ $ke->kode_etik }}" type="checkbox" name="kode_etik[]"
+                                          @if(isset($selected_kodeetik)) 	@if (in_array($ke->kode_etik, $selected_kodeetik)) 	checked="checked" 	@endif @endif> {{ $ke->kode_etik }}
+                                        </label>
+                                      </div>
+                                      @endforeach
+                                     @endif
+                                  </ul>
                                 </div>
                               </aside>
                             </div>

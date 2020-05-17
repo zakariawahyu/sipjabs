@@ -31,7 +31,7 @@
   <!-- Custom Theme Style -->
   <link href="{{ asset('asset/build/css/custom.min.css') }}" rel="stylesheet">
 
-   <!-- Datatables -->
+  <!-- Datatables -->
   <link href="{{ asset('asset/vendors/datatables.net-bs/css/dataTables.bootstrap.min.css') }}" rel="stylesheet">
   <link href="{{ asset('asset/vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css') }}" rel="stylesheet">
   <link href="{{ asset('asset/vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css') }}" rel="stylesheet">
