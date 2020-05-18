@@ -35,12 +35,6 @@
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i
                           class="fa fa-wrench"></i></a>
-                      <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">Settings 1</a>
-                        </li>
-                        <li><a href="#">Settings 2</a>
-                        </li>
-                      </ul>
                     </li>
                     <li><a class="close-link"><i class="fa fa-close"></i></a>
                     </li>
@@ -74,6 +68,7 @@
                         <td>{{ $user->email }}</td>
                         <td>{{ $user->role }}</td>
                         <td class="text-center">
+                          <a href="{{ route('admin.users.show', $user->id) }}" title="View Profile {{ $user->pegawai->nama_lengkap }}" class="btn btn-info btn-view-users-admin"><i class="fa fa-eye"></i> View</a>
                           <a href="{{ route('admin.users.edit', $user->id) }}" title="Edit Profile {{ $user->pegawai->nama_lengkap }}" class="btn btn-primary btn-edit-users-admin"><i class="fa fa-edit"></i> Edit</a>
                           <a href="{{ route('admin.users.delete', $user->id) }}" title="Edit Profile {{ $user->pegawai->nama_lengkap }}" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
                         </td>

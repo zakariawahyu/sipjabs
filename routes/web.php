@@ -47,6 +47,7 @@ Route::prefix('admin')->namespace('Admin')->middleware('cek.admin', 'cek')->grou
     Route::get('/deleteskill/{id}', 'SkillController@destroy')->name('admin.skill.delete');
     Route::get('/getpegawai', 'PegawaiController@dataTables')->name('admin.pegawai.get');
     Route::get('/getjabatanstruk', 'JabatanStrukturalController@dataTables')->name('admin.jabatanstruktural.get');
+    Route::post('/pegawai/fetch', 'PegawaiController@fetch')->name('admin.pegawai.fetch');
     Route::resource('users' , 'UsersController',['as' => 'admin']);
     Route::resource('pegawai' , 'PegawaiController',['as' => 'admin']);
     Route::resource('unitkerja' , 'UnitKerjaController',['as' => 'admin']);

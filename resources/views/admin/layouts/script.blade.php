@@ -88,7 +88,7 @@
 
 {{-- script show edit and reset pass admin on profile + add jabatan, unit kerja and unit bagian--}}
 <script>
-  $('body').on('click', '.btn-edit-admin, .btn-reset-admin, .btn-edit-users-admin, .btn-add-unitbagian, .btn-add-unitkerja, .btn-add-jabatan, .btn-add-skill, .btn-add-pendidikan, .btn-edit-unitkerja, .btn-edit-jabatan, .btn-edit-unitbagian, .btn-edit-jabstruk, .btn-edit-pendidikan, .btn-edit-skill, .btn-add-personalquality, .btn-edit-personalquality', function(event){
+  $('body').on('click', '.btn-edit-admin, .btn-reset-admin, .btn-edit-users-admin, .btn-add-unitbagian, .btn-add-unitkerja, .btn-add-jabatan, .btn-add-skill, .btn-add-pendidikan, .btn-edit-unitkerja, .btn-edit-jabatan, .btn-edit-unitbagian, .btn-edit-jabstruk, .btn-edit-pendidikan, .btn-edit-skill, .btn-add-personalquality, .btn-edit-personalquality, .btn-view-users-admin', function(event){
     event.preventDefault();
 
     var me = $(this),
@@ -186,3 +186,29 @@
     ]
   })
 </script>
+
+<script>
+$(document).ready(function(){
+
+ $('.dynamic').change(function(){
+  if($(this).val() != '')
+  {
+   var select = $(this).attr("id");
+   var value = $(this).val();
+   var dependent = $(this).data('dependent');
+   var _token = $('input[name="_token"]').val();
+   $.ajax({
+    url:"{{ route('admin.pegawai.fetch') }}",
+    method:"POST",
+    data:{select:select, value:value, _token:_token, dependent:dependent},
+    success:function(result)
+    {
+     $('#'+dependent).html(result);
+    }
+
+   })
+  }
+ });
+
+});
+</script> 

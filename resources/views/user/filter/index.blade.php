@@ -50,7 +50,7 @@
                     <div class="form-group">
                       <label class="control-label col-md-3 col-sm-3 col-xs-12">Unit Kerja</label>
                       <div class="col-md-6 col-sm-6 col-xs-12">
-                        <select id="unitkerja" class="form-control dynamic" data-dependent="jabatan">
+                        <select id="unitkerja" class="form-control dynamic select2" data-dependent="jabatan">
                             <option disabled selected value>Pilih Unit Kerja</option>
                             @foreach ($unitkerja as $uk)
                                 <option value="{{ $uk->id }}">{{ $uk->nama_unitkerja }}</option>
@@ -61,7 +61,7 @@
                     <div class="form-group">
                       <label class="control-label col-md-3 col-sm-3 col-xs-12">Jabatan</label>
                       <div class="col-md-6 col-sm-6 col-xs-12">
-                        <select id="jabatan" class="form-control dynamic" data-dependent="unitbagian">
+                        <select id="jabatan" class="form-control dynamic select2" data-dependent="unitbagian">
                             <option disabled selected value>Pilih Jabatan</option>
                         </select>
                       </div>
@@ -69,7 +69,7 @@
                     <div class="form-group">
                       <label class="control-label col-md-3 col-sm-3 col-xs-12">Unit Bagian</label>
                       <div class="col-md-6 col-sm-6 col-xs-12">
-                        <select name="jabatanstruktural" id="unitbagian" class="form-control dynamic" data-dependent="jabatanstruktural">
+                        <select name="jabatanstruktural" id="unitbagian" class="form-control dynamic select2" data-dependent="jabatanstruktural">
                             <option disabled selected value>Pilih Unit Bagian</option>
                         </select>
                       </div>
@@ -78,7 +78,7 @@
                     <div class="form-group">
                       <label class="control-label col-md-3 col-sm-3 col-xs-12">Jabatan Minimal</label>
                       <div class="col-md-6 col-sm-6 col-xs-12">
-                        <select name="level" class="form-control">
+                        <select name="level" class="form-control select2">
                             <option disabled selected value>Pilih Jabatan</option>
                             @foreach ($jabatan as $jb)
                                 <option value="{{ $jb->level_jabatan }}">{{ $jb->nama_jabatan }}</option>

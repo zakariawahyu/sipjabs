@@ -71,7 +71,9 @@ class UsersController extends Controller
      */
     public function show($id)
     {
-        //
+        $users = User::find($id);
+
+        return view('admin.users.show', compact('users'));
     }
 
     /**
@@ -116,8 +118,15 @@ class UsersController extends Controller
     {
         $users = User::find($id);
 
-        $users->delete();
+        if ($users->role == 'admin') {
 
-        return back()->with('succes', 'User berhasil dihapus');
+            return back()->with('error', 'Tidak diizinkan menghapus akun admin');
+            
+        } else {
+
+            $users->delete();
+
+            return back()->with('succes', 'User berhasil dihapus');
+        }
     }
 }
