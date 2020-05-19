@@ -43,7 +43,7 @@
                 </div>
 
                 <div class="x_content">
-                  <table id="datatablependidikan" class="table table-striped table-bordered">
+                  <table id="datatablependidikan" class="table table-striped table-bordered table-hover">
                     <thead>
                       <tr>
                         <th style="width: 5%">No</th>
@@ -58,12 +58,12 @@
                       @endphp
                       @foreach ($pendidikan as $pk)
                           <tr>
-                            <td>{{$no++ }}</td>
+                            <td class="text-center">{{$no++ }}</td>
                             <td>{{ $pk->jenjang_pendidikan }}</td>
                             <td>{{ $pk->jurusan }}</td>
                             <td class="text-center">
+                              <a href="{{ route('admin.pendidikan.show', $pk->id) }}" title="View Pendidikan" class="btn btn-info btn-show-pendidikan"><i class="fa fa-eye"></i> View</a>
                               <a href="{{ route('admin.pendidikan.edit', $pk->id) }}" title="Edit Pendidikan" class="btn btn-primary btn-edit-pendidikan"><i class="fa fa-edit"></i> Edit</a>
-                              <a href="{{ route('admin.pendidikan.delete', $pk->id) }}" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
                             </td>
                           </tr>
                       @endforeach

@@ -43,7 +43,7 @@
                 </div>
 
                 <div class="x_content">
-                  <table id="datatable" class="table table-striped table-bordered">
+                  <table id="datatable" class="table table-bordered table-striped table-hover">
                     <thead>
                       <tr>
                         <th>No</th>
@@ -61,7 +61,7 @@
                       @endphp
                       @foreach ($users as $user)
                       <tr>
-                        <td>{{ $no++ }}</td>
+                        <td class="text-center">{{ $no++ }}</td>
                         <td>{{ $user->pegawai->nama_lengkap }}</td>
                         <td>{{ $user->pegawai->jabatanstruktural->jabatan->nama_jabatan }} {{$user->pegawai->jabatanstruktural->unitbagian->nama_unitbagian}}</td>
                         <td>{{ $user->username }}</td>

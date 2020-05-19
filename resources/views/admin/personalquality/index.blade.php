@@ -57,9 +57,10 @@
                       @endphp
                       @foreach ($personalquality as $pq)
                       <tr>
-                        <td>{{ $no++ }}</td>
+                        <td class="text-center">{{ $no++ }}</td>
                         <td>{{ $pq->nama_personalquality }}</td>
                         <td class="text-center">
+                          <a href="{{ route('admin.personalquality.show', $pq->id) }}" title="View Personal Quality" class="btn btn-info btn-show-personalquality"><i class="fa fa-eye"></i> View</a>
                           <a href="{{ route('admin.personalquality.edit', $pq->id) }}" title="Edit Personal Quality" class="btn btn-primary btn-edit-personalquality"><i class="fa fa-edit"></i> Edit</a>
                         </td>
                       </tr>

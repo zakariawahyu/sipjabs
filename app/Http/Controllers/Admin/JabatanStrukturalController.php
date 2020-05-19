@@ -8,6 +8,7 @@ use App\UnitKerja;
 use App\Jabatan;
 use App\UnitBagian;
 use App\JabatanStruktural;
+use App\Pegawai;
 use DataTables;
 
 class JabatanStrukturalController extends Controller
@@ -77,7 +78,16 @@ class JabatanStrukturalController extends Controller
      */
     public function show($id)
     {
-        //
+        $jabstruk = JabatanStruktural::find($id);
+
+        $pegawai = Pegawai::with(['jabatanstruktural', 
+                                'jabatanstruktural.jabatan', 'jabatanstruktural.unitbagian', 'jabatanstruktural.unitkerja',])
+                            ->whereHas('jabatanstruktural', function($q) use($id){
+                                $q->where('id', $id);
+                            })
+                            ->get();
+        
+        return view('admin.jabatanstruktural.show', compact('pegawai', 'jabstruk'));
     }
 
     /**
@@ -138,7 +148,7 @@ class JabatanStrukturalController extends Controller
                         ->addColumn('action', function($jabatanstruk){
                             return view('admin.jabatanstruktural.action', [
                                 'jabatanstruk' => $jabatanstruk,
-                                'url_delete' => route('admin.jabatanstruktural.delete', $jabatanstruk->id),
+                                'url_show' => route('admin.jabatanstruktural.show', $jabatanstruk->id),
                                 'url_edit' => route('admin.jabatanstruktural.edit', $jabatanstruk->id),
                             ]);
                         })

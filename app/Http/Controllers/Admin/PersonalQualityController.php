@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\PersonalQuality;
+use App\Pegawai;
 
 class PersonalQualityController extends Controller
 {
@@ -64,7 +65,15 @@ class PersonalQualityController extends Controller
      */
     public function show($id)
     {
-        //
+        $personalquality = PersonalQuality::find($id);
+
+        $pegawai = Pegawai::with(['personalquality', 'personalquality.personalquality'])
+                            ->whereHas('personalquality.personalquality', function($q) use($id){
+                                $q->where('id', $id);
+                            })
+                            ->get();
+        
+        return view('admin.personalquality.show', compact('pegawai', 'personalquality'));
     }
 
     /**

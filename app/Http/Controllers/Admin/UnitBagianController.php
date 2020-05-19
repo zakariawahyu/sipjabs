@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\UnitBagian;
+use App\Pegawai;
 
 use Illuminate\Http\Request;
 
@@ -65,7 +66,16 @@ class UnitBagianController extends Controller
      */
     public function show($id)
     {
-        //
+        $unitbagian = UnitBagian::find($id);
+
+        $pegawai = Pegawai::with(['jabatanstruktural', 
+                                'jabatanstruktural.jabatan', 'jabatanstruktural.unitbagian', 'jabatanstruktural.unitkerja',])
+                            ->whereHas('jabatanstruktural.unitbagian', function($q) use($id){
+                                $q->where('id', $id);
+                            })
+                            ->get();
+        
+        return view('admin.unitbagian.show', compact('pegawai', 'unitbagian'));
     }
 
     /**

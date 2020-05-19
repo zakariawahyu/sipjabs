@@ -43,7 +43,7 @@
                 </div>
 
                 <div class="x_content">
-                  <table id="datatablepegawai" class="table table-striped table-bordered">
+                  <table id="datatablepegawai" class="table table-bordered table-striped table-hover">
                     <thead>
                       <tr>
                         <th>No</th>

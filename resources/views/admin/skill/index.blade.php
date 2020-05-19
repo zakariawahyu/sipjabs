@@ -57,11 +57,11 @@
                       @endphp
                       @foreach ($skills as $sk)
                       <tr>
-                        <td>{{ $no++ }}</td>
+                        <td class="text-center">{{ $no++ }}</td>
                         <td>{{ $sk->nama_skill }}</td>
                         <td class="text-center">
-                          <a href="{{ route('admin.skill.edit', $sk->id) }}" class="btn btn-primary btn-edit-skill"><i class="fa fa-edit"></i> Edit</a>
-                          <a href="{{ route('admin.skill.delete', $sk->id) }}" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
+                          <a href="{{ route('admin.skill.show', $sk->id) }}" title="View Skill" class="btn btn-info btn-show-skill"><i class="fa fa-eye"></i> View</a>
+                          <a href="{{ route('admin.skill.edit', $sk->id) }}" title="Edit Skill" class="btn btn-primary btn-edit-skill"><i class="fa fa-edit"></i> Edit</a>
                         </td>
                       </tr>
                       @endforeach

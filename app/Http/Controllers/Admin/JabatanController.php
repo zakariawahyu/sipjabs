@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Jabatan;
+use App\Pegawai;
 
 use Illuminate\Http\Request;
 
@@ -67,7 +68,16 @@ class JabatanController extends Controller
      */
     public function show($id)
     {
-        //
+        $jabatan = Jabatan::find($id);
+
+        $pegawai = Pegawai::with(['jabatanstruktural', 
+                                'jabatanstruktural.jabatan', 'jabatanstruktural.unitbagian', 'jabatanstruktural.unitkerja',])
+                            ->whereHas('jabatanstruktural.jabatan', function($q) use($id){
+                                $q->where('id', $id);
+                            })
+                            ->get();
+        
+        return view('admin.jabatan.show', compact('pegawai', 'jabatan'));
     }
 
     /**

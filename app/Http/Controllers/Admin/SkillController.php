@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Skill;
+use App\Pegawai;
 
 class SkillController extends Controller
 {
@@ -64,7 +65,15 @@ class SkillController extends Controller
      */
     public function show($id)
     {
-        //
+        $skill = Skill::find($id);
+
+        $pegawai = Pegawai::with(['skillpegawai', 'skillpegawai.skill'])
+                            ->whereHas('skillpegawai.skill', function($q) use($id){
+                                $q->where('id', $id);
+                            })
+                            ->get();
+        
+        return view('admin.skill.show', compact('pegawai', 'skill'));
     }
 
     /**

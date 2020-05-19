@@ -43,7 +43,7 @@
                 </div>
 
                 <div class="x_content">
-                  <table id="datatablejabstruk" class="table table-striped table-bordered">
+                  <table id="datatablejabstruk" class="table table-striped table-bordered table-hover">
                     <thead>
                       <tr>
                         <th>No</th>

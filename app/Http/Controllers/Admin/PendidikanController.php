@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Pendidikan;
+use App\Pegawai;
 
 class PendidikanController extends Controller
 {
@@ -69,7 +70,15 @@ class PendidikanController extends Controller
      */
     public function show($id)
     {
-        //
+        $pendidikan = Pendidikan::find($id);
+
+        $pegawai = Pegawai::with(['riwayatpendidikan', 'riwayatpendidikan.pendidikan'])
+                            ->whereHas('riwayatpendidikan.pendidikan', function($q) use($id){
+                                $q->where('id', $id);
+                            })
+                            ->get();
+        
+        return view('admin.pendidikan.show', compact('pegawai', 'pendidikan'));
     }
 
     /**
