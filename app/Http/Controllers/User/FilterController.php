@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
-use App\PegawaiDb;
+use App\PegawaiDB;
 use App\Jabatan;
 use App\UnitKerja;
 use App\UnitBagian;

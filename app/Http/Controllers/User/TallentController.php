@@ -20,7 +20,7 @@ class TallentController extends Controller
      */
     public function index()
     {
-        $tallents = Tallent::select('nomor_surat', 'nomor_urut')->where('id_user', session('id'))->distinct()->get();
+        $tallents = Tallent::where('id_user', session('id'))->get();
 
         return view('user.tallent.index', compact('tallents'));
     }
@@ -32,43 +32,7 @@ class TallentController extends Controller
      */
     public function create()
     {
-        $noUrutAkhir = Tallent::max('nomor_urut');
-        $bulanRomawi = array("", "I","II","III", "IV", "V","VI","VII","VIII","IX","X", "XI","XII");
-        $kode = 'YSDM';
-        $no = 1;
-
-        $carts = Cart::where('id_user', session('id'))->get();
         
-        if($noUrutAkhir)
-        {
-        $nourut = sprintf("%03s", abs($noUrutAkhir + 1));
-        $nosurat = sprintf("%03s", abs($noUrutAkhir + 1)). '/' . $kode .'/' . $bulanRomawi[date('n')] .'/' . date('Y');
-
-        } else 
-        {
-        $nourut = sprintf("%03s", $no);
-        $nosurat = sprintf("%03s", $no). '/' . $kode .'/' . $bulanRomawi[date('n')] .'/' . date('Y');
-
-        }
-       
-
-        foreach ($carts as $ct ) {
-            
-            $tallent = new Tallent;
-            $tallent->id_user = $ct->id_user;
-            $tallent->id_pegawai = $ct->id_pegawai;
-            $tallent->nomor_urut = $nourut;
-            $tallent->nomor_surat = $nosurat;
-            $tallent->save();
-            
-        }
-
-        
-
-        DB::table('carts')->delete();
-
-        return back()->with('succes', 'Berhasil di proses, silahkan cek data tallent');
-
     }
 
     /**
@@ -90,7 +54,7 @@ class TallentController extends Controller
      */
     public function show($id)
     {
-        $tallents = Tallent::where('nomor_urut', $id)->get();
+        $tallents = Tallent::where('id', $id)->first();
 
         return view('user.tallent.show', compact('tallents'));
     }
@@ -126,23 +90,65 @@ class TallentController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $tallents = Tallent::where('id_user', session('id'))
+                        ->where('id', $id)->first();
+        
+        if ($tallents != null)
+        {
+            $tallents->delete();
+
+            return back()->with('succes', 'Berhasil dihapus dalam data kandidat');
+
+        } else
+        {
+            return back()->with('error', 'Pegawai tidak ditemukan');
+        }
     }
 
     public function cetak_pdf($id)
     {
         $tallents = Tallent::where('id_user', session('id'))
-                            ->where('nomor_urut', $id)
-                            ->get();
+                            ->where('id', $id)
+                            ->first();
 
-        $nosurat = Tallent::select('nomor_surat')
-                            ->where('id_user', session('id'))
-                            ->where('nomor_urut', $id)
-                            ->distinct()
-                            ->get();
 
-        $pdf = PDF::Loadview('user.tallent.cetak', compact('tallents', 'nosurat'));
-        return $pdf->download('laporan-pdf');
+        $pdf = PDF::Loadview('user.tallent.cetak', compact('tallents'));
+        return $pdf->download('laporan-kandidat.pdf');
 
+    }
+
+    public function addTallent($id)
+    {
+        $noUrutAkhir = Tallent::max('nomor_urut');
+        $bulanRomawi = array("", "I","II","III", "IV", "V","VI","VII","VIII","IX","X", "XI","XII");
+        $kode = 'YSDM';
+        $no = 1;
+
+        $carts = Cart::where('id_user', session('id'))
+                        ->where('id_pegawai', $id)->first();
+        
+        if($noUrutAkhir)
+        {
+        $nourut = sprintf("%03s", abs($noUrutAkhir + 1));
+        $nosurat = sprintf("%03s", abs($noUrutAkhir + 1)). '/' . $kode .'/' . $bulanRomawi[date('n')] .'/' . date('Y');
+
+        } else 
+        {
+        $nourut = sprintf("%03s", $no);
+        $nosurat = sprintf("%03s", $no). '/' . $kode .'/' . $bulanRomawi[date('n')] .'/' . date('Y');
+
+        }
+
+        $tallent = new Tallent;
+        $tallent->id_user = $carts->id_user;
+        $tallent->id_pegawai = $carts->id_pegawai;
+        $tallent->nomor_urut = $nourut;
+        $tallent->nomor_surat = $nosurat;
+        $tallent->id_jabstruklama = $carts->id_jabstruklama;
+        $tallent->save();
+
+        $carts->delete();
+
+        return back()->with('succes', 'Berhasil di proses, silahkan cek data kandidat');
     }
 }

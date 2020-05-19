@@ -14,4 +14,10 @@ class Tallent extends Model
     {
       return $this->belongsTo(Pegawai::class, 'id_pegawai');
     }
+
+    // one to one menghubungkan table tallent dengan table jabatan struktural
+    public function jabatanstruktural()
+    {
+      return $this->belongsTo(JabatanStruktural::class, 'id_jabstruklama');
+    }
 }

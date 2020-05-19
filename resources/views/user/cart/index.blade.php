@@ -11,7 +11,7 @@
               </div>
 
               <div class="title_right">
-              <div class="col-md-4 col-sm-4 col-xs-12 pull-right">
+              <div class="col-md-2 col-sm-2 col-xs-12 pull-right">
                 <ol class="breadcrumb float-sm-right">
                   <li class="breadcrumb-item"><a href="#">Home</a></li>
                   <li class="breadcrumb-item"><a href="#">Cart</a></li>
@@ -26,7 +26,7 @@
               <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>View Cart</h2>
+                    <h2>View Cart <small>| Data kandidat sementara setelah melalui proses filtering</small></h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
@@ -46,8 +46,8 @@
                                     <table class="table">
                                         <thead>
                                             <tr>
-                                                <th scope="col" style="width:80%">Pegawai</th>
-                                                <th scope="col" style="width:40%">Action</th>
+                                                <th scope="col" style="width:70%" class="text-center">Pegawai</th>
+                                                <th scope="col" class="text-center">Action</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -77,8 +77,9 @@
                                                 </td>
                                                 <td>
                                                   @method('delete')
-                                                    <a href="{{ route('user.cart.delete', $ct->pegawai->id) }}" class="gray_btn"><i class="fa fa-trash"></i> Delete</a>
-                                                    <a href="{{ route('user.cart.show', $ct->pegawai->id) }}" class="main_btn2 btn-show-cart" title="Detail Pegawai {{ $ct->pegawai->nama_lengkap }}"><i class="fa fa-eye"></i> View</a>
+                                                    <a href="{{ route('user.cart.show', $ct->pegawai->id) }}" class="main_btn btn-show-cart" title="Detail Pegawai {{ $ct->pegawai->nama_lengkap }}"><i class="fa fa-eye"></i> View</a>
+                                                    <a href="{{ route('user.cart.delete', $ct->pegawai->id) }}" class="org_btn"><i class="fa fa-trash"></i> Delete</a>
+                                                    <a href="{{ route('user.tallent.add', $ct->pegawai->id) }}" class="green_btn"><i class="fa fa-check-square-o"></i> Proses Kandidat</a>
                                                 </td>
                                             </tr>
                                              @endforeach
@@ -89,22 +90,6 @@
                                                 </td>
                                                 <td>
                                                     <h1>{{ $carts->count() }}</h1>
-                                                </td>
-                                            </tr>
-                                            <tr class="out_button_area">
-                                                <td>
-
-                                                </td>
-                                                <td>
-
-                                                </td>
-                                                <td>
-
-                                                </td>
-                                                <td>
-                                                    <div class="checkout_btn_inner text-right">
-                                                        <a class="main_btn" href="{{ route('user.tallent.create') }}">Proceed Tallent</a>
-                                                    </div>
                                                 </td>
                                             </tr>
                                         @else

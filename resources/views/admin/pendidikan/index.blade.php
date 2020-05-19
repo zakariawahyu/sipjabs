@@ -11,7 +11,7 @@
             </div>
 
             <div class="title_right">
-              <div class="col-md-3 col-sm-3 col-xs-8 pull-right">
+              <div class="col-md-3 col-sm-3 col-xs-12 pull-right">
                 <ol class="breadcrumb float-sm-right">
                   <li class="breadcrumb-item"><a href="#">Home</a></li>
                   <li class="breadcrumb-item active">Pendidikan</li>
@@ -24,7 +24,7 @@
 
           <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
-              <a href="{{ route('admin.pendidikan.create') }}" title="Tambah Data Pendidikan" class="btn btn-info pull-right btn-add-pendidikan"><i class="fa fa-plus-circle"></i> Tambah Pendidikan</a>
+              <a href="{{ route('admin.pendidikan.create') }}" title="Tambah Pendidikan" class="btn btn-info pull-right btn-add-pendidikan"><i class="fa fa-plus-circle"></i> Tambah Pendidikan</a>
               <div class="x_panel">
 
                 <div class="x_title">

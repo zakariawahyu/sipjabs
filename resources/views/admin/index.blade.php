@@ -70,7 +70,7 @@
               <div class="icon"><i class="fa fa-list"></i></div>
               <div class="count">{{ $tallent->count() }}</div>
               <h3>Kandidat</h3>
-              <p>Jumlah seluruh kandidat yang terpilih oleh user dan akan diajukan untuk penilaian</p>
+              <p>Jumlah seluruh kandidat yang terpilih oleh semua user dan akan diajukan untuk penilaian</p>
               <hr>
               <div class="text-center small-box">
                 <a href="{{ route('admin.tallent.index') }}" class="small-box-footer">Show more <i class="fa fa-arrow-circle-right"></i></a>
@@ -188,7 +188,7 @@
                   <div class="media-body">
                     <a class="title" href="#">{{ $tl->pegawai->nama_lengkap }} | {{ $tl->pegawai->nip }}</a>
                     <p>Jabatan lama : {{ $tl->pegawai->jabatanstruktural->jabatan->nama_jabatan }} {{ $tl->pegawai->jabatanstruktural->unitkerja->nama_unitkerja }}</p>
-                    <p>Jabatan promosi : {{ $tl->nomor_surat }}</p>
+                    <p>Jabatan baru : {{ $tl->jabatanstruktural->jabatan->nama_jabatan }} {{ $tl->jabatanstruktural->unitkerja->nama_unitkerja }}</p>
                   </div>
                 </article>
 

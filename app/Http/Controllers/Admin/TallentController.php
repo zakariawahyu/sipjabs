@@ -16,7 +16,7 @@ class TallentController extends Controller
      */
     public function index()
     {
-        $tallents = Tallent::select('nomor_urut', 'nomor_surat')->distinct()->get();
+        $tallents = Tallent::all();
 
         return view('admin.tallent.index', compact('tallents'));
     }
@@ -50,7 +50,7 @@ class TallentController extends Controller
      */
     public function show($id)
     {
-        $tallents = Tallent::where('nomor_urut', $id)->get();
+        $tallents = Tallent::where('id', $id)->first();
 
         return view('admin.tallent.show', compact('tallents'));
     }
@@ -86,21 +86,27 @@ class TallentController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $tallents = Tallent::where('id', $id)->first();
+        
+        if ($tallents != null)
+        {
+            $tallents->delete();
+
+            return back()->with('succes', 'Berhasil dihapus dalam data kandidat');
+
+        } else
+        {
+            return back()->with('error', 'Pegawai tidak ditemukan');
+        }
     }
 
      public function cetak_pdf($id)
     {
-        $tallents = Tallent::where('nomor_urut', $id)
-                            ->get();
+        $tallents = Tallent::where('id', $id)
+                            ->first();
 
-        $nosurat = Tallent::select('nomor_surat')
-                            ->where('nomor_urut', $id)
-                            ->distinct()
-                            ->get();
-
-        $pdf = PDF::Loadview('admin.tallent.cetak', compact('tallents', 'nosurat'));
-        return $pdf->download('laporan-tallent-pdf');
+        $pdf = PDF::Loadview('admin.tallent.cetak', compact('tallents'));
+        return $pdf->download('laporan-kandidat.pdf');
 
     }
 }

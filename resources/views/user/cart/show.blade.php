@@ -24,7 +24,9 @@
 
                     <div class="" role="tabpanel" data-example-id="togglable-tabs">
                       <ul id="myTab" class="nav nav-tabs bar_tabs" role="tablist">
-                        <li role="presentation" class="active"><a href="#tab_content1" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">Detail Pegawai</a>
+                        <li role="presentation" class="active"><a href="#tab_content5" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">Data Jabatan</a>
+                        </li>
+                        <li role="presentation" class=""><a href="#tab_content1" id="tab" role="tab" data-toggle="tab" aria-expanded="true">Detail Pegawai</a>
                         </li>
                         <li role="presentation" class=""><a href="#tab_content2" role="tab" id="profile-tab" data-toggle="tab" aria-expanded="false">Pendidikan</a>
                         </li>
@@ -34,7 +36,7 @@
                         </li>
                       </ul>
                       <div id="myTabContent" class="tab-content">
-                        <div role="tabpanel" class="tab-pane fade active in" id="tab_content1" aria-labelledby="home-tab">
+                        <div role="tabpanel" class="tab-pane fade" id="tab_content1" aria-labelledby="tab">
                           <div class="row">
                             <div class="col-md-12 col-sm-12 col-xs-12">
                               <div class="text-center">
@@ -233,6 +235,35 @@
                             </div>
                             <div class="col-md-3 col-sm-3 col-xs-3">
 
+                            </div>
+                          </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade active in" id="tab_content5" aria-labelledby="home-tab">
+                          <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                              <div class="text-center">
+                                 @if ($pegawai->jenis_kelamin == "L")
+                                    <img src="{{ asset('asset/images/male.png') }}" class="img-circle">
+                                @else
+                                    <img src="{{ asset('asset/images/female.png') }}" class="img-circle">
+                                @endif
+                                <h3 class="profile-username text-center">DATA JABATAN {{ $pegawai->nama_lengkap }}</h3>
+                                <br><br>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                              <table class="table table-hover table-bordered table-striped">
+                                <tr>
+                                <th>Jabatan Lama</th>
+                                <th>Jabatan Baru</th>
+                                </tr>
+                                <tr>
+                                  <td>{{ $pegawai->jabatanstruktural->jabatan->nama_jabatan }} {{ $pegawai->jabatanstruktural->unitbagian->nama_unitbagian }}</td>
+                                  <td>{{ $cart->jabatanstruktural->jabatan->nama_jabatan }} {{ $cart->jabatanstruktural->unitbagian->nama_unitbagian }}</td>
+                                </tr>
+                              </table>
                             </div>
                           </div>
                         </div>

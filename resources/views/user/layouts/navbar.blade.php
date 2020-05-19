@@ -54,8 +54,17 @@ use App\Cart;
                       <span>
                         <span>{{ $ct->pegawai->nama_lengkap }}</span>
                       </span>
+                      <br>
+                      <span>
+                        <span>{{ $ct->pegawai->status_pegawai }}</span>
+                      </span>
                       <span class="message">
+                        Jabatan Lama : 
                         {{ $ct->pegawai->jabatanstruktural->jabatan->nama_jabatan }} {{ $ct->pegawai->jabatanstruktural->unitbagian->nama_unitbagian }}
+                      </span>
+                      <span class="message">
+                        Jabatan Baru : 
+                        {{ $ct->jabatanstruktural->jabatan->nama_jabatan }} {{ $ct->jabatanstruktural->unitbagian->nama_unitbagian }}
                       </span>
                     </a>
                   </li>

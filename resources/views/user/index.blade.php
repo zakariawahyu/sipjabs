@@ -49,9 +49,6 @@
               <h3>Users</h3>
               <p>Jumlah users yang menggunakan aplikasi SIPJABS</p>
               <hr>
-              <div class="text-center small-box">
-                <a href="#" class="small-box-footer">Show more <i class="fa fa-arrow-circle-right"></i></a>
-              </div>
             </div>
           </div>
           <div class="animated flipInY col-md-4 col-sm-6 col-xs-12">
@@ -61,9 +58,6 @@
               <h3>Pegawai</h3>
               <p>Jumlah seluruh pegawai di Universitas Telkom baik Dosen maupun TPA</p>
               <hr>
-              <div class="text-center small-box">
-                <a href="#" class="small-box-footer">Show more <i class="fa fa-arrow-circle-right"></i></a>
-              </div>
             </div>
           </div>
           <div class="animated flipInY col-md-4 col-sm-6 col-xs-12">
@@ -73,9 +67,6 @@
               <h3>Kandidat</h3>
               <p>Jumlah seluruh kandidat yang terpilih oleh {{ Auth::user()->username }} dan akan diajukan untuk penilaian</p>
               <hr>
-              <div class="text-center small-box">
-                <a href="{{ route('user.tallent.index') }}" class="small-box-footer">Show more <i class="fa fa-arrow-circle-right"></i></a>
-              </div>
             </div>
           </div>
         </div>
@@ -113,7 +104,7 @@
                   <div class="media-body">
                     <a class="title" href="#">{{ $tl->pegawai->nama_lengkap }} | {{ $tl->pegawai->nip }}</a>
                     <p>Jabatan lama : {{ $tl->pegawai->jabatanstruktural->jabatan->nama_jabatan }} {{ $tl->pegawai->jabatanstruktural->unitkerja->nama_unitkerja }}</p>
-                    <p>Jabatan promosi : {{ $tl->nomor_surat }}</p>
+                    <p>Jabatan baru : {{ $tl->jabatanstruktural->jabatan->nama_jabatan }} {{ $tl->jabatanstruktural->unitkerja->nama_unitkerja }}</p>
                   </div>
                 </article>
 

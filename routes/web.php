@@ -47,6 +47,7 @@ Route::prefix('admin')->namespace('Admin')->middleware('cek.admin', 'cek')->grou
     Route::get('/deleteskill/{id}', 'SkillController@destroy')->name('admin.skill.delete');
     Route::get('/getpegawai', 'PegawaiController@dataTables')->name('admin.pegawai.get');
     Route::get('/getjabatanstruk', 'JabatanStrukturalController@dataTables')->name('admin.jabatanstruktural.get');
+    Route::get('/deletetallent/{id}', 'TallentController@destroy')->name('admin.tallent.delete');
     Route::post('/pegawai/fetch', 'PegawaiController@fetch')->name('admin.pegawai.fetch');
     Route::resource('users' , 'UsersController',['as' => 'admin']);
     Route::resource('pegawai' , 'PegawaiController',['as' => 'admin']);
@@ -74,6 +75,8 @@ Route::prefix('user')->namespace('User')->middleware('cek.user')->group(function
     Route::post('/filter/fetch', 'FilterController@fetch')->name('user.filter.fetch');
     Route::resource('cart' , 'CartController',['as' => 'user']);
     Route::resource('tallent' , 'TallentController',['as' => 'user']);
+    Route::get('/addtallent/{id}' , 'TallentController@addTallent')->name('user.tallent.add');
+    Route::get('/deletetallent/{id}', 'TallentController@destroy')->name('user.tallent.delete');
     
 });
 

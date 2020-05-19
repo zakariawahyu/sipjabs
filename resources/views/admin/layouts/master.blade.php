@@ -28,6 +28,9 @@
   <!-- bootstrap-daterangepicker -->
   <link href="{{ asset('asset/vendors/bootstrap-daterangepicker/daterangepicker.css') }}" rel="stylesheet">
 
+    
+  <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
   <!-- Custom Theme Style -->
   <link href="{{ asset('asset/build/css/custom.min.css') }}" rel="stylesheet">
 
@@ -37,6 +40,8 @@
   <link href="{{ asset('asset/vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css') }}" rel="stylesheet">
   <link href="{{ asset('asset/vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css') }}" rel="stylesheet">
   <link href="{{ asset('asset/vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css') }}" rel="stylesheet">
+
+
 
   <!-- PNotify -->
   <link href="{{ asset('asset/vendors/pnotify/dist/pnotify.css') }}" rel="stylesheet">

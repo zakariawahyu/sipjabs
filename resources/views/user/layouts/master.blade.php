@@ -26,14 +26,16 @@
   <link href="{{ asset('asset/vendors/jqvmap/dist/jqvmap.min.css') }}" rel="stylesheet" />
   <!-- bootstrap-daterangepicker -->
   <link href="{{ asset('asset/vendors/bootstrap-daterangepicker/daterangepicker.css') }}" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
   <!-- Custom Theme Style -->
   <link href="{{ asset('asset/build/css/custom.min.css') }}" rel="stylesheet">
    <!-- Select2 -->
   <link rel="stylesheet" href="{{ asset('asset/vendors/select2/css/select2.min.css') }}">
   <link rel="stylesheet" href="{{ asset('asset/vendors/select2-bootstrap4-theme/select2-bootstrap4.min.css') }}">
 
-  <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-  <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+
 
   <!-- Datatables -->
   <link href="{{ asset('asset/vendors/datatables.net-bs/css/dataTables.bootstrap.min.css') }}" rel="stylesheet">

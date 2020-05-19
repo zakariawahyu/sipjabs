@@ -54,13 +54,15 @@ class CartController extends Controller
      */
     public function show($id)
     {
+        $cart = Cart::where('id_pegawai', $id)->first();
+
         $pegawai = Pegawai::with(['riwayatpendidikan', 'riwayatpendidikan.pendidikan', 'jabatanstruktural', 
                                 'jabatanstruktural.jabatan', 'jabatanstruktural.unitbagian', 'jabatanstruktural.unitkerja',
                                 'skillpegawai', 'skillpegawai.skill'])
                             ->where('pegawai.id', $id)
                             ->first();
         
-        return view('user.cart.show', compact('pegawai'));
+        return view('user.cart.show', compact('pegawai', 'cart'));
     }
 
     /**
