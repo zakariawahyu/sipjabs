@@ -158,7 +158,7 @@ class PersonalQualitySeeder extends Seeder
         ]);
 
         PersonalQuality::create([
-        'nama_personalquality' => 'Ethical',
+        'nama_personalquality' => 'Strong',
         ]);
 
         PersonalQuality::create([
@@ -190,7 +190,7 @@ class PersonalQualitySeeder extends Seeder
         ]);
 
         PersonalQuality::create([
-        'nama_personalquality' => 'High Emotional Intelligence',
+        'nama_personalquality' => 'High emotional intelligence',
         ]);
 
         PersonalQuality::create([
@@ -210,7 +210,7 @@ class PersonalQualitySeeder extends Seeder
         ]);
 
         PersonalQuality::create([
-        'nama_personalquality' => 'Independent',
+        'nama_personalquality' => 'Capable',
         ]);
 
         PersonalQuality::create([
@@ -254,7 +254,7 @@ class PersonalQualitySeeder extends Seeder
         ]);
 
         PersonalQuality::create([
-        'nama_personalquality' => 'Listening',
+        'nama_personalquality' => 'Trustworthy',
         ]);
 
         PersonalQuality::create([
@@ -314,7 +314,7 @@ class PersonalQualitySeeder extends Seeder
         ]);
 
         PersonalQuality::create([
-        'nama_personalquality' => 'Personal Development',
+        'nama_personalquality' => 'Personal development',
         ]);
 
         PersonalQuality::create([
@@ -422,7 +422,7 @@ class PersonalQualitySeeder extends Seeder
         ]);
 
         PersonalQuality::create([
-        'nama_personalquality' => 'Storytelling',
+        'nama_personalquality' => 'Appreciative',
         ]);
 
         PersonalQuality::create([
@@ -434,7 +434,7 @@ class PersonalQualitySeeder extends Seeder
         ]);
 
         PersonalQuality::create([
-        'nama_personalquality' => 'Strong Work ethic',
+        'nama_personalquality' => 'Strong work ethic',
         ]);
 
         PersonalQuality::create([
@@ -474,7 +474,7 @@ class PersonalQualitySeeder extends Seeder
         ]);
 
         PersonalQuality::create([
-        'nama_personalquality' => 'Training',
+        'nama_personalquality' => 'Patient',
         ]);
 
         PersonalQuality::create([
@@ -482,7 +482,7 @@ class PersonalQualitySeeder extends Seeder
         ]);
 
         PersonalQuality::create([
-        'nama_personalquality' => 'Troubleshooting',
+        'nama_personalquality' => 'Loyal',
         ]);
 
         PersonalQuality::create([
@@ -518,7 +518,7 @@ class PersonalQualitySeeder extends Seeder
         ]);
 
         PersonalQuality::create([
-        'nama_personalquality' => 'Willingness to learn',
+        'nama_personalquality' => 'Versatile',
         ]);
 
         PersonalQuality::create([

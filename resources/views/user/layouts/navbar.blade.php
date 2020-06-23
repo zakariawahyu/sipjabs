@@ -33,7 +33,7 @@ use App\Cart;
 
               <li role="presentation" class="dropdown">
                 <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
-                  <i class="fa fa-shopping-cart"></i>
+                  <i class="fa fa-male"></i>
                   @if ($carts !== "")
                   <span class="badge bg-green">{{ $carts->count() }}</span>
                   @else
@@ -64,18 +64,18 @@ use App\Cart;
                       </span>
                       <span class="message">
                         Jabatan Baru : 
-                        {{ $ct->jabatanstruktural->jabatan->nama_jabatan }} {{ $ct->jabatanstruktural->unitbagian->nama_unitbagian }}
+                        {{ $ct->posisikosong->jabatanstruktural->jabatan->nama_jabatan }} {{ $ct->posisikosong->jabatanstruktural->unitbagian->nama_unitbagian }}
                       </span>
                     </a>
                   </li>
                   @endforeach
                   @else
-                  <li><h3 class="text-center">Empty Cart</h3></li>
+                  <li><h3 class="text-center">Data tidak ditemukan</h3></li>
                   @endif
                   <li>
                     <div class="text-center">
                       <a href="{{ route('user.cart.index') }}" class="btn btn-success">
-                        <strong>View Cart</strong>
+                        <strong>View Kandidat Sementara</strong>
                       </a>
                     </div>
                   </li>

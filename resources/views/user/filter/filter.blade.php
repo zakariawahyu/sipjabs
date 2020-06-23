@@ -51,11 +51,11 @@
                               <div class="left_dorp">
                                 {{-- Form filter Khusus --}}
                               <form action="{{ route('filtertallent') }}" id="product_filter_form" method="GET">
-                                <input type="hidden" name="level" value="{{ $level }}">
-                                <input type="hidden" name="masakerja" value="{{ $masakerja }}">
+                                {{-- <input type="hidden" name="level" value="{{ $level }}">
+                                <input type="hidden" name="masakerja" value="{{ $masakerja }}"> --}}
                                 <input type="hidden" name="jabatanstruktural" value="{{ $jabstruk }}">
                                 <div class="row">
-                                  <div class="col-lg-5">
+                                  <div class="col-lg-4">
                                     <select class="sorting" name="order_by" id="order_by">
                                     <option value="" disabled selected>Default Sorting :</option>
                                     <option value="asc" @if ($orderby == 'asc')
@@ -69,7 +69,7 @@
                                   <div class="col-lg-2">
 
                                   </div>
-                                  <div class="col-lg-5">
+                                  <div class="col-lg-4">
                                     <select class="show" name="show" id="show">
                                       <option value="" disabled selected>Show Page :</option>
                                       <option value="10" @if ($show == 10)
@@ -82,6 +82,14 @@
                                           selected
                                       @endif>Show : 50</option>
                                 </select>
+                                  </div>
+                                  <div class="col-lg-2">
+                                    <p></p>
+                                    @if ($pegawai !== "")
+                                      <p>Total : {{ $pegawai->total() }}</p>
+                                    @else
+                                      <p>Total : 0</p>
+                                    @endif
                                   </div>
                                 </div>
                               </div>
@@ -113,14 +121,7 @@
                                     </div>
                                     <div class="col-xs-12 bottom text-center">
                                       <div class="col-xs-12 col-sm-6 emphasis">
-                                        <p class="ratings">
-                                          <a>4.0</a>
-                                          <a href="#"><span class="fa fa-star"></span></a>
-                                          <a href="#"><span class="fa fa-star"></span></a>
-                                          <a href="#"><span class="fa fa-star"></span></a>
-                                          <a href="#"><span class="fa fa-star"></span></a>
-                                          <a href="#"><span class="fa fa-star-o"></span></a>
-                                        </p>
+            
                                       </div>
                                       <div class="col-xs-12 col-sm-6 emphasis">
                                       <a href="{{ route('user.filter.show', $pg->id) }}" class="btn btn-success btn-xs btn-show" title="Detail Pegawai {{ $pg->nama_lengkap }}"><i class="fa fa-user"></i> View Profile</a>
@@ -143,6 +144,22 @@
                                   <h3>Filter Pegawai</h3>
                                 </div>
                                 <div class="widgets_inner">
+                                  <h4>Jabatan Pegawai</h4>
+                                  <ul class="list">
+                                    
+                                    @if ($jabatan)
+                                      @foreach ($jabatan as $jb)
+                                      <div class="checkbox">
+                                        <label>
+                                          <input onchange="javascript:this.form.submit();" value="{{ $jb->nama_jabatan }}" type="checkbox" name="jabatan[]"
+                                          @if(isset($selected_jabatan)) 	@if (in_array($jb->nama_jabatan, $selected_jabatan)) 	checked="checked" 	@endif @endif> {{ $jb->nama_jabatan }}
+                                        </label>
+                                      </div>
+                                      @endforeach
+                                     @endif
+                                  </ul>
+                                </div>
+                                <div class="widgets_inner">
                                   <h4>Status Pegawai</h4>
                                   <ul class="list">
                                     
@@ -157,6 +174,18 @@
                                       @endforeach
                                      @endif
                                   </ul>
+                                </div>
+                                <div class="widgets_inner">
+                                  <h4>Masa Kerja Minimal</h4>
+                             
+                                  <input onchange="javascript:this.form.submit();" class="custom-range" id="customRange" type="range" min="0" max="10" @if ($selected_masakerja == null)
+                                      value="0"
+                                  @endif  name="masakerja" @if ($selected_masakerja)
+                                      value="{{ $selected_masakerja }}"
+                                  @endif/>
+                                  <div id="result"> <b></b> Tahun</div>
+           
+                                  
                                 </div>
                                 <div class="widgets_inner">
                                   <h4>Pendidikan Pegawai</h4>

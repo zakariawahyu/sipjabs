@@ -5,6 +5,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
 use App\Cart;
 use App\Pegawai;
+use App\PosisiKosong;
 use App\JabatanStruktural;
 
 use Illuminate\Http\Request;
@@ -22,7 +23,9 @@ class CartController extends Controller
         $cart_model = new Cart();
         $carts = $cart_model->getCart();
 
-        return view('user.cart.index', compact('carts'));
+        $posisi = Cart::select(DB::raw('count(*) as count, id_posisikosong'))->where('id_user', session('id'))->groupBy('id_posisikosong')->get();
+
+        return view('user.cart.index', compact('carts', 'posisi'));
     }
 
     /**
@@ -103,7 +106,7 @@ class CartController extends Controller
         {
             $carts->delete();
 
-            return back()->with('succes', 'Berhasil dihapus dalam cart');
+            return back()->with('succes', 'Berhasil dihapus dalam kandidat sementara');
 
         } else
         {
@@ -130,6 +133,9 @@ class CartController extends Controller
                                             ->where('id_unitbagian', $valueunitbagian)
                                             ->first();
 
+        $posisikosong = PosisiKosong::where('id_jabatanstruktural', $jabstruk->id)
+                                    ->first();
+
         $carts = Cart::where('id_user', session('id'))
                     ->where('id_pegawai', $valuepegawai)->get();
         
@@ -137,18 +143,19 @@ class CartController extends Controller
         if ($carts->count()>0)
         {
 
-            return back()->with('error', 'Pegawai sudah di cart');
+            return back()->with('error', 'Pegawai sudah di kandidat sementara');
 
         } else
         {
 
         Cart::create([
             'id_user' => session('id'),
-            'id_pegawai' => $valuepegawai,
-            'id_jabstruklama' => $jabstruk->id
+            'id_posisikosong' => $posisikosong->id,
+            'id_pegawai' => $valuepegawai
+            
         ]);
 
-        return back()->with('succes', 'Berhasil ditambahkan ke cart');
+        return back()->with('succes', 'Berhasil ditambahkan ke dalam kandidat sementara');
 
         }
 

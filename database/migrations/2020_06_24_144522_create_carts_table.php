@@ -16,13 +16,14 @@ class CreateCartsTable extends Migration
         Schema::create('carts', function (Blueprint $table) {
             $table->id();
             $table->bigInteger('id_user')->unsigned();
+            $table->bigInteger('id_posisikosong')->unsigned();
             $table->bigInteger('id_pegawai')->unsigned();
-            $table->bigInteger('id_jabstruklama')->unsigned();
             $table->timestamps();
 
             $table->foreign('id_user')->references('id')->on('users')->onDelete('CASCADE');
+            $table->foreign('id_posisikosong')->references('id')->on('posisi_kosong')->onDelete('CASCADE');
             $table->foreign('id_pegawai')->references('id')->on('pegawai')->onDelete('CASCADE');
-            $table->foreign('id_jabstruklama')->references('id')->on('jabatan_struktural')->onDelete('CASCADE');
+           
         });
     }
 

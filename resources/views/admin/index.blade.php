@@ -49,7 +49,7 @@
               <p>Jumlah user yang menggunakan aplikasi SIPJABS</p>
               <hr>
               <div class="text-center small-box">
-                <a href="{{ route('admin.users.index') }}" class="small-box-footer">Show more <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="{{ route('admin.users.index') }}" class="small-box-footer">Tampilkan lebih banyak <i class="fa fa-arrow-circle-right"></i></a>
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@
               <p>Jumlah seluruh pegawai di Universitas Telkom baik Dosen maupun TPA</p>
               <hr>
               <div class="text-center small-box">
-                <a href="{{ route('admin.pegawai.index') }}" class="small-box-footer">Show more <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="{{ route('admin.pegawai.index') }}" class="small-box-footer">Tampilkan lebih banyak <i class="fa fa-arrow-circle-right"></i></a>
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@
               <p>Jumlah seluruh kandidat yang terpilih oleh semua user dan akan diajukan untuk penilaian</p>
               <hr>
               <div class="text-center small-box">
-                <a href="{{ route('admin.tallent.index') }}" class="small-box-footer">Show more <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="{{ route('admin.tallent.index') }}" class="small-box-footer">Tampilkan lebih banyak <i class="fa fa-arrow-circle-right"></i></a>
               </div>
             </div>
           </div>
@@ -87,7 +87,7 @@
               <p>Jumlah seluruh unit kerja di Universitas Telkom</p>
               <hr>
               <div class="text-center small-box">
-                <a href="{{ route('admin.unitkerja.index') }}" class="small-box-footer">Show more <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="{{ route('admin.unitkerja.index') }}" class="small-box-footer">Tampilkan lebih banyak <i class="fa fa-arrow-circle-right"></i></a>
               </div>
             </div>
           </div>
@@ -99,7 +99,7 @@
               <p>Jumlah seluruh jabatan di Universitas Telkom</p>
               <hr>
               <div class="text-center small-box">
-                <a href="{{ route('admin.jabatan.index') }}" class="small-box-footer">Show more <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="{{ route('admin.jabatan.index') }}" class="small-box-footer">Tampilkan lebih banyak <i class="fa fa-arrow-circle-right"></i></a>
               </div>
             </div>
           </div>
@@ -111,7 +111,7 @@
               <p>Jumlah seluruh unit bagian di Universitas Telkom</p>
               <hr>
               <div class="text-center small-box">
-                <a href="{{ route('admin.unitbagian.index') }}" class="small-box-footer">Show more <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="{{ route('admin.unitbagian.index') }}" class="small-box-footer">Tampilkan lebih banyak <i class="fa fa-arrow-circle-right"></i></a>
               </div>
             </div>
           </div>
@@ -125,7 +125,7 @@
               <p>Jumlah seluruh pendidikan pegawai</p>
               <hr>
               <div class="text-center small-box">
-                <a href="{{ route('admin.pendidikan.index') }}" class="small-box-footer">Show more <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="{{ route('admin.pendidikan.index') }}" class="small-box-footer">Tampilkan lebih banyak <i class="fa fa-arrow-circle-right"></i></a>
               </div>
             </div>
           </div>
@@ -137,7 +137,7 @@
               <p>Jumlah seluruh skill pegawai</p>
               <hr>
               <div class="text-center small-box">
-                <a href="{{ route('admin.skill.index') }}" class="small-box-footer">Show more <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="{{ route('admin.skill.index') }}" class="small-box-footer">Tampilkan lebih banyak <i class="fa fa-arrow-circle-right"></i></a>
               </div>
             </div>
           </div>
@@ -149,7 +149,7 @@
               <p>Jumlah seluruh personal quality pegawai</p>
               <hr>
               <div class="text-center small-box">
-                <a href="{{ route('admin.personalquality.index') }}" class="small-box-footer">Show more <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="{{ route('admin.personalquality.index') }}" class="small-box-footer">Tampilkan lebih banyak <i class="fa fa-arrow-circle-right"></i></a>
               </div>
             </div>
           </div>

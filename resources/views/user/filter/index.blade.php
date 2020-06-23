@@ -28,7 +28,7 @@
               <div class="x_panel">
 
                 <div class="x_title">
-                  <h2>Form Filter Kandidat<small> | Harap isi posisi target terlebih dahulu</small></h2>
+                  <h2>Form Filter Kandidat<small> | Menentukan jabatan baru yang inigin dicari</small></h2>
                   <ul class="nav navbar-right panel_toolbox">
                     <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                     </li>
@@ -75,25 +75,6 @@
                       </div>
                     </div>
                     <hr>
-                    <div class="form-group">
-                      <label class="control-label col-md-3 col-sm-3 col-xs-12">Jabatan Minimal</label>
-                      <div class="col-md-6 col-sm-6 col-xs-12">
-                        <select name="level" class="form-control select2">
-                            <option disabled selected value>Pilih Jabatan</option>
-                            @foreach ($jabatan as $jb)
-                                <option value="{{ $jb->level_jabatan }}">{{ $jb->nama_jabatan }}</option>
-                            @endforeach
-                        </select>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label class="control-label col-md-3 col-sm-3 col-xs-12">Masa Kerja Minimal
-                      </label>
-                      <div class="col-md-6 col-sm-6 col-xs-12">
-                        <input class="form-control col-md-7 col-xs-12" required="required"
-                          type="text" name="masakerja">
-                      </div>
-                    </div>
                     <div class="ln_solid"></div>
                     <div class="form-group">
                       <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
@@ -107,6 +88,74 @@
             </div>
             <div class="col-md-2 col-sm-2 col-xs-2"></div>
           </div>
+
+          <div class="row">
+            <div class="col-md-2 col-sm-2 col-xs-2"></div>
+            <div class="col-md-8 col-sm-12 col-xs-12">
+              <div class="x_panel">
+
+                <div class="x_title">
+                  <h2>Status Jabatan Baru<small> | Data Jabatan Baru yang belum terpenuhi oleh kandidat</small></h2>
+                  <ul class="nav navbar-right panel_toolbox">
+                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i
+                          class="fa fa-wrench"></i></a>
+                    </li>
+                    <li><a class="close-link"><i class="fa fa-close"></i></a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </div>
+
+                <div class="x_content">
+                  <table id="dataTables" class="table table-striped table-bordered table-hover">
+                    <thead>
+                      <tr>
+                        <th>No</th>
+                        <th>Unit Kerja</th>
+                        <th>Jabatan</th>
+                        <th>Unit Bagian</th>
+                        <th>Tanggal Penetapan</th>
+                        <th>Status Filtering</th>
+                      </tr>
+                      @php
+                          $no = 1;
+                      @endphp
+                      @foreach ($posisikosong as $item)
+                      <tr>
+                          <td>{{ $no++ }}</td>
+                          <td>{{ $item->jabatanstruktural->unitkerja->nama_unitkerja }}</td>
+                          <td>{{ $item->jabatanstruktural->jabatan->nama_jabatan }}</td>
+                          <td>{{ $item->jabatanstruktural->unitbagian->nama_unitbagian }}</td>
+                          <td>{{ $item->created_at->diffForHumans() }}</td>
+                          <td>
+                            @if ($item->status_posisi == "Belum Terpenuhi")
+                              <a href="#" class="btn btn-danger btn-xs"> {{ $item->status_posisi }}</a>
+                              <a href="#" class="btn btn-primary btn-xs disabled"><i class="fa fa-eye"></i> View Data Kandidat</a>
+                            @elseif ($item->status_posisi == "Sudah Terpenuhi")
+                              <a href="#" class="btn btn-success btn-xs"> {{ $item->status_posisi }}</a>
+                              <a href="{{ route('user.tallent.index') }}" class="btn btn-primary btn-xs"><i class="fa fa-eye"></i> View Data Kandidat</a>
+                            @endif
+                          </td>
+                      </tr>
+                      @endforeach
+                     
+
+                    </thead>
+                    <tbody>
+                      
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-2"></div>
+          </div>
+
+
+
         </div>
 
       </div>

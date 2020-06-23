@@ -48,7 +48,7 @@
                       <tr>
                         <th>No</th>
                         <th>Unit Kerja</th>
-                        <th>Jabatan Jabatan</th>
+                        <th>Jabatan</th>
                         <th>Unit Bagian</th>
                         <th>Formasi Jabatan</th>
                         <th>Action</th>

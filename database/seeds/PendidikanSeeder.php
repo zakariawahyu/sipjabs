@@ -87,7 +87,7 @@ class PendidikanSeeder extends Seeder
 
         Pendidikan::create([
         'jenjang_pendidikan' => 'S1',
-        'jurusan' => 'Rekayasa Peerangkat Lunak',
+        'jurusan' => 'Rekayasa Perangkat Lunak',
         ]);
 
         Pendidikan::create([
@@ -112,7 +112,7 @@ class PendidikanSeeder extends Seeder
 
         Pendidikan::create([
         'jenjang_pendidikan' => 'S1',
-        'jurusan' => 'Akutansi',
+        'jurusan' => 'Akuntansi',
         ]);
 
         Pendidikan::create([
@@ -357,7 +357,7 @@ class PendidikanSeeder extends Seeder
 
         Pendidikan::create([
         'jenjang_pendidikan' => 'S1',
-        'jurusan' => 'Sisiologi',
+        'jurusan' => 'Sosiologi',
         ]);
 
         Pendidikan::create([
@@ -407,7 +407,7 @@ class PendidikanSeeder extends Seeder
 
         Pendidikan::create([
         'jenjang_pendidikan' => 'S1',
-        'jurusan' => 'Pendidikann Seni Rupa',
+        'jurusan' => 'Pendidikan Seni Rupa',
         ]);
 
         Pendidikan::create([
@@ -487,7 +487,7 @@ class PendidikanSeeder extends Seeder
 
         Pendidikan::create([
         'jenjang_pendidikan' => 'S2',
-        'jurusan' => 'Rekayasa Peerangkat Lunak',
+        'jurusan' => 'Rekayasa Perangkat Lunak',
         ]);
 
         Pendidikan::create([
@@ -512,7 +512,7 @@ class PendidikanSeeder extends Seeder
 
         Pendidikan::create([
         'jenjang_pendidikan' => 'S2',
-        'jurusan' => 'Akutansi',
+        'jurusan' => 'Akuntansi',
         ]);
 
         Pendidikan::create([
@@ -757,7 +757,7 @@ class PendidikanSeeder extends Seeder
 
         Pendidikan::create([
         'jenjang_pendidikan' => 'S2',
-        'jurusan' => 'Sisiologi',
+        'jurusan' => 'Sosiologi',
         ]);
 
         Pendidikan::create([
@@ -807,7 +807,7 @@ class PendidikanSeeder extends Seeder
 
         Pendidikan::create([
         'jenjang_pendidikan' => 'S2',
-        'jurusan' => 'Pendidikann Seni Rupa',
+        'jurusan' => 'Pendidikan Seni Rupa',
         ]);
 
         Pendidikan::create([
@@ -887,7 +887,7 @@ class PendidikanSeeder extends Seeder
 
         Pendidikan::create([
         'jenjang_pendidikan' => 'S3',
-        'jurusan' => 'Rekayasa Peerangkat Lunak',
+        'jurusan' => 'Rekayasa Perangkat Lunak',
         ]);
 
         Pendidikan::create([
@@ -912,7 +912,7 @@ class PendidikanSeeder extends Seeder
 
         Pendidikan::create([
         'jenjang_pendidikan' => 'S3',
-        'jurusan' => 'Akutansi',
+        'jurusan' => 'Akuntansi',
         ]);
 
         Pendidikan::create([
@@ -1157,7 +1157,7 @@ class PendidikanSeeder extends Seeder
 
     Pendidikan::create([
     'jenjang_pendidikan' => 'S3',
-    'jurusan' => 'Sisiologi',
+    'jurusan' => 'Sosiologi',
     ]);
 
     Pendidikan::create([
@@ -1207,7 +1207,7 @@ class PendidikanSeeder extends Seeder
 
     Pendidikan::create([
     'jenjang_pendidikan' => 'S3',
-    'jurusan' => 'Pendidikann Seni Rupa',
+    'jurusan' => 'Pendidikan Seni Rupa',
     ]);
 
     Pendidikan::create([
@@ -1222,7 +1222,7 @@ class PendidikanSeeder extends Seeder
 
     Pendidikan::create([
     'jenjang_pendidikan' => 'D3',
-    'jurusan' => 'Sistem Informasi Akutansi',
+    'jurusan' => 'Sistem Informasi Akuntansi',
     ]);
 
     Pendidikan::create([
@@ -1232,7 +1232,7 @@ class PendidikanSeeder extends Seeder
 
     Pendidikan::create([
     'jenjang_pendidikan' => 'D3',
-    'jurusan' => 'Rekayasa Peerangkat Lunak Aplikasi',
+    'jurusan' => 'Rekayasa Perangkat Lunak Aplikasi',
     ]);
 
     Pendidikan::create([
@@ -1277,7 +1277,7 @@ class PendidikanSeeder extends Seeder
 
     Pendidikan::create([
     'jenjang_pendidikan' => 'D3',
-    'jurusan' => 'Akutansi',
+    'jurusan' => 'Akuntansi',
     ]);
 
     Pendidikan::create([

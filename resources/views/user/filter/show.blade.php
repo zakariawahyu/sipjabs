@@ -53,7 +53,7 @@
 
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                     <table class="table table-hover">
+                                     <table class="table table-hover table-responsive">
                                 <tr>
                                   <td>Nama Lengkap</td>
                                   <td>:</td>

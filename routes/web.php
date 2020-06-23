@@ -71,12 +71,14 @@ Route::prefix('user')->namespace('User')->middleware('cek.user')->group(function
     Route::get('/cetak/{id}', 'TallentController@cetak_pdf')->name('user.tallent.cetak');
     Route::patch('/reset/{id}', 'ProfileController@resetPass')->name('user.reset.pass');
     Route::resource('profile' , 'ProfileController',['as' => 'user']);
+    Route::resource('posisikosong' , 'PosisiKosongController',['as' => 'user']);
     Route::resource('filter' , 'FilterController',['as' => 'user']);
     Route::post('/filter/fetch', 'FilterController@fetch')->name('user.filter.fetch');
     Route::resource('cart' , 'CartController',['as' => 'user']);
     Route::resource('tallent' , 'TallentController',['as' => 'user']);
     Route::get('/addtallent/{id}' , 'TallentController@addTallent')->name('user.tallent.add');
     Route::get('/deletetallent/{id}', 'TallentController@destroy')->name('user.tallent.delete');
+
     
 });
 

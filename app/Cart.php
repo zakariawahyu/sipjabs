@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Cart extends Model
 {
     // nama field yang boleh di isi
-    protected $fillable = ['id_user', 'id_pegawai', 'id_jabstruklama'];
+    protected $fillable = ['id_user', 'id_pegawai', 'id_posisikosong'];
 
     // one to one menghubungkan table cart dengan table pegawai
     public function pegawai()
@@ -16,13 +16,14 @@ class Cart extends Model
     }
 
     // one to one menghubungkan table cart dengan table jabatan struktural
-    public function jabatanstruktural()
+    public function posisikosong()
     {
-      return $this->belongsTo(JabatanStruktural::class, 'id_jabstruklama');
+      return $this->belongsTo(PosisiKosong::class, 'id_posisikosong');
     }
 
     public function getCart()
     {
+        
         // untuk mengambil semua data pegawai
         $query_status = Cart::where('id_user', session('id'))->get();
 

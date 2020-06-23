@@ -7,6 +7,7 @@ use Illuminate\Support\Str;
 use App\Tallent;
 use App\Pegawai;
 use App\Cart;
+use App\PosisiKosong;
 use PDF;
 
 use Illuminate\Http\Request;
@@ -20,7 +21,7 @@ class TallentController extends Controller
      */
     public function index()
     {
-        $tallents = Tallent::where('id_user', session('id'))->get();
+        $tallents = Tallent::select(DB::raw('count(*) as count, id_posisikosong'))->where('id_user', session('id'))->groupBy('id_posisikosong')->get();
 
         return view('user.tallent.index', compact('tallents'));
     }
@@ -125,7 +126,7 @@ class TallentController extends Controller
         $no = 1;
 
         $carts = Cart::where('id_user', session('id'))
-                        ->where('id_pegawai', $id)->first();
+                        ->where('id_posisikosong', $id)->get();
         
         if($noUrutAkhir)
         {
@@ -139,15 +140,23 @@ class TallentController extends Controller
 
         }
 
-        $tallent = new Tallent;
-        $tallent->id_user = $carts->id_user;
-        $tallent->id_pegawai = $carts->id_pegawai;
+        foreach ($carts as $ct ) {
+            $tallent = new Tallent;
+        $tallent->id_user = $ct->id_user;
+        $tallent->id_pegawai = $ct->id_pegawai;
         $tallent->nomor_urut = $nourut;
         $tallent->nomor_surat = $nosurat;
-        $tallent->id_jabstruklama = $carts->id_jabstruklama;
+        $tallent->id_posisikosong = $ct->id_posisikosong;
         $tallent->save();
 
-        $carts->delete();
+        $ct->delete();
+        }
+
+        PosisiKosong::where('id', $id)->update([
+            'status_posisi' => 'Sudah Terpenuhi'
+        ]);
+
+        
 
         return back()->with('succes', 'Berhasil di proses, silahkan cek data kandidat');
     }

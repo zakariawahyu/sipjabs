@@ -8,6 +8,7 @@ use App\Pegawai;
 use App\Pendidikan;
 use App\Skill;
 use App\PersonalQuality;
+use App\Jabatan;
 
 class PegawaiDB extends Model
 {
@@ -17,7 +18,7 @@ class PegawaiDB extends Model
         $query_status = Pegawai::with(['riwayatpendidikan', 'riwayatpendidikan.pendidikan', 'jabatanstruktural', 
                                 'jabatanstruktural.jabatan', 'jabatanstruktural.unitbagian', 'jabatanstruktural.unitkerja',
                                 'skillpegawai', 'skillpegawai.skill'])
-                                ->paginate(8, ['*'], 'page');
+                                ->paginate(15, ['*'], 'page');
 
         if(count($query_status) > 0){
 			return $query_status;
@@ -27,10 +28,24 @@ class PegawaiDB extends Model
 		}
     }
 
+    public function getJabatan()
+    {	
+        // untuk mengambil data status pegawai
+		$query_status = Jabatan::select('nama_jabatan')->get();
+		return $query_status;
+    }
+
     public function getStatusPegawai()
     {	
         // untuk mengambil data status pegawai
 		$query_status = Pegawai::select('status_pegawai')->distinct()->get();
+		return $query_status;
+    }
+
+    public function getMasakerja()
+    {	
+        // untuk mengambil data status pegawai
+		$query_status = Pegawai::select('masa_kerja')->distinct()->get();
 		return $query_status;
     }
 
@@ -77,6 +92,7 @@ class PegawaiDB extends Model
         $show = $request->show;
         $order_by = $request->order_by;
         $statuspegawai = $request->status_pegawai;
+        $jabatan = $request->jabatan;
         $jenjang = $request->jenjang;
         $jurusan = $request->jurusan;
         $skill = $request->skill;
@@ -112,6 +128,14 @@ class PegawaiDB extends Model
         {
             $query->whereHas('jabatanstruktural.jabatan', function($q) use($leveljabatan){
                     $q->where('level_jabatan', '>=', $leveljabatan);
+                });
+        }
+
+        // query untuk filter jabatan atau jabatan minimal pegawai
+        if(isset($jabatan))
+        {
+            $query->whereHas('jabatanstruktural.jabatan', function($q) use($jabatan){
+                    $q->whereIn('nama_jabatan',  $jabatan);
                 });
         }
 
@@ -172,7 +196,7 @@ class PegawaiDB extends Model
 
         }else{
 
-            $result = $query->paginate(8, ['*'], 'page');
+            $result = $query->paginate(14, ['*'], 'page');
 
         }
         

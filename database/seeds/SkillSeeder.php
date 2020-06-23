@@ -92,7 +92,7 @@ class SkillSeeder extends Seeder
         ]);
 
         Skill::create([
-        'nama_skill' => 'Databases',
+        'nama_skill' => 'Database',
         ]);
 
         Skill::create([
@@ -368,7 +368,7 @@ class SkillSeeder extends Seeder
         ]);
 
         Skill::create([
-        'nama_skill' => 'Git / Version Control',
+        'nama_skill' => 'Git/Version Control',
         ]);
 
         Skill::create([

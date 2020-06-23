@@ -48,7 +48,7 @@ class UnitBagianSeeder extends Seeder
         ]);
 
         UnitBagian::create([
-        'nama_unitbagian' => 'Analisi Mutu',
+        'nama_unitbagian' => 'Analis Mutu',
         ]);
 
         UnitBagian::create([
@@ -84,7 +84,7 @@ class UnitBagianSeeder extends Seeder
         ]);
 
         UnitBagian::create([
-        'nama_unitbagian' => 'Survey dan Analisis Data (Survey & Analyrics)',
+        'nama_unitbagian' => 'Survey dan Analisis Data (Survey & Analytics)',
         ]);
 
         UnitBagian::create([
@@ -116,7 +116,7 @@ class UnitBagianSeeder extends Seeder
         ]);
 
         UnitBagian::create([
-        'nama_unitbagian' => 'Pengembangan Pembelajaran, Kurikulim dan Student Internship',
+        'nama_unitbagian' => 'Pengembangan Pembelajaran, Kurikulum dan Student Internship',
         ]);
 
         UnitBagian::create([
@@ -164,7 +164,7 @@ class UnitBagianSeeder extends Seeder
         ]);
 
         UnitBagian::create([
-        'nama_unitbagian' => 'Pengembangan Peoduksi Content',
+        'nama_unitbagian' => 'Pengembangan Produksi Content',
         ]);
 
         UnitBagian::create([
@@ -240,7 +240,7 @@ class UnitBagianSeeder extends Seeder
         ]);
 
         UnitBagian::create([
-        'nama_unitbagian' => 'Anggatan Beban',
+        'nama_unitbagian' => 'Anggaran Beban',
         ]);
 
         UnitBagian::create([
@@ -312,7 +312,7 @@ class UnitBagianSeeder extends Seeder
         ]);
 
         UnitBagian::create([
-        'nama_unitbagian' => 'Pusat Teknologi informasi',
+        'nama_unitbagian' => 'Pusat Teknologi Informasi',
         ]);
 
         UnitBagian::create([
@@ -352,7 +352,7 @@ class UnitBagianSeeder extends Seeder
         ]);
 
         UnitBagian::create([
-        'nama_unitbagian' => 'Infrastriktur Jaringan TI',
+        'nama_unitbagian' => 'Infrastruktur Jaringan TI',
         ]);
 
         UnitBagian::create([
@@ -376,7 +376,7 @@ class UnitBagianSeeder extends Seeder
         ]);
 
         UnitBagian::create([
-        'nama_unitbagian' => 'Analisis Sistem',
+        'nama_unitbagian' => 'Analisa Sistem',
         ]);
 
         UnitBagian::create([
@@ -440,7 +440,7 @@ class UnitBagianSeeder extends Seeder
         ]);
 
         UnitBagian::create([
-        'nama_unitbagian' => 'Penglolaan Data dan Pelaporan',
+        'nama_unitbagian' => 'Pengelolaan Data dan Pelaporan',
         ]);
 
         UnitBagian::create([
@@ -468,7 +468,7 @@ class UnitBagianSeeder extends Seeder
         ]);
 
         UnitBagian::create([
-        'nama_unitbagian' => 'Pembinaan Karakter, Softkill dan Attitude Mahasiswa',
+        'nama_unitbagian' => 'Pembinaan Karakter, Softskill dan Attitude Mahasiswa',
         ]);
 
         UnitBagian::create([
@@ -508,7 +508,7 @@ class UnitBagianSeeder extends Seeder
         ]);
 
         UnitBagian::create([
-        'nama_unitbagian' => 'Penelitian dan Pengabdian Masyarakat ',
+        'nama_unitbagian' => 'Penelitian dan Pengabdian Masyarakat',
         ]);
 
         UnitBagian::create([
@@ -544,7 +544,7 @@ class UnitBagianSeeder extends Seeder
         ]);
 
         UnitBagian::create([
-        'nama_unitbagian' => 'Kersa Sama Akademik (Academic Partnership)',
+        'nama_unitbagian' => 'Kerja Sama Akademik (Academic Partnership)',
         ]);
 
         UnitBagian::create([
@@ -604,7 +604,7 @@ class UnitBagianSeeder extends Seeder
         ]);
 
         UnitBagian::create([
-        'nama_unitbagian' => 'Kekayaan Intelektual dan Tranfer Teknologi',
+        'nama_unitbagian' => 'Kekayaan Intelektual dan Transfer Teknologi',
         ]);
 
         UnitBagian::create([
@@ -616,7 +616,7 @@ class UnitBagianSeeder extends Seeder
         ]);
 
         UnitBagian::create([
-        'nama_unitbagian' => 'Pusat Riset Telkom Uniersity of Things Center',
+        'nama_unitbagian' => 'Pusat Riset Telkom University of Things Center',
         ]);
 
         UnitBagian::create([
@@ -660,7 +660,7 @@ class UnitBagianSeeder extends Seeder
         ]);
 
         UnitBagian::create([
-        'nama_unitbagian' => 'Pembinaan Karakter, Softkill dan Attitude Mahasiswa',
+        'nama_unitbagian' => 'Pembinaan Karakter, Softskill dan Attitude Mahasiswa',
         ]);
 
         UnitBagian::create([

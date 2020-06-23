@@ -10,6 +10,7 @@ use App\UnitBagian;
 use App\Pegawai;
 use App\Cart;
 use App\JabatanStruktural;
+use App\PosisiKosong;
 
 
 use Illuminate\Http\Request;
@@ -26,8 +27,9 @@ class FilterController extends Controller
         $jabatan = Jabatan::all();
         $unitkerja = UnitKerja::all();
         $unitbagian = UnitBagian::all();
+        $posisikosong = PosisiKosong::all();
 
-        return view('user.filter.index', compact('jabatan', 'unitkerja', 'unitbagian'));
+        return view('user.filter.index', compact('jabatan', 'unitkerja', 'unitbagian', 'posisikosong'));
     }
 
     /**
@@ -104,6 +106,34 @@ class FilterController extends Controller
 
     public function filtertallent(Request $request)
     {
+
+        $str = str_replace('%20',' ',$request->jabatanstruktural);
+        $PecahStr = explode(' ', $str);
+        $valueunitkerja = $PecahStr[0];
+        $valuejabatan = $PecahStr[1];
+        $valueunitbagian = $PecahStr[2];
+
+        $jabstruk = JabatanStruktural::where('id_unitkerja', $valueunitkerja)
+                                            ->where('id_jabatan', $valuejabatan)
+                                            ->where('id_unitbagian', $valueunitbagian)
+                                            ->first();
+
+        $posisikosong = PosisiKosong::select('id')
+                                    ->where('id_jabatanstruktural', $jabstruk->id)
+                                    ->where('status_posisi', 'Belum Terpenuhi')
+                                    ->first();
+
+        if ($posisikosong == null) {
+
+            PosisiKosong::create([
+            'id_jabatanstruktural' => $jabstruk->id,
+            'status_posisi' => 'Belum Terpenuhi'
+        ]);
+
+        }else {
+
+        }
+        
         // mengambil data dari model
         $pegawai_model = new PegawaiDB();
         $pegawai = $pegawai_model->getFilteredPegawai($request);
@@ -112,7 +142,8 @@ class FilterController extends Controller
         $orderby = $request->order_by;
         $show = $request->show;
         $level = $request->level;
-        $masakerja = $request->masakerja;
+        $selected_jabatan = $request->jabatan;
+        $selected_masakerja = $request->masakerja;
         $selected_status = $request->status_pegawai;
         $selected_jenjang = $request->jenjang;
         $selected_jurusan = $request->jurusan;
@@ -120,6 +151,11 @@ class FilterController extends Controller
         $selected_personalquality = $request->personalquality;
         $selected_kodeetik = $request->kode_etik;
         $jabstruk = $request->jabatanstruktural;
+
+        //ambil data jabatan dari model
+        $jabatan = $pegawai_model->getJabatan();
+
+        $masakerja = $pegawai_model->getMasakerja();
 
         // ambil data status pegawai dari model
         $statuspegawai = $pegawai_model->getStatusPegawai();
@@ -141,8 +177,8 @@ class FilterController extends Controller
 
 
         return view('user.filter.filter', compact('pegawai', 'orderby', 'show', 'level', 'jabstruk' ,
-                    'masakerja', 'statuspegawai', 'jenjangpendidikan','jurusan', 'selected_jenjang', 
-                    'selected_jurusan', 'selected_status', 'skill', 'selected_skill', 'personalquality',
+                    'masakerja', 'jabatan', 'statuspegawai', 'jenjangpendidikan','jurusan', 'selected_jenjang', 
+                    'selected_jurusan', 'selected_jabatan', 'selected_masakerja', 'selected_status', 'skill', 'selected_skill', 'personalquality',
                     'selected_personalquality', 'kodeetik', 'selected_kodeetik'));
     }
 

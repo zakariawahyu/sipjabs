@@ -43,9 +43,8 @@
                     <thead>
                       <tr>
                         <th>No</th>
-                        <th>Nomor Surat</th>
-                        <th>Nama Kandidat</th>
                         <th>Jabatan baru</th>
+                        <th>Jumlah Kandidat</th>
                         <th style="width: 20%;">Action</th>
                       </tr>
                     </thead>
@@ -57,13 +56,12 @@
                       @foreach ($tallents as $tl)
                       <tr>
                         <td>{{ $no++ }}</td>
-                        <td>{{ $tl->nomor_surat }}</td>
-                        <td>{{ $tl->pegawai->nama_lengkap }}</td>
-                        <td>{{ $tl->jabatanstruktural->jabatan->nama_jabatan }} {{ $tl->jabatanstruktural->unitbagian->nama_unitbagian }}</td>
+                        <td>{{ $tl->posisikosong->jabatanstruktural->jabatan->nama_jabatan }} {{ $tl->posisikosong->jabatanstruktural->unitbagian->nama_unitbagian }}</td>
+                        <td>{{ $tl->count }} Kandidat</td>
                         <td class="text-center">
-                          <a href="{{ route('user.tallent.show', $tl->id) }}" class="btn btn-info btn-show-tallent" title="Nomor Surat {{ $tl->nomor_surat }}"><i class="fa fa-eye"></i> View</a>
-                          <a href="{{ route('user.tallent.delete', $tl->id) }}" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
-                          <a href="{{ route('user.tallent.cetak', $tl->id) }}" class="btn btn-primary"><i class="fa fa-print"></i> Print PDF</a>
+                          <a href="{{ route('user.tallent.show', $tl->id_posisikosong) }}" class="btn btn-info btn-show-tallent" title="Nomor Surat {{ $tl->nomor_surat }}"><i class="fa fa-eye"></i> View</a>
+                          <a href="{{ route('user.tallent.delete', $tl->id_posisikosong) }}" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
+                          <a href="{{ route('user.tallent.cetak', $tl->id_posisikosong) }}" class="btn btn-primary"><i class="fa fa-print"></i> Print PDF</a>
                         </td>
                       </tr>  
                       @endforeach
