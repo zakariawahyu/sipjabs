@@ -52,6 +52,7 @@
                         <th>Username</th>
                         <th>Email</th>
                         <th>Hak Akses</th>
+                        <th>Status Akun</th>
                         <th>Action</th>
                       </tr>
                     </thead>
@@ -66,11 +67,15 @@
                         <td>{{ $user->pegawai->jabatanstruktural->jabatan->nama_jabatan }} {{$user->pegawai->jabatanstruktural->unitbagian->nama_unitbagian}}</td>
                         <td>{{ $user->username }}</td>
                         <td>{{ $user->email }}</td>
-                        <td>{{ $user->role }}</td>
+                        <td class="text-center"><span class="btn btn-success btn-xs">{{ $user->role }}</span></td>
+                        <td class="text-center">@if ( $user->status == 1)
+                            <span class="btn btn-success btn-xs">Akun Aktif</span>
+                            @else
+                            <span class="btn btn-danger btn-xs">Akun Tidak Aktif</span>
+                        @endif</td>
                         <td class="text-center">
                           <a href="{{ route('admin.users.show', $user->id) }}" title="View Profile {{ $user->pegawai->nama_lengkap }}" class="btn btn-info btn-view-users-admin"><i class="fa fa-eye"></i> View</a>
                           <a href="{{ route('admin.users.edit', $user->id) }}" title="Edit Profile {{ $user->pegawai->nama_lengkap }}" class="btn btn-primary btn-edit-users-admin"><i class="fa fa-edit"></i> Edit</a>
-                          <a href="{{ route('admin.users.delete', $user->id) }}" title="Edit Profile {{ $user->pegawai->nama_lengkap }}" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
                         </td>
                       </tr>
                       @endforeach

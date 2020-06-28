@@ -21,6 +21,7 @@ class UsersSeeder extends Seeder
             'password' => bcrypt('admin'),
             'email' => 'zakarianur6@gmail.com',
             'role' => 'admin',
+            'status' => '1',
         ]);
 
         User::create([
@@ -29,6 +30,7 @@ class UsersSeeder extends Seeder
             'password' => bcrypt('user'),
             'email' => 'elsajelista6@gmail.com',
             'role' => 'user',
+            'status' => '1',
         ]);
 
         User::create([
@@ -37,6 +39,7 @@ class UsersSeeder extends Seeder
             'password' => bcrypt('user'),
             'email' => 'gitahapsari6@gmail.com',
             'role' => 'user',
+            'status' => '0',
         ]);
     }
 }

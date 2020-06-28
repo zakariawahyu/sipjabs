@@ -110,7 +110,7 @@
                 </div>
 
                 <div class="x_content">
-                  <table id="dataTables" class="table table-striped table-bordered table-hover">
+                  <table id="datatable" class="table table-striped table-bordered table-hover">
                     <thead>
                       <tr>
                         <th>No</th>
@@ -118,8 +118,11 @@
                         <th>Jabatan</th>
                         <th>Unit Bagian</th>
                         <th>Tanggal Penetapan</th>
-                        <th>Status Filtering</th>
+                        <th style="width: 30%;" class="text-center">Status Filtering</th>
                       </tr>
+                      
+                    </thead>
+                    <tbody>
                       @php
                           $no = 1;
                       @endphp
@@ -130,22 +133,19 @@
                           <td>{{ $item->jabatanstruktural->jabatan->nama_jabatan }}</td>
                           <td>{{ $item->jabatanstruktural->unitbagian->nama_unitbagian }}</td>
                           <td>{{ $item->created_at->diffForHumans() }}</td>
-                          <td>
+                          <td class="text-center">
                             @if ($item->status_posisi == "Belum Terpenuhi")
                               <a href="#" class="btn btn-danger btn-xs"> {{ $item->status_posisi }}</a>
-                              <a href="#" class="btn btn-primary btn-xs disabled"><i class="fa fa-eye"></i> View Data Kandidat</a>
+                              <a href="#" class="btn btn-primary btn-xs disabled"><i class="fa fa-eye"></i> View Kandidat</a>
                             @elseif ($item->status_posisi == "Sudah Terpenuhi")
                               <a href="#" class="btn btn-success btn-xs"> {{ $item->status_posisi }}</a>
-                              <a href="{{ route('user.tallent.index') }}" class="btn btn-primary btn-xs"><i class="fa fa-eye"></i> View Data Kandidat</a>
+                              <a href="{{ route('user.tallent.index') }}" class="btn btn-primary btn-xs"><i class="fa fa-eye"></i> View Kandidat</a>
                             @endif
                           </td>
                       </tr>
                       @endforeach
                      
 
-                    </thead>
-                    <tbody>
-                      
                     </tbody>
                   </table>
                 </div>

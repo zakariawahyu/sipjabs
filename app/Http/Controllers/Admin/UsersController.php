@@ -103,6 +103,7 @@ class UsersController extends Controller
             'username' => $request->username,
             'email' => $request->email,
             'role' => $request->role,
+            'status' => $request->status
         ]);
 
         return back()->with('succes', 'Users berhasil di update');

@@ -5,9 +5,12 @@
 
           <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
+              @foreach ($tallents as $tallent)
+                  
+             
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2><i class="fa fa-bars"></i> Pegawai <small>{{ $tallents->pegawai->nama_lengkap }}</small></h2>
+                    <h2><i class="fa fa-bars"></i> Pegawai <small>{{ $tallent->pegawai->nama_lengkap }}</small></h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
@@ -24,23 +27,23 @@
 
                     <div class="" role="tabpanel" data-example-id="togglable-tabs">
                       <ul id="myTab" class="nav nav-tabs bar_tabs" role="tablist">
-                        <li role="presentation" class="active"><a href="#tab_content5" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">Data Jabatan</a>
+                        <li role="presentation" class="active"><a href="#tab_jabatan{{ $tallent->pegawai->nip }}" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">Data Jabatan</a>
                         </li>
-                        <li role="presentation" class=""><a href="#tab_content1" id="tab" role="tab" data-toggle="tab" aria-expanded="true">Detail Pegawai</a>
+                        <li role="presentation" class=""><a href="#tab_detail{{ $tallent->pegawai->nip }}" id="tab" role="tab" data-toggle="tab" aria-expanded="true">Detail Pegawai</a>
                         </li>
-                        <li role="presentation" class=""><a href="#tab_content2" role="tab" id="profile-tab" data-toggle="tab" aria-expanded="false">Pendidikan</a>
+                        <li role="presentation" class=""><a href="#tab_pendidikan{{ $tallent->pegawai->nip }}" role="tab" id="profile-tab" data-toggle="tab" aria-expanded="false">Pendidikan</a>
                         </li>
-                        <li role="presentation" class=""><a href="#tab_content3" role="tab" id="profile-tab2" data-toggle="tab" aria-expanded="false">Skill</a>
+                        <li role="presentation" class=""><a href="#tab_skill{{ $tallent->pegawai->nip }}" role="tab" id="profile-tab2" data-toggle="tab" aria-expanded="false">Skill</a>
                         </li>
-                        <li role="presentation" class=""><a href="#tab_content4" role="tab" id="profile-tab3" data-toggle="tab" aria-expanded="false">Personal Quality</a>
+                        <li role="presentation" class=""><a href="#tab_personalq{{ $tallent->pegawai->nip }}" role="tab" id="profile-tab3" data-toggle="tab" aria-expanded="false">Personal Quality</a>
                         </li>
                       </ul>
                       <div id="myTabContent" class="tab-content">
-                        <div role="tabpanel" class="tab-pane fade" id="tab_content1" aria-labelledby="tab">
+                        <div role="tabpanel" class="tab-pane fade" id="tab_detail{{ $tallent->pegawai->nip }}" aria-labelledby="tab">
                           <div class="row">
                             <div class="col-md-12 col-sm-12 col-xs-12">
                               <div class="text-center">
-                                @if ($tallents->pegawai->jenis_kelamin == "L")
+                                @if ($tallent->pegawai->jenis_kelamin == "L")
                                     <img src="{{ asset('asset/images/male.png') }}" class="img-circle">
                                 @else
                                     <img src="{{ asset('asset/images/female.png') }}" class="img-circle">
@@ -59,28 +62,28 @@
                                 <tr>
                                   <td>Nama Lengkap</td>
                                   <td>:</td>
-                                  <td>{{ $tallents->pegawai->nama_lengkap }}</td>
+                                  <td>{{ $tallent->pegawai->nama_lengkap }}</td>
                                 </tr>
                                 <tr>
                                   <td>NIP</td>
                                   <td>:</td>
-                                  <td>{{ $tallents->pegawai->nip }}</td>
+                                  <td>{{ $tallent->pegawai->nip }}</td>
                                 </tr>
                                 <tr>
                                   <td>Jabatan</td>
                                   <td>:</td>
-                                  <td>{{ $tallents->pegawai->jabatanstruktural->jabatan->nama_jabatan }} {{ $tallents->pegawai->jabatanstruktural->unitbagian->nama_unitbagian }}</td>
+                                  <td>{{ $tallent->pegawai->jabatanstruktural->jabatan->nama_jabatan }} {{ $tallent->pegawai->jabatanstruktural->unitbagian->nama_unitbagian }}</td>
                                 </tr>
                                 <tr>
                                   <td>Status Pegawai</td>
                                   <td>:</td>
-                                  <td>{{ $tallents->pegawai->status_pegawai }}</td>
+                                  <td>{{ $tallent->pegawai->status_pegawai }}</td>
                                 </tr>
                                 <tr>
                                   <td>Masa kerja</td>
                                   <td>:</td>
-                                  <td>{{ $tallents->pegawai->masa_kerja }} Tahun (Mulai dari tahun @php
-                                      $masa = $tallents->pegawai->masa_kerja;
+                                  <td>{{ $tallent->pegawai->masa_kerja }} Tahun (Mulai dari tahun @php
+                                      $masa = $tallent->pegawai->masa_kerja;
                                       $tgl1 = date('Y');
                                       $tgl2 = date('Y', strtotime('-'.$masa.' year', strtotime($tgl1))); 
                                       echo $tgl2;
@@ -89,51 +92,51 @@
                                 <tr>
                                   <td>TTL</td>
                                   <td>:</td>
-                                  <td>{{ $tallents->pegawai->ttl }}</td>
+                                  <td>{{ $tallent->pegawai->ttl }}</td>
                                 </tr>
                                 <tr>
                                   <td>Status Perkawinan</td>
                                   <td>:</td>
-                                  <td>{{ $tallents->pegawai->status_perkawinan }}</td>
+                                  <td>{{ $tallent->pegawai->status_perkawinan }}</td>
                                 </tr>
                                 <tr>
                                   <td>Golongan Darah</td>
                                   <td>:</td>
-                                  <td>{{ $tallents->pegawai->gol_darah }}</td>
+                                  <td>{{ $tallent->pegawai->gol_darah }}</td>
                                 </tr>
                                 <tr>
                                   <td>Jenis Kelamin</td>
                                   <td>:</td>
-                                   @if ( $tallents->pegawai->jenis_kelamin =="L")
+                                   @if ( $tallent->pegawai->jenis_kelamin =="L")
                                   <td>Laki Laki</td>
-                                  @elseif($tallents->pegawai->jenis_kelamin =="P")
+                                  @elseif($tallent->pegawai->jenis_kelamin =="P")
                                   <td>Perempuan</td>
                                   @endif
                                 </tr>
                                 <tr>
                                   <td>Agama</td>
                                   <td>:</td>
-                                  <td>{{ $tallents->pegawai->agama }}</td>
+                                  <td>{{ $tallent->pegawai->agama }}</td>
                                 </tr>
                                 <tr>
                                   <td>Tinggi Badan</td>
                                   <td>:</td>
-                                  <td>{{ $tallents->pegawai->tinggi_badan }} cm</td>
+                                  <td>{{ $tallent->pegawai->tinggi_badan }} cm</td>
                                 </tr>
                                 <tr>
                                   <td>Berat Badan</td>
                                   <td>:</td>
-                                  <td>{{ $tallents->pegawai->berat_badan }} kg</td>
+                                  <td>{{ $tallent->pegawai->berat_badan }} kg</td>
                                 </tr>
                                 <tr>
                                   <td>Alamat</td>
                                   <td>:</td>
-                                  <td>{{ $tallents->pegawai->alamat }}</td>
+                                  <td>{{ $tallent->pegawai->alamat }}</td>
                                 </tr>
                                 <tr>
                                   <td>Melanggar kode etik</td>
                                   <td>:</td>
-                                  <td>{{ $tallents->pegawai->kode_etik   }}</td>
+                                  <td>{{ $tallent->pegawai->kode_etik   }}</td>
                                 </tr>
                               </table>
                             </div>
@@ -142,11 +145,11 @@
                             </div>
                           </div>
                         </div>
-                        <div role="tabpanel" class="tab-pane fade" id="tab_content2" aria-labelledby="profile-tab">
+                        <div role="tabpanel" class="tab-pane fade" id="tab_pendidikan{{ $tallent->pegawai->nip }}" aria-labelledby="profile-tab">
                           <div class="row">
                             <div class="col-md-12 col-sm-12 col-xs-12">
                               <div class="text-center">
-                                 @if ($tallents->pegawai->jenis_kelamin == "L")
+                                 @if ($tallent->pegawai->jenis_kelamin == "L")
                                     <img src="{{ asset('asset/images/male.png') }}" class="img-circle">
                                 @else
                                     <img src="{{ asset('asset/images/female.png') }}" class="img-circle">
@@ -162,7 +165,7 @@
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-12">
                               <table class="table table-hover text-center">
-                                @foreach ($tallents->pegawai->riwayatpendidikan as $rp)
+                                @foreach ($tallent->pegawai->riwayatpendidikan as $rp)
                                 <tr>
                                    <td>{{ $rp->pendidikan->jenjang_pendidikan }} {{ $rp->pendidikan->jurusan }}</td>
                                 </tr>
@@ -174,11 +177,11 @@
                             </div>
                           </div>
                         </div>
-                        <div role="tabpanel" class="tab-pane fade" id="tab_content3" aria-labelledby="profile-tab">
+                        <div role="tabpanel" class="tab-pane fade" id="tab_skill{{ $tallent->pegawai->nip }}" aria-labelledby="profile-tab">
                           <div class="row">
                             <div class="col-md-12 col-sm-12 col-xs-12">
                               <div class="text-center">
-                                 @if ($tallents->pegawai->jenis_kelamin == "L")
+                                 @if ($tallent->pegawai->jenis_kelamin == "L")
                                     <img src="{{ asset('asset/images/male.png') }}" class="img-circle">
                                 @else
                                     <img src="{{ asset('asset/images/female.png') }}" class="img-circle">
@@ -194,7 +197,7 @@
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-12">
                               <table class="table table-hover text-center">
-                                @foreach ($tallents->pegawai->skillpegawai as $sk)
+                                @foreach ($tallent->pegawai->skillpegawai as $sk)
                                 <tr>
                                    <td>{{ $sk->skill->nama_skill }}</td>
                                 </tr>
@@ -206,11 +209,11 @@
                             </div>
                           </div>
                         </div>
-                        <div role="tabpanel" class="tab-pane fade" id="tab_content4" aria-labelledby="profile-tab">
+                        <div role="tabpanel" class="tab-pane fade" id="tab_personalq{{ $tallent->pegawai->nip }}" aria-labelledby="profile-tab">
                           <div class="row">
                             <div class="col-md-12 col-sm-12 col-xs-12">
                               <div class="text-center">
-                                 @if ($tallents->pegawai->jenis_kelamin == "L")
+                                 @if ($tallent->pegawai->jenis_kelamin == "L")
                                     <img src="{{ asset('asset/images/male.png') }}" class="img-circle">
                                 @else
                                     <img src="{{ asset('asset/images/female.png') }}" class="img-circle">
@@ -226,7 +229,7 @@
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-12">
                               <table class="table table-hover text-center">
-                                @foreach ($tallents->pegawai->personalquality as $pq)
+                                @foreach ($tallent->pegawai->personalquality as $pq)
                                 <tr>
                                    <td>{{ $pq->personalquality->nama_personalquality }}</td>
                                 </tr>
@@ -238,16 +241,16 @@
                             </div>
                           </div>
                         </div>
-                        <div role="tabpanel" class="tab-pane fade active in" id="tab_content5" aria-labelledby="home-tab">
+                        <div role="tabpanel" class="tab-pane fade active in" id="tab_jabatan{{ $tallent->pegawai->nip }}" aria-labelledby="home-tab">
                           <div class="row">
                             <div class="col-md-12 col-sm-12 col-xs-12">
                               <div class="text-center">
-                                 @if ($tallents->pegawai->jenis_kelamin == "L")
+                                 @if ($tallent->pegawai->jenis_kelamin == "L")
                                     <img src="{{ asset('asset/images/male.png') }}" class="img-circle">
                                 @else
                                     <img src="{{ asset('asset/images/female.png') }}" class="img-circle">
                                 @endif
-                                <h3 class="profile-username text-center">DATA JABATAN {{ $tallents->pegawai->nama_lengkap }}</h3>
+                                <h3 class="profile-username text-center">DATA JABATAN {{ $tallent->pegawai->nama_lengkap }}</h3>
                                 <br><br>
                               </div>
                             </div>
@@ -260,8 +263,8 @@
                                 <th>Jabatan Baru</th>
                                 </tr>
                                 <tr>
-                                  <td>{{ $tallents->pegawai->jabatanstruktural->jabatan->nama_jabatan }} {{ $tallents->pegawai->jabatanstruktural->unitbagian->nama_unitbagian }}</td>
-                                  <td>{{ $tallents->jabatanstruktural->jabatan->nama_jabatan }} {{ $tallents->jabatanstruktural->unitbagian->nama_unitbagian }}</td>
+                                  <td>{{ $tallent->pegawai->jabatanstruktural->jabatan->nama_jabatan }} {{ $tallent->pegawai->jabatanstruktural->unitbagian->nama_unitbagian }}</td>
+                                  <td>{{ $tallent->posisikosong->jabatanstruktural->jabatan->nama_jabatan }} {{ $tallent->posisikosong->jabatanstruktural->unitbagian->nama_unitbagian }}</td>
                                 </tr>
                               </table>
                             </div>
@@ -272,6 +275,7 @@
 
                   </div>
                 </div>
+                 @endforeach
               </div>
           </div>
         </div>

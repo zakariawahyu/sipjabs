@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB;
 use App\Tallent;
 use PDF;
 
@@ -16,7 +17,7 @@ class TallentController extends Controller
      */
     public function index()
     {
-        $tallents = Tallent::all();
+        $tallents = Tallent::select(DB::raw('count(*) as count, id_posisikosong'))->groupBy('id_posisikosong')->get();
 
         return view('admin.tallent.index', compact('tallents'));
     }
@@ -50,7 +51,9 @@ class TallentController extends Controller
      */
     public function show($id)
     {
-        $tallents = Tallent::where('id', $id)->first();
+        $tallents = Tallent::where('id_posisikosong', $id)
+                            
+                            ->get();
 
         return view('admin.tallent.show', compact('tallents'));
     }
@@ -102,10 +105,14 @@ class TallentController extends Controller
 
      public function cetak_pdf($id)
     {
-        $tallents = Tallent::where('id', $id)
+        $tallents = Tallent::where('id_posisikosong', $id)
+                            ->get();
+
+        $nomor = Tallent::select('nomor_surat', 'created_at')
+                            ->where('id_posisikosong', $id)
                             ->first();
 
-        $pdf = PDF::Loadview('admin.tallent.cetak', compact('tallents'));
+        $pdf = PDF::Loadview('admin.tallent.cetak', compact('tallents', 'nomor'));
         return $pdf->download('laporan-kandidat.pdf');
 
     }

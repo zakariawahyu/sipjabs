@@ -27,23 +27,27 @@ class LoginController extends Controller
         if ($login) {
         // jika berhasil login save session
         $request->session()->put('role', Auth::user()->role);
+        $request->session()->put('status', Auth::user()->status);
         $request->session()->put('id', Auth::id());
 
         $level = session('role');
+        $status = session('status');
 
-            if($level == 'admin') {
+            if($level == 'admin' && $status == 1) {
             // jika berhasil login dan role admin
             $request->session()->put('role', Auth::user()->role);
             $request->session()->put('id', Auth::id());
 
             return redirect('admin');
 
-            }elseif($level == 'user') {
+            }elseif($level == 'user' && $status == 1) {
                 // jika berhasil login dan role user
                 $request->session()->put('role', Auth::user()->role);
                 $request->session()->put('id', Auth::id());
 
                 return redirect('user');
+            } else {
+                return redirect('login')->with('error','Akun belum aktif !!');
             }
         }
         else {

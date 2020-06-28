@@ -150,19 +150,7 @@
                                                 </td>
                                             </tr>
                                              @endforeach
-
-                                             {{-- @foreach ($posisi as $ps)
-                                                 
                                              
-                                            <tr>
-                                                <td></td> 
-                                                <td>
-                                                    <h3>Subtotal Pegawai</h3>
-                                                </td>
-                                                <td>
-                                                    <h1>{{ $carts->count() }}</h1>
-                                                </td>
-                                            </tr> --}}
                                         @else
                                             <tr>
                                               <td>

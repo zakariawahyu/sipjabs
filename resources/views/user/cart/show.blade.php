@@ -261,7 +261,7 @@
                                 </tr>
                                 <tr>
                                   <td>{{ $pegawai->jabatanstruktural->jabatan->nama_jabatan }} {{ $pegawai->jabatanstruktural->unitbagian->nama_unitbagian }}</td>
-                                  <td>{{ $cart->jabatanstruktural->jabatan->nama_jabatan }} {{ $cart->jabatanstruktural->unitbagian->nama_unitbagian }}</td>
+                                  <td>{{ $cart->posisikosong->jabatanstruktural->jabatan->nama_jabatan }} {{ $cart->posisikosong->jabatanstruktural->unitbagian->nama_unitbagian }}</td>
                                 </tr>
                               </table>
                             </div>

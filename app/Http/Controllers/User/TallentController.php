@@ -55,7 +55,9 @@ class TallentController extends Controller
      */
     public function show($id)
     {
-        $tallents = Tallent::where('id', $id)->first();
+        $tallents = Tallent::where('id_posisikosong', $id)
+                            ->where('id_user', session('id'))
+                            ->get();
 
         return view('user.tallent.show', compact('tallents'));
     }
@@ -109,11 +111,16 @@ class TallentController extends Controller
     public function cetak_pdf($id)
     {
         $tallents = Tallent::where('id_user', session('id'))
-                            ->where('id', $id)
+                            ->where('id_posisikosong', $id)
+                            ->get();
+
+        $nomor = Tallent::select('nomor_surat', 'created_at')
+                            ->where('id_user', session('id'))
+                            ->where('id_posisikosong', $id)
                             ->first();
 
 
-        $pdf = PDF::Loadview('user.tallent.cetak', compact('tallents'));
+        $pdf = PDF::Loadview('user.tallent.cetak', compact('tallents', 'nomor'));
         return $pdf->download('laporan-kandidat.pdf');
 
     }

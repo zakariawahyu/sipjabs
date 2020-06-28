@@ -60,7 +60,6 @@
                         <td>{{ $tl->count }} Kandidat</td>
                         <td class="text-center">
                           <a href="{{ route('user.tallent.show', $tl->id_posisikosong) }}" class="btn btn-info btn-show-tallent" title="Nomor Surat {{ $tl->nomor_surat }}"><i class="fa fa-eye"></i> View</a>
-                          <a href="{{ route('user.tallent.delete', $tl->id_posisikosong) }}" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
                           <a href="{{ route('user.tallent.cetak', $tl->id_posisikosong) }}" class="btn btn-primary"><i class="fa fa-print"></i> Print PDF</a>
                         </td>
                       </tr>  

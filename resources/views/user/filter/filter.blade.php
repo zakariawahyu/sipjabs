@@ -178,9 +178,9 @@
                                 <div class="widgets_inner">
                                   <h4>Masa Kerja Minimal</h4>
                              
-                                  <input onchange="javascript:this.form.submit();" class="custom-range" id="customRange" type="range" min="0" max="10" @if ($selected_masakerja == null)
+                                  <input onchange="javascript:this.form.submit();" class="custom-range" id="customRange" type="range" max="10" @if ($selected_masakerja == null)
                                       value="0"
-                                  @endif  name="masakerja" @if ($selected_masakerja)
+                                  @endif  name="masakerja" @if ($selected_masakerja != null)
                                       value="{{ $selected_masakerja }}"
                                   @endif/>
                                   <div id="result"> <b></b> Tahun</div>

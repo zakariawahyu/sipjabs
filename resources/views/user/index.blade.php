@@ -104,7 +104,7 @@
                   <div class="media-body">
                     <a class="title" href="#">{{ $tl->pegawai->nama_lengkap }} | {{ $tl->pegawai->nip }}</a>
                     <p>Jabatan lama : {{ $tl->pegawai->jabatanstruktural->jabatan->nama_jabatan }} {{ $tl->pegawai->jabatanstruktural->unitkerja->nama_unitkerja }}</p>
-                    <p>Jabatan baru : {{ $tl->jabatanstruktural->jabatan->nama_jabatan }} {{ $tl->jabatanstruktural->unitkerja->nama_unitkerja }}</p>
+                    <p>Jabatan baru : {{ $tl->posisikosong->jabatanstruktural->jabatan->nama_jabatan }} {{ $tl->posisikosong->jabatanstruktural->unitkerja->nama_unitkerja }}</p>
                   </div>
                 </article>
 
